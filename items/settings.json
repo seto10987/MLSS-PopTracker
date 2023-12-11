@@ -1,0 +1,108 @@
+﻿[
+	{
+		"name": "Bowser's Castle",
+    "codes": "castle_skip",
+		"type": "progressive",
+		"allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+      {
+				"img": "images/items/bowsers_castle_unskipped.png",
+				"codes": "bowsers_skip_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/bowsers_castle_skipped.png",
+				"codes": "bowsers_skip_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Minecart Minigame",
+    "codes": "skip_minecart",
+		"type": "progressive",
+		"allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+      {
+				"img": "images/items/minecarts_on.png",
+				"codes": "minecarts_skip_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/minecarts_skipped.png",
+				"codes": "minecarts_skip_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Surfing Minigame",
+    "codes": "disable_surf",
+		"type": "progressive",
+		"allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+      {
+				"img": "images/items/surfing_on.png",
+				"codes": "disable_surf_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/surfing_skipped.png",
+				"codes": "disable_surf_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Bean Spots",
+    "codes": "beanspots",
+		"type": "progressive",
+		"allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/items/digspot_disabled.png",
+				"codes": "disable_digspots_on",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/digspot_visible.png",
+				"codes": "disable_digspots_visible",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/digspot.png",
+				"codes": "disable_digspots_off",
+				"inherit_codes": false
+			}
+
+		]
+	},
+	{
+		"name": "Harhall's Pants",
+    "codes": "harhall",
+		"type": "progressive",
+		"allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+      {
+				"img": "images/items/harhall.png",
+				"codes": "disable_harhall_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/harhall_disabled.png",
+				"codes": "disable_harhall_on",
+				"inherit_codes": false
+			}
+		]
+	}
+]

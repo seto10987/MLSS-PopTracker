@@ -1,0 +1,1098 @@
+[
+    {
+        "name": "Outskirts South",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+        [
+            {
+                "name": "Beanbean Outskirts S Room 1 Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1557,
+                        "y": 484
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "hammer3, handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 1 Digspot 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1509,
+                        "y": 249
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 1 Digspot 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1525,
+                        "y": 473
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "hammer3, handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts Bean Fruit 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2021,
+                        "y": 471
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "hammer2"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Bean Fruit 4 (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 2 Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2256,
+                        "y": 23
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANDIG"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 2 Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2768,
+                        "y": 440
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 2 Digspot 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2744,
+                        "y": 504
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 1 (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 2 Digspot 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2216,
+                        "y": 473
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 2 Digspot 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2568,
+                        "y": 537
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts Before Harhall Digspot 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2232,
+                        "y": 748
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts Before Harhall Digspot 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2457,
+                        "y": 934
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanstar Piece Harhall",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2536,
+                        "y": 863
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Beanstar Piece",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Harhall's Pants",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2765,
+                        "y": 913
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "disable_harhall_off"
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Harhall's Pants",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Entrance Digspot",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1766,
+                        "y": 731
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Lobby Digspot",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1718,
+                        "y": 1121
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Right Digspot 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1565,
+                        "y": 1489
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Right Digspot 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1693,
+                        "y": 1634
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Right Digspot 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1950,
+                        "y": 1650
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Right Digspot 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2013,
+                        "y": 1441
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 4",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Right Digspot 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1901,
+                        "y": 1441
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 5 (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Middle Digspot 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 826,
+                        "y": 1425
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Middle Digspot 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 906,
+                        "y": 1634
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Middle Digspot 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1211,
+                        "y": 1633
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Middle Digspot 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1291,
+                        "y": 1489
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 4",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Middle Digspot 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 938,
+                        "y": 1425
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 5 (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Leftside Digspot 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 88,
+                        "y": 1490
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Leftside Digspot 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 311,
+                        "y": 1426
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Leftside Digspot 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 440,
+                        "y": 1650
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Leftside Digspot 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 600,
+                        "y": 1489
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 4",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Airport Leftside Digspot 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 424,
+                        "y": 1425
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Digspot 5",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "disable_digspots_off", "disable_digspots_visible" 
+                        ],
+                        "access_rules": 
+                        [
+                            "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mom Piranha",
+                "chest_unopened_img": "images/items/boss_mompiranha.png",
+                "chest_opened_img": "images/items/boss_mompiranha_defeated.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1171,
+                        "y": 1498
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    "handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Mom Piranha",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,305 @@
+[
+    {
+        "name": "Little Fungitown",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "access_rules": 
+        [
+            "$ACCESSFUNGITOWN"
+        ],
+        "children": 
+        [
+            {
+                "name": "Fungitown Entrance Room Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "little_fungitown",
+                        "x": 562,
+                        "y": 906
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Block (Hidden)",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fungitown Badge Shop",
+                "map_locations": 
+                [
+                    {
+                        "map": "little_fungitown",
+                        "x": 641,
+                        "y": 1075
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Badge Shop Starting",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Badge Shop Post-Beanstar Complete",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "realbeanstar"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Badge Shop Post-Birdo",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "popple4"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Fungitown Pants Shop",
+                "map_locations": 
+                [
+                    {
+                        "map": "little_fungitown",
+                        "x": 692,
+                        "y": 1075
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Pants Shop Starting",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Pants Shop Post-Beanstar Complete",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "realbeanstar"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Pants Shop Post-Birdo",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "popple4"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Fungitown Item Shop",
+                "map_locations": 
+                [
+                    {
+                        "map": "little_fungitown",
+                        "x": 634,
+                        "y": 1378
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Item Shop Starting",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Item Shop Post-Beanstar Complete",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "realbeanstar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Item Shop Post-Birdo",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "popple4"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fungitown Embassy Room Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "little_fungitown",
+                        "x": 1430,
+                        "y": 164
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Peach Kidnapped",
+                "chest_unopened_img": "images/items/peach.png",
+                "chest_opened_img": "images/items/peach2.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "little_fungitown",
+                        "x": 1586,
+                        "y": 720
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    ""
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Peach Kidnapped",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
