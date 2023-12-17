@@ -96,7 +96,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANCRASH"
+                    "handluigi"
                 ],
                 "sections": 
                 [
@@ -131,7 +131,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANDASH"
+                    "handluigi"
                 ],
                 "sections": 
                 [

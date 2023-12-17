@@ -560,11 +560,11 @@
                 "sections": 
                 [
                     {
-                        "name": "Digspot 5",
+                        "name": "Digspot 5 (Hidden)",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off", "disable_digspots_visible" 
+                            "disable_digspots_off"
                         ],
                         "access_rules": 
                         [
@@ -595,11 +595,11 @@
                 "sections": 
                 [
                     {
-                        "name": "Digspot 6",
+                        "name": "Digspot 6 (Hidden)",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off", "disable_digspots_visible" 
+                            "disable_digspots_off"
                         ],
                         "access_rules": 
                         [

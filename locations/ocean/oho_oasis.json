@@ -74,7 +74,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$CANMINI"
                         ],
                         "item_count": 1
                     }
@@ -109,7 +109,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$CANDIG"
                         ],
                         "item_count": 1
                     }

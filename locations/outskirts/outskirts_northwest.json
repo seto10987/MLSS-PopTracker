@@ -171,7 +171,7 @@
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off"
+                            ""
                         ],
                         "access_rules": 
                         [
@@ -206,7 +206,7 @@
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off"
+                            ""
                         ],
                         "access_rules": 
                         [
@@ -237,11 +237,11 @@
                 "sections": 
                 [
                     {
-                        "name": "Digspot 1 (Hidden)",
+                        "name": "Digspot 1",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off"
+                            "disable_digspots_off", "disable_digspots_visible"
                         ],
                         "access_rules": 
                         [
@@ -346,7 +346,7 @@
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off", "disable_digspots_visible" 
+                            ""
                         ],
                         "access_rules": 
                         [

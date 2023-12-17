@@ -525,7 +525,7 @@
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            "disable_digspots_off", "disable_digspots_visible"
+                            "disable_digspots_off"
                         ],
                         "access_rules": 
                         [
