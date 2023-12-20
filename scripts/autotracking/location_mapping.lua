@@ -145,7 +145,7 @@ LOCATION_MAPPING =
     --Hoohoo Village Super Hammer Cave Block
 [3791594] = {"@Hoohoo Mountain Base/Hoohoo Village Super Hammer Cave Block/Block"},
     --Hoohoo Village North Cave Room 2 Digspot
-[3791541] = {"@Hoohoo Village/Hoohoo Village North Cave Room 2 Digspot/Digspot"},
+[3791541] = {"@Hoohoo Village/Hoohoo Village North Cave Room 2 Digspot/Digspot (Hidden)"},
     --Hoohoo Mountain Base Minecart Cave Digspot
 [3791631] = {"@Hoohoo Mountain Base/Hoohoo Mountain Base Minecart Cave Digspot/Digspot (Hidden)"},
     --Beanbean Outskirts Farm Room Digspot 1
@@ -159,7 +159,7 @@ LOCATION_MAPPING =
     --Beanbean Outskirts NW Digspot
 [3791767] = {"@Outskirts Northwest/Beanbean Outskirts NW Digspot/Digspot"},
     --Beanbean Outskirts W Digspot 1
-[3791788] = {"@Outskirts Northwest/Beanbean Outskirts W Digspot 1/Digspot 1 (Hidden)"},
+[3791788] = {"@Outskirts Northwest/Beanbean Outskirts W Digspot 1/Digspot 1"},
     --Beanbean Outskirts W Digspot 2
 [3791796] = {"@Outskirts Northwest/Beanbean Outskirts W Digspot 2/Digspot 2"},
     --Beanbean Outskirts W Digspot 3
@@ -183,9 +183,9 @@ LOCATION_MAPPING =
     --Beanbean Outskirts S Room 2 Block 1
 [3791949] = {"@Outskirts South/Beanbean Outskirts S Room 2 Block 1/Block 1"},
     --Beanbean Outskirts NE Digspot 1
-[3791994] = {"@Outskirts East-Northeast/Beanbean Outskirts NE Digspot 1/Digspot 1 (Hidden)"},
+[3791994] = {"@Outskirts East-Northeast/Beanbean Outskirts NE Digspot 1/Digspot 1"},
     --Beanbean Outskirts NE Digspot 2
-[3792002] = {"@Outskirts East-Northeast/Beanbean Outskirts NE Digspot 2/Digspot 2"},
+[3792002] = {"@Outskirts East-Northeast/Beanbean Outskirts NE Digspot 2/Digspot 2 (Hidden)"},
     --Beanbean Outskirts E Digspot 1
 [3792015] = {"@Outskirts East-Northeast/Beanbean Outskirts E Digspot 1/Digspot 1"},
     --Beanbean Outskirts E Digspot 2
@@ -715,15 +715,15 @@ LOCATION_MAPPING =
     --Ocean South Whirlpool Digspot 4
 [3793138] = {"@Oho Seabed/Ocean South Whirlpool Digspot 4/Digspot 4"},
     --Ocean South Whirlpool Digspot 5
-[3793146] = {"@Oho Seabed/Ocean South Whirlpool Digspot 5/Digspot 5"},
+[3793146] = {"@Oho Seabed/Ocean South Whirlpool Digspot 5/Digspot 5 (Hidden)"},
     --Ocean South Whirlpool Digspot 6
-[3793154] = {"@Oho Seabed/Ocean South Whirlpool Digspot 6/Digspot 6"},
+[3793154] = {"@Oho Seabed/Ocean South Whirlpool Digspot 6/Digspot 6 (Hidden)"},
     --Ocean South Whirlpool Room 2 Digspot
 [3793167] = {"@Oho Seabed/Ocean South Whirlpool Room 2 Digspot/Digspot"},
     --Joke's End Pipe Digspot
 [3794626] = {"@Joke's End 1/Joke's End Pipe Digspot/Digspot (Hidden)"},
     --Joke's End Staircase Digspot
-[3794639] = {"@Joke's End 1/Joke's End Staircase Digspot/Digspot"},
+[3794639] = {"@Joke's End 1/Joke's End Staircase Digspot/Digspot (Hidden)"},
     --Surf Minigame
 [2577386] = {"@Oho Ocean South/Surf Minigame/Under 40"},
     --North Ocean Whirlpool Mole
@@ -897,7 +897,7 @@ LOCATION_MAPPING =
     --Joke's End First Boiler Room Digspot 1
 [3794682] = {"@Joke's End 1/Joke's End First Boiler Room Digspot 1/Digspot 1"},
     --Joke's End First Boiler Room Digspot 2
-[3794690] = {"@Joke's End 1/Joke's End First Boiler Room Digspot 2/Digspot 2"},
+[3794690] = {"@Joke's End 1/Joke's End First Boiler Room Digspot 2/Digspot 2 (Hidden)"},
     --Joke's End Second Floor West Room Block 1
 [3794785] = {"@Joke's End 1/Joke's End Second Floor West Room Block 1/Block 1"},
     --Joke's End Second Floor West Room Block 2
@@ -965,7 +965,7 @@ LOCATION_MAPPING =
     --Joke's End Before Jojora Room Digspot
 [3795255] = {"@Joke's End 3/Joke's End Before Jojora Room Digspot/Digspot"},
     --Joke's End Jojora Room Digspot
-[3795268] = {"@Joke's End 3/Joke's End Jojora Room Digspot/Digspot"},
+[3795268] = {"@Joke's End 3/Joke's End Jojora Room Digspot/Digspot (Hidden)"},
     --Teehee Valley Past Ultra Hammers Digspot 2
 [3794336] = {"@Teehee Valley/Teehee Valley Past Ultra Hammers Digspot 2/Digspot 2"},
     --Teehee Valley Before Popple Digspot 1
@@ -1121,5 +1121,85 @@ LOCATION_MAPPING =
     --Jojora
 [14286855] = {"@Joke's End 3/Jojora/Jojora"},
     --Birdo
-[14286856] = {"@Teehee Valley/Popple 4/Popple 4"}
+[14286856] = {"@Teehee Valley/Popple 4/Popple 4"},
+-- "Stardust Fields Room 2 Coin Block 1": 3790464,
+[3790464] = {"@Stardust Fields/Stardust Fields Room 2 Coin Block 1/Coin Block 1"},
+-- "Stardust Fields Room 2 Coin Block 2": 3790472,
+[3790472] = {"@Stardust Fields/Stardust Fields Room 2 Coin Block 2/Coin Block 2"},
+-- "Stardust Fields Room 2 Coin Block 3": 3790480,
+[3790480] = {"@Stardust Fields/Stardust Fields Room 2 Coin Block 3/Coin Block 3"},
+-- "Stardust Fields Room 3 Coin Block 1": 3790493,
+[3790493] = {"@Stardust Fields/Stardust Fields Room 3 Coin Block 1/Coin Block 1"},
+-- "Stardust Fields Room 3 Coin Block 2": 3790501,
+[3790501] = {"@Stardust Fields/Stardust Fields Room 3 Coin Block 2/Coin Block 2"},
+-- "Stardust Fields Room 5 Coin Block 1": 3790551,
+[3790551] = {"@Stardust Fields/Stardust Fields Room 5 Coin Block 1/Coin Block 1"},
+-- "Stardust Fields Room 5 Coin Block 2": 3790559,
+[3790559] = {"@Stardust Fields/Stardust Fields Room 5 Coin Block 2/Coin Block 2"},
+-- "Stardust Fields Room 7 Coin Block 1": 3790603,
+[3790603] = {"@Stardust Fields/Stardust Fields Room 7 Coin Block 1/Coin Block 1"},
+-- "Stardust Fields Room 7 Coin Block 2": 3790619,
+[3790619] = {"@Stardust Fields/Stardust Fields Room 7 Coin Block 2/Coin Block 2"},
+-- "Beanbean Castle Town Passport Photo Room Coin Block": 3790851,
+[3790851] = {"@Beanbean Castle Town/Beanbean Castle Town Passport Photo Room Coin Block/Coin Block"},
+-- "Hoohoo Mountain Before Hoohooros Coin Block": 3791066,
+[3791066] = {"@Hoohoo Mountain/Hoohoo Mountain Before Hoohooros Coin Block/Coin Block"},
+-- "Hoohoo Village Bridge Room Coin Block 1": 3791223,
+[3791223] = {"@Hoohoo Village/Hoohoo Village Bridge Room Coin Block 1/Coin Block 1"},
+-- "Hoohoo Village Bridge Room Coin Block 2": 3791239,
+[3791239] = {"@Hoohoo Village/Hoohoo Village Bridge Room Coin Block 2/Coin Block 2"},
+-- "Hoohoo Village North Cave Room 1 Coin Block": 3791520,
+[3791520] = {"@Hoohoo Village/Hoohoo Village North Cave Room 1 Coin Block/Coin Block"},
+-- "Hoohoo Village South Cave Coin Block 1": 3791557,
+[3791557] = {"@Hoohoo Mountain Base/Hoohoo Village South Cave Coin Block 1/Coin Block 1"},
+-- "Hoohoo Village South Cave Coin Block 2": 3791573,
+[3791573] = {"@Hoohoo Mountain Base/Hoohoo Village South Cave Coin Block 2/Coin Block 2"},
+-- "Hoohoo Mountain Base Boo Statue Cave Coin Block 1": 3791586,
+[3791586] = {"@Hoohoo Mountain Base/Hoohoo Mountain Base Boo Statue Cave Coin Block 1/Coin Block 1"},
+-- "Hoohoo Mountain Base Boo Statue Cave Coin Block 2": 3791602,
+[3791602] = {"@Hoohoo Mountain Base/Hoohoo Mountain Base Boo Statue Cave Coin Block 2/Coin Block 2"},
+-- "Hoohoo Mountain Base Boo Statue Cave Coin Block 3": 3791610,
+[3791610] = {"@Hoohoo Mountain Base/Hoohoo Mountain Base Boo Statue Cave Coin Block 3/Coin Block 3"},
+-- "Beanbean Outskirts NW Coin Block": 3791759,
+[3791759] = {"@Outskirts Northwest/Beanbean Outskirts NW Coin Block/Coin Block"},
+-- "Beanbean Outskirts S Room 1 Coin Block": 3791896,
+[3791896] = {"@Outskirts South/Beanbean Outskirts S Room 1 Coin Block/Coin Block"},
+-- "Beanbean Outskirts S Room 2 Coin Block": 3791933,
+[3791933] = {"@Outskirts South/Beanbean Outskirts S Room 2 Coin Block/Coin Block"},
+-- "Chateau Popple Room Coin Block 1": 3792176,
+[3792176] = {"@Chucklehuck/Chateau Popple Room Coin Block 1/Coin Block 1"},
+-- "Chateau Popple Room Coin Block 2": 3792192,
+[3792192] = {"@Chucklehuck/Chateau Popple Room Coin Block 2/Coin Block 2"},
+-- "Chucklehuck Woods Cave Room 1 Coin Block": 3792250,
+[3792250] = {"@Deep Chucklehuck Woods/Chucklehuck Woods Cave Room 1 Coin Block/Coin Block"},
+-- "Chucklehuck Woods Cave Room 2 Coin Block": 3792279,
+[3792279] = {"@Deep Chucklehuck Woods/Chucklehuck Woods Cave Room 2 Coin Block/Coin Block"},
+-- "Chucklehuck Woods Cave Room 3 Coin Block": 3792308,
+[3792308] = {"@Deep Chucklehuck Woods/Chucklehuck Woods Cave Room 3 Coin Block/Coin Block"},
+-- "Chucklehuck Woods Pipe 5 Room Coin Block": 3792358,
+[3792358] = {"@Chucklehuck Woods/Chucklehuck Woods Pipe 5 Room Coin Block/Coin Block"},
+-- "Chucklehuck Woods Room 7 Coin Block": 3792433,
+[3792433] = {"@Deep Chucklehuck Woods/Chucklehuck Woods Room 7 Coin Block/Coin Block"},
+-- "Chucklehuck Woods After Chuckleroot Coin Block": 3792660,
+[3792660] = {"@Chuckolator/Chucklehuck Woods After Chuckleroot Coin Block/Coin Block"},
+-- "Chucklehuck Woods Koopa Room Coin Block": 3792723,
+[3792723] = {"@Chucklehuck Woods/Chucklehuck Woods Koopa Room Coin Block/Coin Block"},
+-- "Chucklehuck Woods Winkle Area Cave Coin Block": 3792768,
+[3792768] = {"@Chucklehuck Woods/Chucklehuck Woods Winkle Area Cave Coin Block/Coin Block"},
+-- "Sewers Prison Room Coin Block": 3792926,
+[3792926] = {"@Beanbean Castle Sewers/Sewers Prison Room Coin Block/Coin Block"},
+-- "Teehee Valley Past Ultra Hammer Rocks Coin Block": 3794312,
+[3794312] = {"@Teehee Valley/Teehee Valley Past Ultra Hammer Rocks Coin Block/Coin Block"},
+-- "S.S Chuckola Storage Room Coin Block 1": 3794456,
+[3794456] = {"@S.S. Chuckola/S.S Chuckola Storage Room Coin Block 1/Coin Block 1"},
+-- "S.S Chuckola Storage Room Coin Block 2": 3794464,
+[3794464] = {"@S.S. Chuckola/S.S Chuckola Storage Room Coin Block 2/Coin Block 2"},
+-- "Jokes End Second Floor West Room Coin Block": 3794801,
+[3794801] = {"@Joke's End 1/Jokes End Second Floor West Room Coin Block/Coin Block"},
+-- "Outside Woohoo Hooniversity Coin Block 1": 3795373,
+[3795373] = {"@Outskirts Southeast/Outside Woohoo Hooniversity Coin Block 1/Coin Block 1"},
+-- "Outside Woohoo Hooniversity Coin Block 2": 3795389,
+[3795389] = {"@Outskirts Southeast/Outside Woohoo Hooniversity Coin Block 2/Coin Block 2"},
+-- "Outside Woohoo Hooniversity Coin Block 3": 3795397
+[3795397] = {"@Outskirts Southeast/Outside Woohoo Hooniversity Coin Block 3/Coin Block 3"}
 }

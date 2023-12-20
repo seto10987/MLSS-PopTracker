@@ -56,13 +56,6 @@ function onClear(slot_data)
             end
         end
     end
-
-        print("Checking slot data.")
-        print(string.format("castleskip: %s", slot_data["CastleSkip"]))
-        print(string.format("skipminecart: %s", slot_data["SkipMinecart"])) 
-        print(string.format("disablesurf: %s", slot_data["DisableSurf"]))
-
-
         if slot_data["CastleSkip"] then
             Tracker:FindObjectForCode("castle_skip").CurrentStage = tonumber(slot_data["CastleSkip"])
         end
@@ -77,6 +70,9 @@ function onClear(slot_data)
         end
         if slot_data["ChuckleBeans"] then
             Tracker:FindObjectForCode("beanspots").CurrentStage = tonumber(slot_data["ChuckleBeans"])
+        end
+        if slot_data["Coins"] then
+            Tracker:FindObjectForCode("coinblocks").CurrentStage = tonumber(slot_data["Coins"])
         end
 
         -- function GetCurrentSceneKey()

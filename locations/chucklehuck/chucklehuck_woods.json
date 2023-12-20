@@ -256,6 +256,41 @@
                 ]
             },
             {
+                "name": "Chucklehuck Woods Pipe 5 Room Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "chucklehuck_woods",
+                        "x": 2007,
+                        "y": 725
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "hammer1"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chucklehuck Woods Room 4 Block 1",
                 "map_locations": 
                 [
@@ -466,6 +501,41 @@
                 ]
             },
             {
+                "name": "Chucklehuck Woods Koopa Room Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "chucklehuck_woods",
+                        "x": 1193,
+                        "y": 636
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chucklehuck Woods Winkle Cave Block 1",
                 "map_locations": 
                 [
@@ -522,6 +592,41 @@
                 [
                     {
                         "name": "Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chucklehuck Woods Winkle Area Cave Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "chucklehuck_woods",
+                        "x": 1283,
+                        "y": 288
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "$CANDASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [

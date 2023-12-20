@@ -409,6 +409,41 @@
                 ]
             },
             {
+                "name": "Jokes End Second Floor West Room Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "jokes_end_1",
+                        "x": 586,
+                        "y": 1025
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH, handmario"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Joke's End Northeast of Boiler Room 1 Block",
                 "map_locations": 
                 [
@@ -652,7 +687,7 @@
                         "item_count": 1
                     }
                 ]
-            }
+            }  
         ]
     }
 ]

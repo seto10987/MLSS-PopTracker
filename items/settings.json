@@ -104,5 +104,25 @@
 				"inherit_codes": false
 			}
 		]
+	},
+	{
+		"name": "Coin Blocks",
+    "codes": "coinblocks",
+		"type": "progressive",
+		"allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+		"stages": [
+      {
+				"img": "images/items/coinblocks_off.png",
+				"codes": "coinblocks_off",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/coinblocks_on.png",
+				"codes": "coinblocks_on",
+				"inherit_codes": false
+			}
+		]
 	}
 ]

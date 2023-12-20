@@ -396,6 +396,41 @@
                 ]
             },
             {
+                "name": "Teehee Valley Past Ultra Hammer Rocks Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "teehee_valley",
+                        "x": 858,
+                        "y": 2259
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "hammer3"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            "" 
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Teehee Valley Before Trunkle Digspot",
                 "map_locations": 
                 [

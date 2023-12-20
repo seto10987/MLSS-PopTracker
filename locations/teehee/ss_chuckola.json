@@ -114,6 +114,76 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "name": "S.S Chuckola Storage Room Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "ss_chuckola",
+                        "x": 263,
+                        "y": 148
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "S.S Chuckola Storage Room Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "ss_chuckola",
+                        "x": 215,
+                        "y": 180
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
             }
         ]
     }

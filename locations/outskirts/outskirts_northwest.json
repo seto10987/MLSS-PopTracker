@@ -147,6 +147,41 @@
                 ]
             },
             {
+                "name": "Beanbean Outskirts NW Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_northwest",
+                        "x": 175,
+                        "y": 1063
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "hammer2"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Beanbean Outskirts Bean Fruit 6",
                 "map_locations": 
                 [

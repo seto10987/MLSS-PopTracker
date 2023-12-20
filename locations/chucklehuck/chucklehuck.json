@@ -151,6 +151,76 @@
                 ]
             },
             {
+                "name": "Chateau Popple Room Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "chateau_chucklehuck",
+                        "x": 602,
+                        "y": 535
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chateau Popple Room Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "chateau_chucklehuck",
+                        "x": 666,
+                        "y": 535
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chateau Barrel Room Digspot",
                 "map_locations": 
                 [
@@ -289,7 +359,7 @@
                         "item_count": 1
                     }
                 ]
-            }
+            } 
         ]
     }
 ]

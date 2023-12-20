@@ -222,6 +222,41 @@
                 ]
             },
             {
+                "name": "Chucklehuck Woods After Chuckleroot Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "chuckolator",
+                        "x": 119,
+                        "y": 1737
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chuckolator",
                 "map_locations": 
                 [

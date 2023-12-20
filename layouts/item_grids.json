@@ -46,7 +46,7 @@
                 "item_size": "39",
                 "item_margin": "1,2",
                 "rows": [
-                    [ "castle_skip", "", "", "", "beanspots" ],
+                    [ "castle_skip", "", "coinblocks", "", "beanspots" ],
                     ["skip_minecart", "", "disable_surf", "", "harhall"]
                 ]
             }

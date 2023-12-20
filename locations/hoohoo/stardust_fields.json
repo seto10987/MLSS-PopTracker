@@ -112,6 +112,111 @@
                 ]
             },
             {
+                "name": "Stardust Fields Room 2 Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1323,
+                        "y": 1001
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 2 Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1260,
+                        "y": 889
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 2 Coin Block 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1387,
+                        "y": 1034
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Stardust Fields 3 Block",
                 "map_locations": 
                 [
@@ -133,6 +238,76 @@
                 [
                     {
                         "name": "Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 3 Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1566,
+                        "y": 1128
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 3 Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1982,
+                        "y": 910
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
@@ -273,6 +448,146 @@
                 [
                     {
                         "name": "Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 5 Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 2609,
+                        "y": 1512
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 5 Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 2561,
+                        "y": 1360
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 7 Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1347,
+                        "y": 1556
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stardust Fields Room 7 Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "stardust_fields",
+                        "x": 1575,
+                        "y": 1392
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [

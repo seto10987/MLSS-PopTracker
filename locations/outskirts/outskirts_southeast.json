@@ -322,6 +322,111 @@
                 ]
             },
             {
+                "name": "Outside Woohoo Hooniversity Coin Block 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_southeast",
+                        "x": 890,
+                        "y": 839
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Outside Woohoo Hooniversity Coin Block 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_southeast",
+                        "x": 1066,
+                        "y": 1143
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Outside Woohoo Hooniversity Coin Block 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_southeast",
+                        "x": 1130,
+                        "y": 1143
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Beanbean Outskirts Surf Beach Digspot 1",
                 "map_locations": 
                 [

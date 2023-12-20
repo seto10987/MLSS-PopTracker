@@ -147,6 +147,41 @@
                 ]
             },
             {
+                "name": "Beanbean Outskirts S Room 1 Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 1509,
+                        "y": 484
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "hammer3, handluigi"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Beanbean Outskirts S Room 2 Block 1",
                 "map_locations": 
                 [
@@ -316,6 +351,41 @@
                         "access_rules": 
                         [
                             "$CANDIG"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beanbean Outskirts S Room 2 Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "outskirts_south",
+                        "x": 2800,
+                        "y": 440
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "$CANCRASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1092,7 +1162,7 @@
                         "item_count": 1
                     }
                 ]
-            }
+            }  
         ]
     }
 ]
