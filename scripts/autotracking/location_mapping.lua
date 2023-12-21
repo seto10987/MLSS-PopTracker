@@ -783,7 +783,7 @@ LOCATION_MAPPING =
     --Gwarhar Lagoon Green Pearl Bean
 [2316891] = {"@Gwarhar Lagoon North/Gwarhar Lagoon Green Pearl Bean/Green Pearl Bean"},
     --Teehee Valley Room 1 Digspot 1
-[3794206] = {"@Teehee Valley/Teehee Valley Room 1 Digspot 1/Digspot 1"},
+[3794206] = {"@Teehee Valley/Teehee Valley Room 1 Digspot 1/Digspot 1 (Hidden)"},
     --Teehee Valley Room 1 Digspot 2
 [3794214] = {"@Teehee Valley/Teehee Valley Room 1 Digspot 2/Digspot 2"},
     --Teehee Valley Room 1 Digspot 3
