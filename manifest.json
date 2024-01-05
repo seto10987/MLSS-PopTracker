@@ -1,13 +1,13 @@
 {
 	"name": "MLSS Randomizer PopTracker",
 	"game_name": "Mario & Luigi: Superstar Saga",
-	"package_version": "0.3.0",
+	"package_version": "0.3.2",
 	"package_uid": "mlss_maptracker_Seto10987",
 	"author": "Seto10987",
 	"platform": "GBA",
 	"variants": {
 		"map_tracker": {
-			"display_name": "Map Tracker",
+			"display_name": "MLSS AP Autotracker",
 			"flags": [ "ap" ]
 		}
 	}

@@ -4,6 +4,10 @@
         "chest_unopened_img": "images/items/chest_x.png",
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
+        "access_rules": 
+        [
+            "keyrose"
+        ],
         "children": 
         [
             {
@@ -22,7 +26,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -57,7 +61,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -92,7 +96,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -127,7 +131,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -197,7 +201,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -232,7 +236,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -267,7 +271,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    ""
                 ],
                 "sections": 
                 [
@@ -302,7 +306,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    "hammer1"
                 ],
                 "sections": 
                 [
@@ -337,7 +341,7 @@
                 ],
                 "access_rules": 
                 [
-                    "keyrose"
+                    "hammer1"
                 ],
                 "sections": 
                 [

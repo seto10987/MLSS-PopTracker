@@ -813,7 +813,7 @@ LOCATION_MAPPING =
     --S.S Chuckola Membership Card
 [2491959] = {"@S.S. Chuckola/S.S Chuckola Membership Card/Membership Card"},
     --Teehee Valley Trunkle Room Digspot
-[3794429] = {"@Teehee Valley/Teehee Valley Trunkle Room Digspot/Digspot"},
+[3794429] = {"@Teehee Valley/Teehee Valley Trunkle Room Digspot/Digspot (Hidden)"},
     --Fungitown Embassy Room Block
 [3794539] = {"@Little Fungitown/Fungitown Embassy Room Block/Block"},
     --Fungitown Entrance Room Block
@@ -1133,13 +1133,13 @@ LOCATION_MAPPING =
 -- "Stardust Fields Room 3 Coin Block 2": 3790501,
 [3790501] = {"@Stardust Fields/Stardust Fields Room 3 Coin Block 2/Coin Block 2"},
 -- "Stardust Fields Room 5 Coin Block 1": 3790551,
-[3790551] = {"@Stardust Fields/Stardust Fields Room 5 Coin Block 1/Coin Block 1"},
+[3790551] = {"@Stardust Fields/Stardust Fields Room 7 Coin Block 1/Coin Block 1"},
 -- "Stardust Fields Room 5 Coin Block 2": 3790559,
-[3790559] = {"@Stardust Fields/Stardust Fields Room 5 Coin Block 2/Coin Block 2"},
+[3790559] = {"@Stardust Fields/Stardust Fields Room 7 Coin Block 2/Coin Block 2"},
 -- "Stardust Fields Room 7 Coin Block 1": 3790603,
-[3790603] = {"@Stardust Fields/Stardust Fields Room 7 Coin Block 1/Coin Block 1"},
+[3790603] = {"@Stardust Fields/Stardust Fields Room 5 Coin Block 1/Coin Block 1"},
 -- "Stardust Fields Room 7 Coin Block 2": 3790619,
-[3790619] = {"@Stardust Fields/Stardust Fields Room 7 Coin Block 2/Coin Block 2"},
+[3790619] = {"@Stardust Fields/Stardust Fields Room 5 Coin Block 2/Coin Block 2"},
 -- "Beanbean Castle Town Passport Photo Room Coin Block": 3790851,
 [3790851] = {"@Beanbean Castle Town/Beanbean Castle Town Passport Photo Room Coin Block/Coin Block"},
 -- "Hoohoo Mountain Before Hoohooros Coin Block": 3791066,
