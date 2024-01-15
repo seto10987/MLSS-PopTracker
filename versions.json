@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.3.2",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v0.3.2.zip",
+			"sha256": "7e3c051826d511cbc2c4f98d291b4817a88f8cd23d0e3b99de659e9c19e01481",
+			"changelog": ["Various Logic fixes"]
+		}
+	]
+}
