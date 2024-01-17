@@ -4,7 +4,7 @@
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v1.0.0.zip",
 			"sha256": "53ffecd309f5a26846f0794ce8e66a27e17618cc599611a45faf9f6ac39968e1",
-			"changelog": ["Changelog: Auto-Tab Support! - The map now follows you in-game, updating as you transition screens. A button has been added to allow players to toggle this feature, if they wish to navigate tabs manually. Auto-Updates - The Tracker Pack is now configured to prompt players whenever a new release is made, without having to visit the Github Releases, or check in the Discord Channel, when they open the pack in PopTracker. Settings Icon - Settings have been moved to their own popup, to reduce clutter and to hide settings from those who wish to not be spoiled, since they are auto-tracked by Slot Data. Broadcast View - Pack now includes a Broadcast View for streamers to add to their layouts. Two new Coin Block checks have been added to the tracker. Small edits to a couple maps - Cleaned up a couple mistakes. Various Logic fixes, including Teehee Valley, Joke's End, Outskirts North. Item icons and Event icons have been renamed to match their names in-game, to make it easier for players to hint for missing items, and distinguish what Events do. Updated Readme. Significant code cleanup behind the scenes."]
+			"changelog": ["A lot"]
 		},
 		{
 			"package_version": "0.3.2",
