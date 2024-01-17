@@ -418,20 +418,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chuckle Blend",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chuckoccino",
+                        "name": "Woohoo Blend",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
@@ -457,7 +444,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hoolumbian",
+                        "name": "Chuckle Blend",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
@@ -483,7 +470,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Teeheespresso",
+                        "name": "Hoolumbian",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
@@ -496,7 +483,20 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Woohoo Blend",
+                        "name": "Chuckoccino",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Teeheespresso",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [

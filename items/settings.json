@@ -1,13 +1,13 @@
 ﻿[
 	{
 		"name": "Bowser's Castle",
-    "codes": "castle_skip",
+    	"codes": "castle_skip",
 		"type": "progressive",
 		"allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 0,
+    	"loop": true,
+    	"initial_stage_idx": 0,
 		"stages": [
-      {
+      		{
 				"img": "images/items/bowsers_castle_unskipped.png",
 				"codes": "bowsers_skip_off",
 				"inherit_codes": false
@@ -21,13 +21,13 @@
 	},
 	{
 		"name": "Minecart Minigame",
-    "codes": "skip_minecart",
+    	"codes": "skip_minecart",
 		"type": "progressive",
 		"allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 0,
+    	"loop": true,
+    	"initial_stage_idx": 0,
 		"stages": [
-      {
+      		{
 				"img": "images/items/minecarts_on.png",
 				"codes": "minecarts_skip_off",
 				"inherit_codes": false
@@ -41,13 +41,13 @@
 	},
 	{
 		"name": "Surfing Minigame",
-    "codes": "disable_surf",
+    	"codes": "disable_surf",
 		"type": "progressive",
 		"allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 0,
+    	"loop": true,
+    	"initial_stage_idx": 0,
 		"stages": [
-      {
+      		{
 				"img": "images/items/surfing_on.png",
 				"codes": "disable_surf_off",
 				"inherit_codes": false
@@ -61,11 +61,11 @@
 	},
 	{
 		"name": "Bean Spots",
-    "codes": "beanspots",
+    	"codes": "beanspots",
 		"type": "progressive",
 		"allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 0,
+    	"loop": true,
+    	"initial_stage_idx": 0,
 		"stages": [
 			{
 				"img": "images/items/digspot_disabled.png",
@@ -87,13 +87,13 @@
 	},
 	{
 		"name": "Harhall's Pants",
-    "codes": "harhall",
+    	"codes": "harhall",
 		"type": "progressive",
 		"allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 0,
+    	"loop": true,
+    	"initial_stage_idx": 0,
 		"stages": [
-      {
+      		{
 				"img": "images/items/harhall.png",
 				"codes": "disable_harhall_off",
 				"inherit_codes": false
@@ -107,13 +107,13 @@
 	},
 	{
 		"name": "Coin Blocks",
-    "codes": "coinblocks",
+    	"codes": "coinblocks",
 		"type": "progressive",
 		"allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 0,
+    	"loop": true,
+    	"initial_stage_idx": 0,
 		"stages": [
-      {
+      		{
 				"img": "images/items/coinblocks_off.png",
 				"codes": "coinblocks_off",
 				"inherit_codes": false
@@ -124,5 +124,20 @@
 				"inherit_codes": false
 			}
 		]
+	},
+	{
+        "name": "Current Level",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_level_id"
+	},
+	{
+	  "name": "Auto-Tab",
+	  "type": "progressive",
+	  "loop": true,
+	  "img": "images/items/autotab.png",
+	  "disabled_img": "images/items/autotab_off.png",
+	  "codes": "tab_switch"
 	}
 ]

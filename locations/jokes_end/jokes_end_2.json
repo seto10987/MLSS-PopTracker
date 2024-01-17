@@ -326,6 +326,41 @@
                 ]
             },
             {
+                "name": "Jokes End North of Bridge Room Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "jokes_end_2",
+                        "x": 402,
+                        "y": 436
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Joke's End Final Split up Room Digspot",
                 "map_locations": 
                 [

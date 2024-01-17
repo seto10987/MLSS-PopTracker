@@ -256,6 +256,41 @@
                 ]
             },
             {
+                "name": "Gwarhar Lagoon First Underwater Area Room 2 Coin Block",
+                "map_locations": 
+                [
+                    {
+                        "map": "gwarhar_lagoon_north",
+                        "x": 2067,
+                        "y": 1067
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "coinblocks_on"
+                ],
+                "access_rules": 
+                [
+                    "$CANDASH"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Coin Block",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Gwarhar Lagoon Past Hermie Digspot",
                 "map_locations": 
                 [

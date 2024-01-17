@@ -36,9 +36,24 @@
             }
         ]
     },
-    "settings": {
+    "auto_tab": {
         "type": "array",
         "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_size": "70",
+                "item_margin": "1,2",
+                "rows": [
+                    ["", "tab_switch", ""]
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "horizontal",
         "content": [
             {
                 "type": "itemgrid",
@@ -46,8 +61,8 @@
                 "item_size": "39",
                 "item_margin": "1,2",
                 "rows": [
-                    [ "castle_skip", "", "coinblocks", "", "beanspots" ],
-                    ["skip_minecart", "", "disable_surf", "", "harhall"]
+                    ["castle_skip", "coinblocks", "beanspots"],
+                    ["skip_minecart", "disable_surf", "harhall"]
                 ]
             }
         ]

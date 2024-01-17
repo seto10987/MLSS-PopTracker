@@ -1,11 +1,6 @@
--- this is an example/ default implementation for AP autotracking
--- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
--- it will also load the AP slot data in the global SLOT_DATA, keep track of the current index of on_item messages in CUR_INDEX
--- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
--- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/map_tracking.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -56,6 +51,13 @@ function onClear(slot_data)
             end
         end
     end
+    if SLOT_DATA == nil then
+        return
+    end
+	
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
         if slot_data["CastleSkip"] then
             Tracker:FindObjectForCode("castle_skip").CurrentStage = tonumber(slot_data["CastleSkip"])
         end
@@ -74,16 +76,19 @@ function onClear(slot_data)
         if slot_data["Coins"] then
             Tracker:FindObjectForCode("coinblocks").CurrentStage = tonumber(slot_data["Coins"])
         end
-
-        -- function GetCurrentSceneKey()
-        --     return "Doors" .. tostring(Archipelago.TeamNumber) .. "_P" .. tostring(Archipelago.PlayerNumber)
-        -- end
         
-        
-
-        -- local keys = {GetCurrentSceneKey()}
-        -- Archipelago:Get(keys)
-        -- Archipelago:SetNotify(keys)
+        if Archipelago.PlayerNumber>-1 then
+            EVENT_ID="mlss_room_"..TEAM_NUMBER.."_"..PLAYER_ID
+            Archipelago:SetNotify({EVENT_ID})
+            Archipelago:Get({EVENT_ID})
+            print({EVENT_ID})
+            print("Contents of " .. EVENT_ID .. ":")
+            for key, value in pairs({EVENT_ID}) do
+                print(key, value)
+            end
+        end
+    
+        Tracker:FindObjectForCode("tab_switch").Active = 1
 end
 
 -- called when an item gets collected
@@ -192,10 +197,41 @@ function onBounce(json)
     -- your code goes here
 end
 
+-- auto-map tab
+function onNotify(key, value, old_value)
+	updateEvents(value)
+end
+
+function onNotifyLaunch(key, value)
+	updateEvents(value)
+end
+
+function updateEvents(value)
+	if value ~= nil then
+	    print(string.format("updateEvents %x",value))
+		local tabswitch = Tracker:FindObjectForCode("tab_switch")
+		Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
+		if tabswitch.Active then
+			if TAB_MAPPING[value] then
+				CURRENT_ROOM = TAB_MAPPING[value]
+                for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
+				    print(string.format("Updating ID %x to Tab %s",value,str))
+                    Tracker:UiHint("ActivateTab", str)
+                end
+				print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
+			else
+				--CURRENT_ROOM = TAB_MAPPING[0x00]
+				print(string.format("Failed to find ID %x",value))
+                --Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+			end
+		end
+	end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

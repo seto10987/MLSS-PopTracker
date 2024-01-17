@@ -284,7 +284,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANCRASH, handmario"
+                    "handmario"
                 ],
                 "sections": 
                 [
@@ -319,7 +319,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANCRASH, handmario"
+                    "handmario"
                 ],
                 "sections": 
                 [
@@ -354,7 +354,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANCRASH, handmario"
+                    "handmario"
                 ],
                 "sections": 
                 [
@@ -389,7 +389,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANCRASH, handmario"
+                    "handmario"
                 ],
                 "sections": 
                 [
@@ -424,7 +424,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANCRASH, handmario"
+                    "handmario"
                 ],
                 "sections": 
                 [
