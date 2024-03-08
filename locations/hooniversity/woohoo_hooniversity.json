@@ -582,7 +582,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANGOBLETS"
+                    "$CANMINI"
                 ],
                 "sections": 
                 [
@@ -652,7 +652,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANGOBLETS"
+                    "$CANMINI"
                 ],
                 "sections": 
                 [
@@ -687,7 +687,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANGOBLETS"
+                    "$CANMINI"
                 ],
                 "sections": 
                 [
@@ -722,7 +722,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANGOBLETS"
+                    "$CANMINI"
                 ],
                 "sections": 
                 [
@@ -757,7 +757,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$CANGOBLETS"
+                    "$CANMINI"
                 ],
                 "sections": 
                 [
@@ -941,7 +941,7 @@
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
-                            ""
+                            "disable_digspots_off", "disable_digspots_visible"
                         ],
                         "access_rules": 
                         [
