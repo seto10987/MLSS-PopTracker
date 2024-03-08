@@ -1,7 +1,7 @@
 {
 	"versions": [
 		{
-			"package_version": "1.1.0",
+			"package_version": "1.2.0",
 			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.1.2.0.zip",
 			"sha256": "98e18fed86c1c483f882b51f1c40ab689829c5bb9b88330300a27c50791f2acc",
 			"changelog": ["Overworld Map added. A couple of Room IDs were updated"]
