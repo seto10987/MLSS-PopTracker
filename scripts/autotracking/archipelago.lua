@@ -79,13 +79,9 @@ function onClear(slot_data)
         
         if Archipelago.PlayerNumber>-1 then
             EVENT_ID="mlss_room_"..TEAM_NUMBER.."_"..PLAYER_ID
+            print(string.format("SET NOTIFY %s",EVENT_ID))
             Archipelago:SetNotify({EVENT_ID})
             Archipelago:Get({EVENT_ID})
-            print({EVENT_ID})
-            print("Contents of " .. EVENT_ID .. ":")
-            for key, value in pairs({EVENT_ID}) do
-                print(key, value)
-            end
         end
     
         Tracker:FindObjectForCode("tab_switch").Active = 1
@@ -157,25 +153,25 @@ end
 
 --called when a location gets cleared
 function onLocation(location_id, location_name)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onLocation: %s, %s", location_id, location_name))
-    end
-    local v = LOCATION_MAPPING[location_id]
-    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    local location_array = LOCATION_MAPPING[location_id]
+    if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
-    end
-    if not v[1] then
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
+    
+    for _, location in pairs(location_array) do
+        local obj = Tracker:FindObjectForCode(location)
+        -- print(location, obj)
+        if obj then
+
+            if location:sub(1, 1) == "@" then
+                obj.AvailableChestCount = obj.AvailableChestCount - 1
+            else
+                obj.Active = true
+            end
         else
-            obj.Active = true
+            print(string.format("onLocation: could not find object for code %s", location))
         end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
 
@@ -206,27 +202,39 @@ function onNotifyLaunch(key, value)
 	updateEvents(value)
 end
 
+local lastRoomID = nil
+
 function updateEvents(value)
-	if value ~= nil then
-	    print(string.format("updateEvents %x",value))
-		local tabswitch = Tracker:FindObjectForCode("tab_switch")
-		Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
-		if tabswitch.Active then
-			if TAB_MAPPING[value] then
-				CURRENT_ROOM = TAB_MAPPING[value]
-                for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
-				    print(string.format("Updating ID %x to Tab %s",value,str))
-                    Tracker:UiHint("ActivateTab", str)
+    if value ~= nil then
+        print(string.format("updateEvents %x", value))
+        local tabswitch = Tracker:FindObjectForCode("tab_switch")
+        Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
+        if tabswitch.Active then
+            if value ~= lastRoomID then
+                if TAB_MAPPING[value] then
+                    local roomTabs = {}
+                    for str in string.gmatch(TAB_MAPPING[value], "([^/]+)") do
+                        table.insert(roomTabs, str)
+                    end
+                    if #roomTabs > 0 then
+                        for _, tab in ipairs(roomTabs) do
+                            print(string.format("Updating ID %x to Tab %s", value, tab))
+                            Tracker:UiHint("ActivateTab", tab)
+                        end
+                        lastRoomID = value
+                    else
+                        print(string.format("Failed to find tabs for ID %x", value))
+                    end
+                else
+                    print(string.format("Failed to find ID %x", value))
                 end
-				print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
-			else
-				--CURRENT_ROOM = TAB_MAPPING[0x00]
-				print(string.format("Failed to find ID %x",value))
-                --Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-			end
-		end
-	end
+            else
+                print("Already in this room")
+            end
+        end
+    end
 end
+
 
 -- add AP callbacks
 -- un-/comment as needed

@@ -77,5 +77,5 @@ function ACCESSJOKES()
 end
 function BOWSERACCESS()
     return
-    has ("chuckolator") and has ("popple4")
+    has ("chuckolator") and has ("popple4") and has ("keyrose")
 end

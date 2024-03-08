@@ -1,3 +1,6 @@
+
+                    --world map
+Tracker:AddLocations("locations/world_map/world_map.json")
                     --beanbean area
 Tracker:AddLocations("locations/beanbean_area/beanbean_castle.json")
 Tracker:AddLocations("locations/beanbean_area/castle_sewers.json")
