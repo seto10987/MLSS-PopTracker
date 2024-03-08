@@ -1,0 +1,3087 @@
+[
+    {
+        "name": "Stardust Fields",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "children": [
+            {
+                "name": "Stardust Fields",
+                "map_locations": 
+                [
+                    {
+                        "map": "world_map",
+                        "x": 119,
+                        "y": 10
+                    }
+                ],
+        "sections": 
+                [
+                    {
+                        "name": "Stardust Fields 1 Block 1",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 1 Block 2",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 2 Block",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 2 Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 2 Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 2 Coin Block 3",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 3 Block",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 3 Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 3 Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 4 Block 1",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 4 Block 2",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 4 Block 3",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields 5 Block",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 5 Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 5 Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 7 Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Stardust Fields Room 7 Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 1",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 2",
+                        "visibility_rules": [""],
+                        "access_rules": [""]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hoohoo Village",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Hoohoo Village",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 86,
+                            "y": 28
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name":  "Hoohoo Village Right Side Block"
+                    },
+                    {
+                        "name":  "Hoohoo Village Right Side Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":  "Hoohoo Village North Cave Room 1 Block"
+                    },
+                    {
+                        "name": "Hoohoo Village North Cave Room 1 Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name":  "Hoohoo Village North Cave Room 2 Block"
+                    },
+                    {
+                        "name":  "Hoohoo Village North Cave Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Village Bridge Room Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Village Bridge Room Block 2"
+                    },
+                    {
+                        "name":  "Hoohoo Village Bridge Room Block 3"
+                    },
+                    {
+                        "name": "Hoohoo Village Bridge Room Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Hoohoo Village Bridge Room Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name":  "Hoohoo Village Mole Behind Turtle",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Hoohoo Village Hammer House Hammers",
+                        "access_rules": ["dragohoho"]
+                    },
+                    {
+                        "name": "Hoohoo Village Hammer House Block",
+                        "access_rules": ["hammer1"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hoohoo Mountain",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Hoohoo Mountain",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 50,
+                            "y": 28
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Hoohoo Mountain Room 1 Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Room 1 Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Room 1 Block 3"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Room 2 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Room 2 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Before Hoohooros Block"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Before Hoohooros Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Before Hoohooros Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Fountain Room Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Fountain Room Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Fountain Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Fountain Room 2 Block"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Hoohooros Room Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Hoohooros Room Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Hoohooros Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Hoohooros Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain After Hoohooros Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain After Hoohooros Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain After Hoohooros Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Past Hoohooros Connector Room Block"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Past Hoohooros Connector Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Past Hoohooros Connector Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Below Summit Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Below Summit Block 2"
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Below Summit Block 3"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Below Summit Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Summit Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Dragohoho",
+                        "chest_unopened_img": "images/items/boss_dragohoho.png",
+                        "chest_opened_img": "images/items/boss_dragohoho_defeated.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hoohoo Mountain Base",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Hoohoo Mountain Base",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 61,
+                            "y": 58
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name":  "Hoohoo Mountain Base Room 1 Block"
+                    },                        {
+                        "name":  "Hoohoo Mountain Base Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Minecart Cave Digspot",
+                        "visibility_rules": ["minecarts_skip_off,disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base After Minecart Minigame Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base After Minecart Minigame Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Bridge Room Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Bridge Room Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Bridge Room Block 3"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Bridge Room Block 4"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Bridge Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Grassy Area Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Grassy Area Block 2"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boostatue Room Block 1"
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boostatue Room Block 2",
+                        "access_rules": ["hammer2", "$CANCRASH"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boostatue Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boostatue Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["hammer2,$CANDIG", "$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boostatue Room Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["hammer3,$CANDIG"]
+                    },
+                    {
+                        "name":  "Hoohoo Village Super Hammer Cave Block",
+                        "access_rules": ["hammer2", "$CANCRASH"]
+                    },
+                    {
+                        "name":  "Hoohoo Village Super Hammer Cave Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["hammer2,$CANDIG","$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boo Statue Cave Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer2", "$CANCRASH"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boo Statue Cave Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer2","$CANCRASH"]
+                    },
+                    {
+                        "name": "Hoohoo Mountain Base Boo Statue Cave Coin Block 3",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer2","$CANCRASH"]
+                    },
+                    {
+                        "name":  "Hoohoo Village South Cave Block"
+                    },
+                    {
+                        "name": "Hoohoo Village South Cave Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Hoohoo Village South Cave Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Guffawha Ruins Entrance Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG,hammer3"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Past Ultra Hammer Rocks Block 1",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Past Ultra Hammer Rocks Block 2",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Past Ultra Hammer Rocks Block 3",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Teehee Valley Entrance Block",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Mole Near Teehee Valley",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name":  "Hoohoo Mountain Base Teehee Valley Entrance Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG,hammer3"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts Northwest",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Outskirts Northwest",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 96,
+                            "y": 55
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Outskirts Entrance to Hoohoo Mountain Base Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Entrance to Hoohoo Mountain Base Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts NW Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts NW Block",
+                        "access_rules": ["hammer2"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts NW Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer2"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Bean Fruit 6",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Bean Fruit 5",
+                        "access_rules": ["hammer2,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts W Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":  "Beanbean Outskirts W Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts W Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Solo Luigi Cave Mole",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Pipe 2 Room Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts Southwest",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Outskirts Southwest",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 86,
+                            "y": 124
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Outskirts SW Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts SW Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts SW Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Bean Fruit 3",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Pipe 4 Room Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Brooch Guards Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["keybrooch,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Brooch Guards Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["keybrooch,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Chateau Entrance Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["keybrooch,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Chateau Entrance Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["keybrooch,$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts South",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Outskirts South",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 123,
+                            "y": 124
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Outskirts S Room 1 Block",
+                        "access_rules": ["hammer3, handluigi"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 1 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 1 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["hammer3,handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Bean Fruit 4",
+                        "access_rules": ["hammer2,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 1 Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer3, handluigi"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 2 Block 1",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 2 Block 2",
+                        "access_rules": ["$CANCRASH"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 2 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 2 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 2 Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts S Room 2 Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["$CANCRASH"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Before Harhall Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Before Harhall Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANCRASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanstar Piece Harhall",
+                        "access_rules": ["$CANCRASH"]
+                    },
+                    {
+                        "name": "Harhall's Pants",
+                        "visibility_rules": ["disable_harhall_off"],
+                        "access_rules": ["$CANCRASH"]
+                    },
+                    {
+                        "name": "Airport Entrance Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Lobby Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Right Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Right Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Right Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Right Digspot 4",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Right Digspot 5",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Middle Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Middle Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Middle Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Middle Digspot 4",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Middle Digspot 5",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Leftside Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Leftside Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Leftside Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Leftside Digspot 4",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Leftside Digspot 5",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Mom Piranha",
+                        "chest_unopened_img": "images/items/boss_mompiranha.png",
+                        "chest_opened_img": "images/items/boss_mompiranha_defeated.png",
+                        "access_rules": ["handluigi"]
+                    }  
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts Southeast",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Outskirts Southeast",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 159,
+                            "y": 124
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Outskirts Bean Fruit 2",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts SE Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts SE Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts SE Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Surf Beach Block"
+                    },
+                    {
+                        "name": "Beanbean Outskirts South of Hooniversity Guards Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts South of Hooniversity Guards Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts South of Hooniversity Guards Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Outside Woohoo Hooniversity Block"
+                    },
+                    {
+                        "name": "Outside Woohoo Hooniversity Coin Block 1"
+                    },
+                    {
+                        "name": "Outside Woohoo Hooniversity Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Outside Woohoo Hooniversity Coin Block 3",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Surf Beach Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Surf Beach Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Surf Beach Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts Northeast",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Outskirts Northeast",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 150,
+                            "y": 55
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Outskirts E Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":  "Beanbean Outskirts E Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts E Digspot 3",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Super Hammer Upgrade",
+                        "access_rules": ["handluigi"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Ultra Hammer Upgrade",
+                        "access_rules": ["handluigi,realbeanstar"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Secret Scroll 1",
+                        "access_rules": ["handluigi,hammer2"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Secret Scroll 2",
+                        "access_rules": ["handluigi,hammer3"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts NE Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts NE Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Bean Fruit 1",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Farm Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Farm Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Farm Room Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Farm Room Mole 1 Reward",
+                        "access_rules": ["handluigi"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Farm Room Mole 2 Reward",
+                        "access_rules": ["handluigi"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts North Beach Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts North Beach Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts North Beach Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDASH$CANDIG","hammer2,$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts Bean Fruit 7",
+                        "access_rules": ["$CANDASH,$CANDIG","hammer2,$CANDIG"]
+                    },
+                    {
+                        "name":   "Beanbean Outskirts South Beach Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Outskirts North",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Outskirts North",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 123,
+                            "y": 55
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Outskirts N Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts N Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Thunder Hand Mole",
+                        "access_rules": ["handluigi"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts Boo Statue Mole",
+                        "access_rules": ["$CANCRASH, $CANDIG, $CANMINI"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts NE Solo Mario Mole 1",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Beanbean Outskirts NE Solo Mario Mole 2",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Beanstar Piece Yoshi Theater",
+                        "access_rules": ["$CANDASH, $EGGS"]
+                    },
+                    {
+                        "name": "Yoshi Theater Blue Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    },
+                    {
+                        "name": "Yoshi Theater Red Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    },
+                    {
+                        "name": "Yoshi Theater Green Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    },
+                    {
+                        "name": "Yoshi Theater Yellow Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    },
+                    {
+                        "name": "Yoshi Theater Purple Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    },
+                    {
+                        "name": "Yoshi Theater Orange Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    },
+                    {
+                        "name": "Yoshi Theater Azure Yoshi",
+                        "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+                "name": "Beanbean Castle Town",
+                "chest_unopened_img": "images/items/chest_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "color": "#FFFFFF",
+                "children": 
+                    [
+                        {
+                            "name": "Beanbean Castle Town",
+                            "map_locations": 
+                            [
+                                {
+                                    "map": "world_map",
+                                    "x": 124,
+                                    "y": 104
+                                }
+                            ],
+                "sections": 
+                [
+                    {
+                        "name": "Pants Shop Post-Queen Bean",
+                        "access_rules": ["queenbean"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Pants Shop Post-Chuckolator",
+                        "access_rules": ["chuckolator, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Pants Shop Post-Mom Piranha",
+                        "access_rules": ["mompiranha, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Pants Shop Post-Peach Kidnapped",
+                        "access_rules": ["kidnapped"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Pants Shop Post-Beanstar Complete",
+                        "access_rules": ["realbeanstar"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Pants Shop Post-Birdo",
+                        "access_rules": ["popple4, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Badge Shop Post-Queen Bean",
+                        "access_rules": ["queenbean"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Badge Shop Post-Chuckolator",
+                        "access_rules": ["chuckolator, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Badge Shop Post-Mom Piranha",
+                        "access_rules": ["mompiranha, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Badge Shop Post-Peach Kidnapped",
+                        "access_rules": ["kidnapped"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Badge Shop Post-Beanstar Complete",
+                        "access_rules": ["realbeanstar"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Badge Shop Post-Birdo",
+                        "access_rules": ["popple4, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Item Shop Starting",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Item Shop Post-Chuckolator",
+                        "access_rules": ["chuckolator", "mompiranha"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Item Shop Post-Mom Piranha",
+                        "access_rules": ["mompiranha"],
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Item Shop Post-Peach Kidnapped",
+                        "access_rules": ["kidnapped"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Item Shop Post-Beanstar Complete",
+                        "access_rules": ["realbeanstar"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Item Shop Post-Birdo",
+                        "access_rules": ["popple4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 1",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 2",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 3",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 4",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 5",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 6",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Brew Reward 7",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Woohoo Blend",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Hoohoo Blend",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Chuckle Blend",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Teehee Blend",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Hoolumbian",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Chuckoccino",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Coffee Shop Teeheespresso",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Left Side House Block 1",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Left Side House Block 2",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Left Side House Block 3",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Left Side House Block 4",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Right Side House Block 1",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Right Side House Block 2",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Right Side House Block 3",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Right Side House Block 4",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 1",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 2",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 3",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 4",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 5",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 6",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 7",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 8",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 9",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone 10",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanstone Reward",
+                        "access_rules": ["chuckolator,$CANDIG"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanlet 1",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanlet 2",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanlet 3",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanlet 4",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanlet 5",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Beanlet Reward",
+                        "access_rules": ["chuckolator"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Passport Photo Room Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beanbean Castle",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Beanbean Castle",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 124,
+                            "y": 85
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Beanbean Castle Town Mini Mario Block 1",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Mini Mario Block 2",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Mini Mario Block 3",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Mini Mario Block 4",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Beanbean Castle Town Mini Mario Block 5",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Queen Bean",
+                        "chest_unopened_img": "images/items/boss_queenbean.png",
+                        "chest_opened_img": "images/items/boss_queenbean_defeated.png",
+                        "access_rules": ["keyrose"]
+                    },
+                    {
+                        "name": "Queen Bean Beanstar Complete",
+                        "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"]
+                    },
+                    {
+                        "name": "Queen Bean Fake Beanstar",
+                        "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"]
+                    },
+                    {
+                        "name": "Queen Bean Peach's Extra Dress",
+                        "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beanbean Castle Sewers",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["keyrose"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Beanbean Castle Sewers",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 105,
+                            "y": 79
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Sewers Prison Room Block 1"
+                    },
+                    {
+                        "name": "Sewers Prison Room Block 2"
+                    },
+                    {
+                        "name": "Sewers Prison Room Block 3"
+                    },
+                    {
+                        "name": "Sewers Prison Room Block 4"
+                    },
+                    {
+                        "name": "Sewers Prison Room Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Sewers Room 3 Block 1"
+                    },
+                    {
+                        "name": "Sewers Room 3 Block 2"
+                    },
+                    {
+                        "name": "Sewers Room 3 Block 3"
+                    },
+                    {
+                        "name": "Sewers Room 5 Block 1",
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name": "Sewers Room 5 Block 2",
+                        "access_rules": ["hammer1"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chateau De Chucklehuck",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["keybrooch"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Chateau De Chucklehuck",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 63,
+                            "y": 110
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Chateau Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chateau Popple Fight Room Block 1"
+                    },
+                    {
+                        "name": "Chateau Popple Fight Room Block 2"
+                    },
+                    {
+                        "name": "Chateau Popple Fight Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chateau Popple Room Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chateau Popple Room Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chateau Barrel Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chateau Red Goblet",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Chateau Green Goblet",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chateau Goblet Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chucklehuck Woods",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["keybrooch"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Chucklehuck Woods",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 28,
+                            "y": 123
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Chucklehuck Woods Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 2 Block"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Pipe Room Block 1",
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Pipe Room Block 2",
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Pipe Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Pipe Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Pipe 5 Room Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 4 Block 1",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 4 Block 2",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 4 Block 3",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Koopa Room Block 1"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Koopa Room Block 2"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Koopa Room Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Koopa Room Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Winkle Cave Block 1",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Winkle Cave Block 2",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Winkle Area Cave Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Winkle Area Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Winkle Area Beanstar Room Block",
+                        "access_rules": ["$CANDASH, keywinkle"]
+                    },
+                    {
+                        "name": "Beanstar Piece Winkle Area",
+                        "access_rules": ["$CANDASH, keywinkle"]
+                    },
+                    {
+                        "name": "Winkle Area Outside Colloseum Block",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Winkle Area Colloseum Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDASH,$CANDIG"]
+                    },
+                    {
+                        "name": "Winkle Area Winkle Card",
+                        "access_rules": ["$CANDASH"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Deep Chucklehuck Woods",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["keybrooch"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Deep Chucklehuck Woods",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 28,
+                            "y": 108
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Chucklehuck Woods Room 7 Block 1",
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name":  "Chucklehuck Woods Room 7 Block 2",
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 7 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 7 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 7 Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer1"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Room 8 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods East of Chuckleroot Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 4",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods White Fruit Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods White Fruit Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANMINI,$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods White Fruit Room Digspot 3",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANMINI,$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods White Chuckola Fruit",
+                        "access_rules": ["$CANMINI, $CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods West of Chuckleroot Block"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Red Chuckola Fruit",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Wiggler room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Wiggler room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Southwest of Chuckleroot Block"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 1 Block 1"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 1 Block 2"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 1 Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 2 Block"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 2 Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 3 Block"
+                    },
+                    {
+                        "name": "Chucklehuck Woods Cave Room 3 Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chucklehuck Woods Purple Chuckola Fruit"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chuckolator",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$FRUITS"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Chuckolator",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 28,
+                            "y": 96
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Block 1"
+                    },
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Block 2"
+                    },
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Block 3"
+                    },
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Block 4"
+                    },
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Block 5"
+                    },
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Block 6"
+                    },
+                    {
+                        "name": "Chucklehuck Woods After Chuckleroot Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Chuckolator",
+                        "chest_unopened_img": "images/items/boss_chuckolator.png",
+                        "chest_opened_img": "images/items/boss_chuckolator_defeated.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Woohoo Hooniversity",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Woohoo Hooniversity",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 186,
+                            "y": 135
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Woohoo Hooniversity Star Room Block 1"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Star Room Block 2"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Star Room Block 3"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 3 Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 4 Block 1"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 4 Block 2"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 4 Block 3"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 4 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 4 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity West of Star Room 5 Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Entrance to Mini Mario Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Entrance to Mini Mario Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Entrance to Mini Mario Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Mini Mario Puzzle Block",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Mini Mario Puzzle Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Mini Mario Puzzle Secret Area Block 1",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Mini Mario Puzzle Secret Area Block 2",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Mini Mario Puzzle Secret Area Block 3",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Mini Mario Puzzle Secret Area Block 4",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Barrel Puzzle Entrance Block 1",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Barrel Puzzle Entrance Block 2",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Barrel Puzzle Entrance Block 3",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Barrel Puzzle Entrance Block 4",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Barrel Puzzle Entrance Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Barrel Puzzle Entrance Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Solo Mario Barrel Area Block 1",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Solo Mario Barrel Area Block 2",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Solo Mario Barrel Area Block 3",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity South Of Star Room Block",
+                        "access_rules": ["$CANGOBLETS"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Sun Door Block 1"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Sun Door Block 2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Woohoo Hooniversity Back",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$CANGOBLETS"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Woohoo Hooniversity Back",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 186,
+                            "y": 123
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Woohoo Hooniversity Past Sun Door Block 1"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Past Sun Door Block 2"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Past Sun Door Block 3"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Past Cackletta Room 1 Block"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Past Cackletta Room 2 Block 1"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Past Cackletta Room 2 Block 2"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Past Cackletta Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Basement Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Basement Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Basement Room 3 Block"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Basement Room 4 Block"
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Popple Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Woohoo Hooniversity Popple Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Popple 2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Oho Oasis",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["popple2", "$SSSINK"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Oho Oasis",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 219,
+                            "y": 86
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Oho Oasis Fire Palace Block"
+                    },
+                    {
+                        "name": "Oho Oasis Firebrand",
+                        "access_rules": ["$CANMINI"]
+                    },
+                    {
+                        "name": "Oho Oasis Thunderhand",
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Oho Oasis West Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Oho Seabed",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["popple2", "$SSSINK", "$OCEAN"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Oho Seabed",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 189,
+                            "y": 86
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Oho Ocean Spike Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Oho Ocean Spike Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Oho Ocean South Room 1 Block",
+                        "access_rules": ["$SSSINK", "$OCEAN"]
+                    },
+                    {
+                        "name": "Oho Ocean South Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$SSSINK,$CANDIG", "$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean North Whirlpool Block 1",
+                        "access_rules": ["$OCEAN"]
+                    },
+                    {
+                        "name": "Ocean North Whirlpool Block 2",
+                        "access_rules": ["$OCEAN"]
+                    },
+                    {
+                        "name": "Ocean North Whirlpool Block 3",
+                        "access_rules": ["$OCEAN"]
+                    },
+                    {
+                        "name": "Ocean North Whirlpool Block 4",
+                        "access_rules": ["$OCEAN"]
+                    },
+                    {
+                        "name": "Ocean North Whirlpool Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean North Whirlpool Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Oho Ocean Fire Puzzle Room Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Digspot 3",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Digspot 4",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Digspot 5",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Digspot 6",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    },
+                    {
+                        "name": "Ocean South Whirlpool Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$OCEAN,$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gwarhar Lagoon North",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$SSSINK", "$OCEAN"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Gwarhar Lagoon North",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 220,
+                            "y": 140
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Gwarhar Lagoon Pipe Room Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Massage Parlor Entrance Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Green Pearl Bean",
+                        "access_rules": ["handluigi"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Red Pearl Bean",
+                        "access_rules": ["handluigi"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon First Underwater Area Room 1 Block",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon First Underwater Area Room 2 Block 1",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon First Underwater Area Room 2 Block 2",
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon First Underwater Area Room 2 Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Past Hermie Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANPEARL,$CANDIG"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gwarhar Lagoon South",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$CANPEARL,$SSSINK", "$CANPEARL,$OCEAN"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Gwarhar Lagoon South",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 220,
+                            "y": 150
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Gwarhar Lagoon North of Spangle Room Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Spangle Room Block",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Spangle",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon West of Spangle Room Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon East of Stone Bridge Block"
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Entrance to West Underwater Area Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 1 Block"
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 2 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 3 Block 1"
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 3 Block 2"
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 3 Block 3"
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Second Underwater Area Room 4 Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Fire Dash Puzzle Room 1 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Fire Dash Puzzle Room 1 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Fire Dash Puzzle Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Fire Dash Puzzle Room 3 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Gwarhar Lagoon Fire Dash Puzzle Room 3 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Beanstar Piece Hermie"
+                    },
+                    {
+                        "name": "Spangle Reward",
+                        "access_rules": ["miscspangle"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Oho Ocean",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",        
+        "access_rules": ["$OCEAN"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Oho Ocean",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 206,
+                            "y": 100
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "North Ocean Whirlpool Mole"
+                    },
+                    {
+                        "name": "Surf Minigame",
+                        "visibility_rules": ["disable_surf_off"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Teehee Valley",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["hammer2","$CANDASH"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Teehee Valley",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 145,
+                            "y": 34
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Teehee Valley Room 1 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Room 1 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Room 1 Digspot 3",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Room 2 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Room 2 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Room 2 Digspot 3",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Past Ultra Hammers Block 1",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name": "Teehee Valley Past Ultra Hammers Block 2",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name": "Teehee Valley Past Ultra Hammers Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["hammer3,$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Past Ultra Hammers Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                    },
+                    {
+                        "name": "Teehee Valley Past Ultra Hammers Digspot 3",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["hammer3,$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Past Ultra Hammer Rocks Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name": "Teehee Valley Before Trunkle Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Trunkle Room Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$ACCESSFUNGITOWN,$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Solo Luigi Maze Room 1 Block",
+                        "access_rules": ["hammer3"]
+                    },
+                    {
+                        "name": "Teehee Valley Solo Luigi Maze Room 2 Digspot 1",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["hammer3,$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Solo Luigi Maze Room 2 Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["hammer3,$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Entrance To Hoohoo Mountain Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["hammer3,$CANDIG"]
+                    },
+                    {
+                        "name": "Teehee Valley Before Popple Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                    },
+                    {
+                        "name": "Teehee Valley Before Popple Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                    },
+                    {
+                        "name": "Teehee Valley Before Popple Digspot 3",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                    },
+                    {
+                        "name": "Teehee Valley Before Popple Digspot 4",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                    },
+                    {
+                        "name": "Popple 4",
+                        "chest_unopened_img": "images/items/boss_popple4.png",
+                        "chest_opened_img": "images/items/boss_popple4_defeated.png",
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "S.S. Chuckola",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$SSACCESS"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "S.S. Chuckola",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 169,
+                            "y": 51
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "S.S Chuckola Membership Card"
+                    },
+                    {
+                        "name": "S.S Chuckola Storage Room Block 1"
+                    },
+                    {
+                        "name": "S.S Chuckola Storage Room Block 2"
+                    },
+                    {
+                        "name": "S.S Chuckola Storage Room Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "S.S Chuckola Storage Room Coin Block 2",
+                        "visibility_rules": ["coinblocks_on"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Little Fungitown",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$ACCESSFUNGITOWN"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Little Fungitown",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 162,
+                            "y": 16
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Fungitown Entrance Room Block"
+                    },
+                    {
+                        "name": "Fungitown Badge Shop Starting",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Fungitown Badge Shop Post-Beanstar Complete",
+                        "access_rules": ["realbeanstar"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Fungitown Badge Shop Post-Birdo",
+                        "access_rules": ["popple4"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Fungitown Pants Shop Starting",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Fungitown Pants Shop Post-Beanstar Complete",
+                        "access_rules": ["realbeanstar"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Fungitown Pants Shop Post-Birdo",
+                        "access_rules": ["popple4"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Fungitown Item Shop Starting",
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Fungitown Item Shop Post-Beanstar Complete",
+                        "access_rules": ["realbeanstar"]
+                    },
+                    {
+                        "name": "Fungitown Item Shop Post-Birdo",
+                        "access_rules": ["popple4"]
+                    },
+                    {
+                        "name": "Fungitown Embassy Room Block"
+                    },
+                    {
+                        "name": "Peach Kidnapped"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Joke's End 1",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$ACCESSJOKES"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Joke's End 1",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 212,
+                            "y": 47
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Joke's End Pipe Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Joke's End Staircase Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    },
+                    {
+                        "name": "Joke's End Mole 1",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End Mole 2",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End First Boiler Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["handmario,$CANDIG"]
+                    },
+                    {
+                        "name": "Joke's End First Boiler Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["handmario,$CANDIG"]
+                    },
+                    {
+                        "name": "Joke's End West of First Boiler Room Block 1",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End West of First Boiler Room Block 2",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End Second Floor West Room Block 1",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End Second Floor West Room Block 2",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End Second Floor West Room Block 3",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End Second Floor West Room Block 4",
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Jokes End Second Floor West Room Coin Block",
+                        "visibility_rules": ["coinblocks_on"],
+                        "access_rules": ["handmario"]
+                    },
+                    {
+                        "name": "Joke's End Northeast of Boiler Room 1 Block",
+                        "access_rules": ["$CANCRASH, handmario"]
+                    },
+                    {
+                        "name": "Joke's End Northeast of Boiler Room 2 Block",
+                        "access_rules": ["$CANCRASH,handmario"]
+                    },
+                    {
+                        "name": "Joke's End Northeast of Boiler Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible" ],
+                        "access_rules": ["$CANCRASH,handmario,$CANDIG"]
+                    },
+                    {
+                        "name": "Joke's End Northeast of Boiler Room 3 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible" ],
+                        "access_rules": ["$CANCRASH,handmario,$CANDIG"]
+                    },
+                    {
+                        "name": "Joke's End Furnace Room 1 Block 1",
+                        "access_rules": ["$CANCRASH, handmario"]
+                    },
+                    {
+                        "name": "Joke's End Furnace Room 1 Block 2",
+                        "access_rules": ["$CANCRASH, handmario"]
+                    },
+                    {
+                        "name": "Joke's End Furnace Room 1 Block 3",
+                        "access_rules": ["$CANCRASH, handmario"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Joke's End 2",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$ACCESSJOKES,$CANDIG,$CANCRASH,handmario"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Joke's End 2",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 212,
+                            "y": 37
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Joke's End Second Floor East Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Room 2 Block 1"
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Room 2 Block 2"
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Room 2 Block 3"
+                    },
+                    {
+                        "name": "Joke's End Solo Luigi Room 1 Block"
+                    },
+                    {
+                        "name": "Joke's End Solo Luigi Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End Solo Luigi Room 2 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End South of Bridge Room Block"
+                    },
+                    {
+                        "name": "Jokes End North of Bridge Room Coin Block",
+                        "visibility_rules": ["coinblocks_on"]
+                    },
+                    {
+                        "name": "Joke's End Final Split up Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Final Room Block 1"
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Final Room Block 2"
+                    },
+                    {
+                        "name": "Joke's End Solo Mario Final Room Block 3"
+                    },
+                    {
+                        "name": "Joke's End Second Boiler Room Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End Second Boiler Room Digspot 2"
+                    },
+                    {
+                        "name": "Joke's End North of Second Boiler Room Block 1"
+                    },
+                    {
+                        "name": "Joke's End North of Second Boiler Room Block 2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Joke's End 3",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "access_rules": ["$ACCESSJOKES,$CANDIG,$CANCRASH,handmario"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Joke's End 3",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 212,
+                            "y": 27
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Joke's End Before Jojora Room Block 1"
+                    },
+                    {
+                        "name": "Joke's End Before Jojora Room Block 2"
+                    },
+                    {
+                        "name": "Joke's End Before Jojora Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Joke's End Jojora Room Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDASH"]
+                    },
+                    {
+                        "name": "Jojora",
+                        "chest_unopened_img": "images/items/boss_jojira.png",
+                        "chest_opened_img": "images/items/boss_jojira_defeated.png",
+                        "access_rules": ["$CANDASH"]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bowser's Castle",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "visibility_rules": ["bowsers_skip_off"],
+        "access_rules": ["$BOWSERACCESS"],
+        "color": "#FFFFFF",
+        "children": 
+            [
+                {
+                    "name": "Bowser's Castle",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 10,
+                            "y": 15
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Bowser's Castle Entrance Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Entrance Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Entrance Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Bowser's Castle Iggy & Morton Hallway Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Iggy & Morton Hallway Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Iggy & Morton Hallway Digspot"
+                    },
+                    {
+                        "name": "Bowser's Castle After Morton Block"
+                    },
+                    {
+                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Roy Corridor Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Roy Corridor Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Wendy & Larry Hallway Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Bowser's Castle Before Fawful Fight Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Before Fawful Fight Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Great Door Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Great Door Block 2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bowser's Castle Children",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "visibility_rules": ["bowsers_skip_off"],
+        "access_rules": ["$BOWSERACCESS"],
+        "children": 
+            [
+                {
+                    "name": "Bowser's Castle Children",
+                    "map_locations": 
+                    [
+                        {
+                            "map": "world_map",
+                            "x": 20,
+                            "y": 15
+                        }
+                    ],
+        "sections": 
+                [
+                    {
+                        "name": "Bowser's Castle Morton Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Bowser's Castle Lemmy Room 1 Block"
+                    },
+                    {
+                        "name": "Bowser's Castle Lemmy Room 1 Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                    },
+                    {
+                        "name": "Bowser's Castle Lemmy Room Mole"
+                    },
+                    {
+                        "name": "Bowser's Castle Ludwig Room 1 Block"
+                    },
+                    {
+                        "name": "Bowser's Castle Mini Mario Maze Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Mini Mario Maze Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Mini Mario Sidescroller Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Mini Mario Sidescroller Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Before Wendy Fight Block 1"
+                    },
+                    {
+                        "name": "Bowser's Castle Before Wendy Fight Block 2"
+                    },
+                    {
+                        "name": "Bowser's Castle Larry Room Block",
+                        "visibility_rules": ["disable_digspots_off"]
+                    }
+                ]
+            }
+        ]
+    }
+]
