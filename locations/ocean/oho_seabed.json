@@ -10,7 +10,7 @@
         ],
         "access_rules": 
         [
-            "$CANGOBLETS", "$SSSINK", "$OCEAN"
+            "popple2", "$SSSINK", "$OCEAN"
         ],
         "children": 
         [
