@@ -48,7 +48,7 @@
                         ],
                         "access_rules": 
                         [
-                            "chuckolator"
+                            "chuckolator, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -61,7 +61,7 @@
                         ],
                         "access_rules": 
                         [
-                            "mompiranha"
+                            "mompiranha, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -74,7 +74,7 @@
                         ],
                         "access_rules": 
                         [
-                            "kidnapped"
+                            "kidnapped, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -87,7 +87,7 @@
                         ],
                         "access_rules": 
                         [
-                            "realbeanstar"
+                            "realbeanstar, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -100,7 +100,7 @@
                         ],
                         "access_rules": 
                         [
-                            "popple4"
+                            "popple4, queenbean"
                         ],
                         "item_count": 3
                     }
@@ -148,7 +148,7 @@
                         ],
                         "access_rules": 
                         [
-                            "chuckolator"
+                            "chuckolator, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -161,7 +161,7 @@
                         ],
                         "access_rules": 
                         [
-                            "mompiranha"
+                            "mompiranha, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -174,7 +174,7 @@
                         ],
                         "access_rules": 
                         [
-                            "kidnapped"
+                            "kidnapped, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -187,7 +187,7 @@
                         ],
                         "access_rules": 
                         [
-                            "realbeanstar"
+                            "realbeanstar, queenbean"
                         ],
                         "item_count": 3
                     },
@@ -200,7 +200,7 @@
                         ],
                         "access_rules": 
                         [
-                            "popple4"
+                            "popple4, queenbean"
                         ],
                         "item_count": 3
                     }
@@ -248,7 +248,7 @@
                         ],
                         "access_rules": 
                         [
-                            "chuckolator"
+                            "chuckolator", "mompiranha"
                         ],
                         "item_count": 1
                     },
