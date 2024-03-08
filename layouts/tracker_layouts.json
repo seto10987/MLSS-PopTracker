@@ -56,7 +56,20 @@
 						  {
 							"type": "tabbed",
 							"dock": "top",
-							"content": [
+							"content": [     
+							  	{
+										"title": "World Map",
+										"type": "tabbed",
+										"tabs": [
+										{
+											"title": "World Map",
+											"content": {
+										  	"type":"map",
+										  	"maps": ["world_map"]
+									  		}
+										}
+								  	]                  
+								},
 							  	{
 										"title": "Outskirts",
 										"type": "tabbed",

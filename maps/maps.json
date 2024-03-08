@@ -211,8 +211,8 @@
   },
   {
     "name": "world_map",
-    "location_size": 23,
-    "location_border_thickness": 3,
-    "img": "images/maps/beanbean-kingdom-ingame.png"
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/world-map.png"
   }
 ]
