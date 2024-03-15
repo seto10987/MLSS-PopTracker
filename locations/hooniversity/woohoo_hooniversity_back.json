@@ -1,15 +1,16 @@
 [
     {
         "name": "Woohoo Hooniversity Back",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
-        "access_rules": 
-        ["$CANGOBLETS"],
+        "access_rules": ["$CANGOBLETS"],
         "children": 
         [
             {
                 "name": "Woohoo Hooniversity Past Sun Door Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -17,34 +18,15 @@
                         "x": 2249,
                         "y": 1566
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Past Sun Door Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -52,34 +34,15 @@
                         "x": 2313,
                         "y": 1566
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Past Sun Door Block 3",
+                "sections": [
+                    {
+                        "name": "Block 3"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -87,34 +50,15 @@
                         "x": 2345,
                         "y": 1326
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Past Cackletta Room 1 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -122,34 +66,15 @@
                         "x": 2114,
                         "y": 426
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Past Cackletta Room 2 Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -157,34 +82,15 @@
                         "x": 1798,
                         "y": 826
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Past Cackletta Room 2 Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -192,34 +98,16 @@
                         "x": 1846,
                         "y": 974
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Past Cackletta Room 2 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -227,34 +115,16 @@
                         "x": 1862,
                         "y": 1037
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off","disable_digspots_visible"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Basement Room 1 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -262,34 +132,15 @@
                         "x": 279,
                         "y": 989
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off","disable_digspots_visible"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Basement Room 2 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -297,34 +148,15 @@
                         "x": 71,
                         "y": 714
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Basement Room 3 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -332,34 +164,15 @@
                         "x": 514,
                         "y": 646
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Basement Room 4 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -367,34 +180,16 @@
                         "x": 845,
                         "y": 572
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Popple Room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -402,34 +197,16 @@
                         "x": 813,
                         "y": 423
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off","disable_digspots_visible"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Woohoo Hooniversity Popple Room Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2",
+                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -437,66 +214,22 @@
                         "x": 1117,
                         "y": 423
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off","disable_digspots_visible"
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Popple 2",
-                "chest_unopened_img": "images/items/boss_popple2.png",
-                "chest_opened_img": "images/items/boss_popple2_defeated.png",
+                "sections": [
+                    {
+                        "name": "Popple 2",
+                        "hosted_item": "popple2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
                         "map": "woohoo_hooniversity_back",
                         "x": 966,
                         "y": 199
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Popple 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
                     }
                 ]
             }

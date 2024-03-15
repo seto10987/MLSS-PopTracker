@@ -477,15 +477,15 @@ LOCATION_MAPPING =
     --Beanbean Castle Town Beanstone 5
     [2429665] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 5/Beanstone 5 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 5"},
     --Beanbean Castle Town Beanstone 6
-    [2430915] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 6/Beanstone 6 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 6"},
+    [2430731] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 6/Beanstone 6 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 6"},
     --Beanbean Castle Town Beanstone 7
-    [2431007] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 7/Beanstone 7 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 7"},
+    [2430823] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 7/Beanstone 7 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 7"},
     --Beanbean Castle Town Beanstone 8
-    [2431099] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 8/Beanstone 8 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 8"},
+    [2430915] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 8/Beanstone 8 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 8"},
     --Beanbean Castle Town Beanstone 9
-    [2430731] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 9/Beanstone 9 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 9"},
+    [2431009] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 9/Beanstone 9 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 9"},
     --Beanbean Castle Town Beanstone 10
-    [2430823] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 10/Beanstone 10 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 10"},
+    [2431099] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 10/Beanstone 10 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 10"},
     --Coffee Shop Brew Reward 1
     [2438421] = {"@Beanbean Castle Town/Coffee Shop/Brew Reward 1","@Beanbean Castle Town/Beanbean Castle Town/Coffee Shop Brew Reward 1"},
     --Coffee Shop Brew Reward 2
@@ -1115,7 +1115,7 @@ LOCATION_MAPPING =
     --Mom Piranha
     [14286852] = {"@Outskirts South/Mom Piranha/Mom Piranha","@Outskirts South/Outskirts South/Mom Piranha"},
     --Fungitown
-    [14286853] = {"@Little Fungitown/Peach Kidnapped/Peach Kidnapped","@Little Fungitown/Little Fungitown/Peach Kidnapped"},
+    [14286853] = {"@Little Fungitown/Entered Fungitown/Entered Fungitown","@Little Fungitown/Little Fungitown/Entered Fungitown"},
     --Beanstar
     [14286854] = {"@Beanbean Castle/Queen Bean Beanstar Complete/Beanstar Complete","@Beanbean Castle/Beanbean Castle/Queen Bean Beanstar Complete"},
     --Jojora

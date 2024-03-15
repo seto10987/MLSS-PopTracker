@@ -1,18 +1,17 @@
 [
     {
         "name": "Chuckolator Area",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
-        "access_rules": 
-            [
-                "$FRUITS"
-            ],
+        "access_rules": ["$FRUITS"],
 
         "children": 
         [
             {
                 "name": "Chucklehuck Woods After Chuckleroot Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -20,34 +19,15 @@
                         "x": 55,
                         "y": 1294
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods After Chuckleroot Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2 (Hidden)"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -55,34 +35,15 @@
                         "x": 200,
                         "y": 1354
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods After Chuckleroot Block 3",
+                "sections": [
+                    {
+                        "name": "Block 3"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -90,34 +51,15 @@
                         "x": 55,
                         "y": 1466
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods After Chuckleroot Block 4",
+                "sections": [
+                    {
+                        "name": "Block 4 (Hidden)"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -125,34 +67,15 @@
                         "x": 182,
                         "y": 1529
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 4 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods After Chuckleroot Block 5",
+                "sections": [
+                    {
+                        "name": "Block 5 (Hidden)"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -160,34 +83,15 @@
                         "x": 182,
                         "y": 1648
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 5 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods After Chuckleroot Block 6",
+                "sections": [
+                    {
+                        "name": "Block 6"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -195,34 +99,16 @@
                         "x": 87,
                         "y": 1701
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 6",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods After Chuckleroot Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -230,66 +116,22 @@
                         "x": 119,
                         "y": 1737
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chuckolator",
+                "sections": [
+                    {
+                        "name": "Chuckolator",
+                        "hosted_item": "chuckolator"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
                         "map": "chuckolator",
                         "x": 119,
                         "y": 119
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Chuckolator",
-                        "clear_as_group": true,
-                        "chest_unopened_img": "images/items/boss_chuckolator.png",
-                        "chest_opened_img": "images/items/boss_chuckolator_defeated.png",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
                     }
                 ]
             }

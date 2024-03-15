@@ -1,17 +1,18 @@
 [
     {
         "name": "Chucklehuck Woods",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "access_rules": 
-                [
-                    "keybrooch"
-                ],
-        "color": "#FFFFFF",
+        "access_rules": ["keybrooch"],
         "children": 
         [
             {
                 "name": "Chucklehuck Woods Room 1 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -19,34 +20,15 @@
                         "x": 2594,
                         "y": 1164
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 2 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -54,34 +36,17 @@
                         "x": 2160,
                         "y": 1129
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 2 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot (Under Rock)",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -89,34 +54,16 @@
                         "x": 2239,
                         "y": 1028
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot (Under Rock)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Pipe Room Block 1",
+                "access_rules": ["hammer1"],
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -124,34 +71,16 @@
                         "x": 1936,
                         "y": 677
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer1"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Pipe Room Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2",
+                        "access_rules": ["hammer1"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -159,34 +88,17 @@
                         "x": 2040,
                         "y": 693
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hammer1"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Pipe Room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -194,34 +106,17 @@
                         "x": 2047,
                         "y": 810
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Pipe Room Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -229,34 +124,17 @@
                         "x": 2016,
                         "y": 680
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Pipe 5 Room Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "access_rules": ["hammer1"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -264,34 +142,16 @@
                         "x": 2007,
                         "y": 725
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    "hammer1"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 4 Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1",
+                        "access_rules": ["$CANMINI"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -299,34 +159,16 @@
                         "x": 1693,
                         "y": 423
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANMINI"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 4 Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2",
+                        "access_rules": ["$CANMINI"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -334,34 +176,16 @@
                         "x": 1725,
                         "y": 455
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANMINI"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 4 Block 3",
+                "sections": [
+                    {
+                        "name": "Block 3",
+                        "access_rules": ["$CANMINI"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -369,34 +193,15 @@
                         "x": 1757,
                         "y": 423
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANMINI"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Koopa Room Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -404,34 +209,15 @@
                         "x": 1178,
                         "y": 604
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Koopa Room Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -439,34 +225,17 @@
                         "x": 1226,
                         "y": 668
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Koopa Room Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -474,34 +243,16 @@
                         "x": 1289,
                         "y": 655
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Koopa Room Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -509,34 +260,16 @@
                         "x": 1193,
                         "y": 636
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Winkle Cave Block 1",
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Block 1 (Hidden)"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -544,34 +277,16 @@
                         "x": 996,
                         "y": 272
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Winkle Cave Block 2",
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -579,34 +294,17 @@
                         "x": 1172,
                         "y": 305
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Winkle Area Cave Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -614,34 +312,18 @@
                         "x": 1283,
                         "y": 288
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Winkle Area Digspot",
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -649,34 +331,16 @@
                         "x": 795,
                         "y": 592
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Winkle Area Beanstar Room Block",
+                "access_rules": ["$CANDASH, keywinkle"],
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -684,34 +348,16 @@
                         "x": 545,
                         "y": 361
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH, keywinkle"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanstar Piece Winkle Area",
+                "access_rules": ["$CANDASH, keywinkle"],
+                "sections": [
+                    {
+                        "name": "Beanstar Piece"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -719,34 +365,16 @@
                         "x": 544,
                         "y": 161
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH, keywinkle"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstar Piece",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Winkle Area Outside Colloseum Block",
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Block (Hidden)"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -754,34 +382,18 @@
                         "x": 692,
                         "y": 894
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Winkle Area Colloseum Digspot",
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -789,64 +401,22 @@
                         "x": 151,
                         "y": 671
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Winkle Area Winkle Card",
+                "access_rules": ["$CANDASH"],
+                "sections": [
+                    {
+                        "name": "Winkle Card"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
                         "map": "chucklehuck_woods",
                         "x": 231,
                         "y": 574
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANDASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Winkle Card",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
                     }
                 ]
             }

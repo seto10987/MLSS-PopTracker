@@ -1,13 +1,15 @@
 [
     {
         "name": "Hoohoo Mountain",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
         [
             {
                 "name": "Hoohoo Mountain Room 1 Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -15,34 +17,15 @@
                         "x": 40,
                         "y": 2446
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Room 1 Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -50,34 +33,15 @@
                         "x": 31,
                         "y": 2679
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Room 1 Block 3",
+                "sections": [
+                    {
+                        "name": "Block 3"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -85,34 +49,17 @@
                         "x": 380,
                         "y": 2704
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Room 2 Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -120,34 +67,17 @@
                         "x": 730,
                         "y": 2580
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Room 2 Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -155,34 +85,15 @@
                         "x": 923,
                         "y": 2471
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Before Hoohooros Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -190,34 +101,17 @@
                         "x": 1582,
                         "y": 1968
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Before Hoohooros Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -225,34 +119,16 @@
                         "x": 1470,
                         "y": 2052
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Before Hoohooros Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -260,34 +136,15 @@
                         "x": 1617,
                         "y": 1968
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Fountain Room Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -295,34 +152,15 @@
                         "x": 619,
                         "y": 1918
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Fountain Room Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -330,34 +168,17 @@
                         "x": 859,
                         "y": 1983
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Fountain Room 2 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -365,34 +186,15 @@
                         "x": 1022,
                         "y": 1777
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Fountain Room 2 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -400,34 +202,15 @@
                         "x": 1094,
                         "y": 1677
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Hoohooros Room Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -435,34 +218,15 @@
                         "x": 1761,
                         "y": 2130
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Hoohooros Room Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -470,34 +234,17 @@
                         "x": 2097,
                         "y": 2129
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Hoohooros Room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -505,34 +252,17 @@
                         "x": 2128,
                         "y": 2292
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Hoohooros Room Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -540,34 +270,15 @@
                         "x": 2084,
                         "y": 2004
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain After Hoohooros Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -575,34 +286,15 @@
                         "x": 1897,
                         "y": 1525
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain After Hoohooros Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -610,34 +302,17 @@
                         "x": 2105,
                         "y": 1429
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain After Hoohooros Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -645,34 +320,15 @@
                         "x": 1728,
                         "y": 1525
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Past Hoohooros Connector Room Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -680,34 +336,17 @@
                         "x": 1401,
                         "y": 1282
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Past Hoohooros Connector Room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -715,34 +354,17 @@
                         "x": 1744,
                         "y": 1294
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Past Hoohooros Connector Room Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -750,34 +372,15 @@
                         "x": 1825,
                         "y": 1276
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Below Summit Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -785,34 +388,15 @@
                         "x": 1836,
                         "y": 910
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Below Summit Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -820,34 +404,15 @@
                         "x": 1236,
                         "y": 711
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Below Summit Block 3",
+                "sections": [
+                    {
+                        "name": "Block 3"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -855,34 +420,17 @@
                         "x": 1284,
                         "y": 711
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Below Summit Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -890,34 +438,17 @@
                         "x": 1481,
                         "y": 891
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Summit Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -925,67 +456,22 @@
                         "x": 836,
                         "y": 120
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Dragohoho",
-                "chest_unopened_img": "images/items/boss_dragohoho.png",
-                "chest_opened_img": "images/items/boss_dragohoho_defeated.png",
-                "color": "#FFFFFF",
+                "sections": [
+                    {
+                        "name": "Dragohoho",
+                        "hosted_item": "dragohoho"
+                    }
+                ],
                 "map_locations":
                 [
                     {
                         "map": "hoohoo_mountain",
                         "x": 980,
                         "y": 263
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Dragohoho",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
                     }
                 ]
             }

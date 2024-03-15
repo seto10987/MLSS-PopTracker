@@ -1,17 +1,17 @@
 [
     {
         "name": "Deep Chucklehuck Woods",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "access_rules": 
-            [
-                "keybrooch"
-            ],
-        "color": "#FFFFFF",
+        "access_rules": ["keybrooch"],
         "children": 
         [
             {
                 "name": "Chucklehuck Woods Room 7 Block 1",
+                "access_rules": ["hammer1"],
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -19,34 +19,16 @@
                         "x": 2108,
                         "y": 937
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer1"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Chucklehuck Woods Room 7 Block 2",
+                "access_rules": ["hammer1"],
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -54,34 +36,17 @@
                         "x": 2092,
                         "y": 1010
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer1"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 7 Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -89,34 +54,17 @@
                         "x": 2035,
                         "y": 974
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 7 Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -124,34 +72,17 @@
                         "x": 2147,
                         "y": 957
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 7 Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "access_rules": ["hammer1"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -159,34 +90,17 @@
                         "x": 2043,
                         "y": 1010
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    "hammer1"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Room 8 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -194,34 +108,17 @@
                         "x": 1357,
                         "y": 1213
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods East of Chuckleroot Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -229,34 +126,17 @@
                         "x": 1537,
                         "y": 635
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1 (Under Rock)",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -264,34 +144,17 @@
                         "x": 1553,
                         "y": 201
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1 (Under Rock)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2 (Under Rock)",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -299,34 +162,17 @@
                         "x": 1585,
                         "y": 152
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2 (Under Rock)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 3",
+                "sections": [
+                    {
+                        "name": "Digspot 3 (Under Rock)",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -334,34 +180,17 @@
                         "x": 1633,
                         "y": 216
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 3 (Under Rock)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Northeast of Chuckleroot Digspot 4",
+                "sections": [
+                    {
+                        "name": "Digspot 4 (Under Rock)",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -369,34 +198,17 @@
                         "x": 1681,
                         "y": 184
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 4 (Under Rock)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods White Fruit Room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -404,34 +216,18 @@
                         "x": 1843,
                         "y": 584
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods White Fruit Room Digspot 2",
+                "access_rules": ["$CANMINI"],
+                "sections": [
+                    {
+                        "name": "Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -439,34 +235,19 @@
                         "x": 2003,
                         "y": 296
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANMINI"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods White Fruit Room Digspot 3",
+                "access_rules": ["$CANMINI"],
+                "sections":  
+                [
+                    {
+                        "name": "Digspot 3 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -474,34 +255,16 @@
                         "x": 2051,
                         "y": 151
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANMINI"
-                ],
-                "sections":  
-                [
-                    {
-                        "name": "Digspot 3 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods White Chuckola Fruit",
+                "access_rules": ["$CANMINI, $CANDIG"],
+                "sections": [
+                    {
+                        "name": "White Chuckola Fruit"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -509,34 +272,15 @@
                         "x": 1836,
                         "y": 109
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANMINI, $CANDIG"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "White Chuckola Fruit",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods West of Chuckleroot Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -544,34 +288,16 @@
                         "x": 659,
                         "y": 429
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Red Chuckola Fruit",
+                "access_rules": ["$CANMINI"],
+                "sections": [
+                    {
+                        "name": "Red Chuckola Fruit"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -579,34 +305,17 @@
                         "x": 248,
                         "y": 1433
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "$CANMINI"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Red Chuckola Fruit",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Wiggler room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -614,34 +323,17 @@
                         "x": 408,
                         "y": 1744
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Wiggler room Digspot 2",
+                "sections": [
+                    {
+                        "name": "Digspot 2 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -649,34 +341,15 @@
                         "x": 88,
                         "y": 1504
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Southwest of Chuckleroot Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -684,34 +357,15 @@
                         "x": 795,
                         "y": 840
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 1 Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -719,34 +373,15 @@
                         "x": 619,
                         "y": 1515
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 1 Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -754,34 +389,16 @@
                         "x": 667,
                         "y": 1531
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 1 Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -789,34 +406,15 @@
                         "x": 570,
                         "y": 1531
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 2 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -824,34 +422,16 @@
                         "x": 1390,
                         "y": 1600
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 2 Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -859,34 +439,15 @@
                         "x": 1237,
                         "y": 1394
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 3 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -894,34 +455,16 @@
                         "x": 1553,
                         "y": 1595
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Cave Room 3 Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -929,64 +472,21 @@
                         "x": 1584,
                         "y": 1595
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Chucklehuck Woods Purple Chuckola Fruit",
+                "sections": [
+                    {
+                        "name": "Purple Chuckola Fruit"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
                         "map": "deep_chucklehuck_woods",
                         "x": 1832,
                         "y": 1483
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Purple Chuckola Fruit",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
                     }
                 ]
             }

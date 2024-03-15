@@ -1,13 +1,15 @@
 [
     {
         "name": "Hoohoo Mountain Base",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
         [
             {
                 "name":  "Hoohoo Mountain Base Room 1 Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -15,34 +17,17 @@
                         "x": 31,
                         "y": 60
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Room 1 Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -50,34 +35,18 @@
                         "x": 119,
                         "y": 184
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Minecart Cave Digspot",
+                "visibility_rules": ["minecarts_skip_off"],
+                "sections": [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -85,34 +54,15 @@
                         "x": 464,
                         "y": 1307
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "minecarts_skip_off"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base After Minecart Minigame Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -120,34 +70,15 @@
                         "x": 1051,
                         "y": 1612
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base After Minecart Minigame Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -155,34 +86,15 @@
                         "x": 1019,
                         "y": 1588
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Bridge Room Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -190,34 +102,15 @@
                         "x": 602,
                         "y": 888
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Bridge Room Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -225,34 +118,15 @@
                         "x": 666,
                         "y": 848
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Bridge Room Block 3",
+                "sections": [
+                    {
+                        "name": "Block 3"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -260,34 +134,15 @@
                         "x": 778,
                         "y": 890
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Bridge Room Block 4",
+                "sections": [
+                    {
+                        "name": "Block 4"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -295,34 +150,17 @@
                         "x": 843,
                         "y": 850
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 4",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Bridge Room Digspot",
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -330,34 +168,15 @@
                         "x": 907,
                         "y": 1054
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Grassy Area Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -365,34 +184,15 @@
                         "x": 1238,
                         "y": 1250
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Grassy Area Block 2",
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations":
                 [
                     {
@@ -400,34 +200,15 @@
                         "x": 1357,
                         "y": 1330
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boostatue Room Block 1",
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -435,34 +216,16 @@
                         "x": 1294,
                         "y": 774
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boostatue Room Block 2",
+                "access_rules": ["hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -470,34 +233,17 @@
                         "x": 1758,
                         "y": 807
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boostatue Room Digspot 1",
+                "sections": [
+                    {
+                        "name": "Digspot 1",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -505,34 +251,19 @@
                         "x": 1358,
                         "y": 859
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boostatue Room Digspot 2",
+                "access_rules": [
+                   "hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Digspot 2",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -540,34 +271,18 @@
                         "x": 1789,
                         "y": 779
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                   "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boostatue Room Digspot 3",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Digspot 3 (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -575,34 +290,16 @@
                         "x": 2126,
                         "y": 805
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot 3 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Village Super Hammer Cave Block",
+                "access_rules": ["hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -610,34 +307,18 @@
                         "x": 1344,
                         "y": 515
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Village Super Hammer Cave Digspot",
+                "access_rules": ["hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Digspot (Hidden)",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -645,34 +326,17 @@
                         "x": 1758,
                         "y": 425
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off"
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boo Statue Cave Coin Block 1",
+                "visibility_rules": ["coinblocks_on"],
+                "access_rules": ["hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Coin Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -680,34 +344,17 @@
                         "x": 1509,
                         "y": 378
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boo Statue Cave Coin Block 2",
+                "visibility_rules": ["coinblocks_on"],
+                "access_rules": ["hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Coin Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -715,34 +362,17 @@
                         "x": 1375,
                         "y": 515
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Mountain Base Boo Statue Cave Coin Block 3",
+                "visibility_rules": ["coinblocks_on"],
+                "access_rules": ["hammer2", "$CANCRASH"],
+                "sections": [
+                    {
+                        "name": "Coin Block 3"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -750,34 +380,15 @@
                         "x": 1701,
                         "y": 451
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    "hammer2", "$CANCRASH"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Village South Cave Block",
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -785,34 +396,16 @@
                         "x": 1937,
                         "y": 180
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Village South Cave Coin Block 1",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -820,34 +413,16 @@
                         "x": 1904,
                         "y": 180
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Hoohoo Village South Cave Coin Block 2",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -855,34 +430,18 @@
                         "x": 1968,
                         "y": 180
                     }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Guffawha Ruins Entrance Digspot",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -890,34 +449,16 @@
                         "x": 1534,
                         "y": 1278
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Past Ultra Hammer Rocks Block 1",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -925,34 +466,16 @@
                         "x": 1966,
                         "y": 1585
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Past Ultra Hammer Rocks Block 2",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Block 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -960,34 +483,16 @@
                         "x": 2014,
                         "y": 1585
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Past Ultra Hammer Rocks Block 3",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Block 3"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -995,34 +500,16 @@
                         "x": 2062,
                         "y": 1585
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Teehee Valley Entrance Block",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1030,34 +517,16 @@
                         "x": 1966,
                         "y": 1034
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Mole Near Teehee Valley",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Mole"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1065,64 +534,24 @@
                         "x": 2059,
                         "y": 1020
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Mole",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name":  "Hoohoo Mountain Base Teehee Valley Entrance Digspot",
+                "access_rules": ["hammer3"],
+                "sections": [
+                    {
+                        "name": "Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
                         "map": "hoohoo_mountainbase",
                         "x": 2109,
                         "y": 1054
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "hammer3"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Digspot",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            "disable_digspots_off", "disable_digspots_visible" 
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
                     }
                 ]
             }

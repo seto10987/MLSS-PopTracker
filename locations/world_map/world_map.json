@@ -1,8 +1,6 @@
 [
     {
         "name": "Stardust Fields",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "children": [
             {
                 "name": "Stardust Fields",
@@ -14,102 +12,72 @@
                         "y": 10
                     }
                 ],
-        "sections": 
-                [
+        "sections": [
                     {
-                        "name": "Stardust Fields 1 Block 1",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 1 Block 1"
                     },
                     {
-                        "name": "Stardust Fields 1 Block 2",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 1 Block 2"
                     },
                     {
-                        "name": "Stardust Fields 2 Block",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 2 Block"
                     },
                     {
                         "name": "Stardust Fields Room 2 Coin Block 1",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Stardust Fields Room 2 Coin Block 2",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Stardust Fields Room 2 Coin Block 3",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
-                        "name": "Stardust Fields 3 Block",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 3 Block"
                     },
                     {
                         "name": "Stardust Fields Room 3 Coin Block 1",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Stardust Fields Room 3 Coin Block 2",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
-                        "name": "Stardust Fields 4 Block 1",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 4 Block 1"
                     },
                     {
-                        "name": "Stardust Fields 4 Block 2",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 4 Block 2"
                     },
                     {
-                        "name": "Stardust Fields 4 Block 3",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 4 Block 3"
                     },
                     {
-                        "name": "Stardust Fields 5 Block",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Stardust Fields 5 Block"
                     },
                     {
                         "name": "Stardust Fields Room 5 Coin Block 1",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Stardust Fields Room 5 Coin Block 2",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Stardust Fields Room 7 Coin Block 1",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Stardust Fields Room 7 Coin Block 2",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
-                        "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 1",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 1"
                     },
                     {
-                        "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 2",
-                        "visibility_rules": [""],
-                        "access_rules": [""]
+                        "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 2"
                     }
                 ]
             }
@@ -117,9 +85,6 @@
     },
     {
         "name": "Hoohoo Village",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -132,8 +97,7 @@
                             "y": 28
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name":  "Hoohoo Village Right Side Block"
                     },
@@ -168,8 +132,7 @@
                     },
                     {
                         "name": "Hoohoo Village Bridge Room Coin Block 1",
-                        "visibility_rules": ["coinblocks_on"],
-                        "access_rules": [""]
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Hoohoo Village Bridge Room Coin Block 2",
@@ -193,9 +156,6 @@
     },
     {
         "name": "Hoohoo Mountain",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -208,8 +168,7 @@
                             "y": 28
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Hoohoo Mountain Room 1 Block 1"
                     },
@@ -316,8 +275,7 @@
                     },
                     {
                         "name": "Dragohoho",
-                        "chest_unopened_img": "images/items/boss_dragohoho.png",
-                        "chest_opened_img": "images/items/boss_dragohoho_defeated.png"
+                        "hosted_item": "dragohoho"
                     }
                 ]
             }
@@ -325,9 +283,6 @@
     },
     {
         "name": "Hoohoo Mountain Base",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -340,8 +295,7 @@
                             "y": 58
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name":  "Hoohoo Mountain Base Room 1 Block"
                     },                        {
@@ -476,9 +430,6 @@
     },
     {
         "name": "Outskirts Northwest",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -491,8 +442,7 @@
                             "y": 55
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Outskirts Entrance to Hoohoo Mountain Base Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
@@ -555,9 +505,6 @@
     },
     {
         "name": "Outskirts Southwest",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -570,8 +517,7 @@
                             "y": 124
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Outskirts SW Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
@@ -622,9 +568,6 @@
     },
     {
         "name": "Outskirts South",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -637,8 +580,7 @@
                             "y": 124
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Outskirts S Room 1 Block",
                         "access_rules": ["hammer3, handluigi"]
@@ -796,9 +738,8 @@
                     },
                     {
                         "name": "Mom Piranha",
-                        "chest_unopened_img": "images/items/boss_mompiranha.png",
-                        "chest_opened_img": "images/items/boss_mompiranha_defeated.png",
-                        "access_rules": ["handluigi"]
+                        "access_rules": ["handluigi"],
+                        "hosted_item": "mompiranha"
                     }  
                 ]
             }
@@ -806,9 +747,6 @@
     },
     {
         "name": "Outskirts Southeast",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -821,8 +759,7 @@
                             "y": 124
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Outskirts Bean Fruit 2",
                         "access_rules": ["$CANDIG"]
@@ -864,7 +801,8 @@
                         "name": "Outside Woohoo Hooniversity Block"
                     },
                     {
-                        "name": "Outside Woohoo Hooniversity Coin Block 1"
+                        "name": "Outside Woohoo Hooniversity Coin Block 1",
+                        "visibility_rules": ["coinblocks_on"]
                     },
                     {
                         "name": "Outside Woohoo Hooniversity Coin Block 2",
@@ -895,9 +833,6 @@
     },
     {
         "name": "Outskirts Northeast",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -910,8 +845,7 @@
                             "y": 55
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Outskirts E Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
@@ -1010,9 +944,6 @@
     },
     {
         "name": "Outskirts North",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1025,8 +956,7 @@
                             "y": 55
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Outskirts N Room 1 Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
@@ -1093,7 +1023,6 @@
                 "name": "Beanbean Castle Town",
                 "chest_unopened_img": "images/items/chest_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
-                "color": "#FFFFFF",
                 "children": 
                     [
                         {
@@ -1106,8 +1035,7 @@
                                     "y": 104
                                 }
                             ],
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Pants Shop Post-Queen Bean",
                         "access_rules": ["queenbean"],
@@ -1174,8 +1102,7 @@
                     },
                     {
                         "name": "Item Shop Post-Chuckolator",
-                        "access_rules": ["chuckolator", "mompiranha"],
-                        "item_count": 1
+                        "access_rules": ["chuckolator", "mompiranha"]
                     },
                     {
                         "name": "Item Shop Post-Mom Piranha",
@@ -1194,8 +1121,7 @@
                     },
                     {
                         "name": "Item Shop Post-Birdo",
-                        "access_rules": ["popple4"],
-                        "item_count": 1
+                        "access_rules": ["popple4"]
                     },
                     {
                         "name": "Coffee Shop Brew Reward 1",
@@ -1363,9 +1289,6 @@
     },
     {
         "name": "Beanbean Castle",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1378,8 +1301,7 @@
                             "y": 85
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Beanbean Castle Town Mini Mario Block 1",
                         "access_rules": ["$CANMINI"]
@@ -1402,13 +1324,13 @@
                     },
                     {
                         "name": "Queen Bean",
-                        "chest_unopened_img": "images/items/boss_queenbean.png",
-                        "chest_opened_img": "images/items/boss_queenbean_defeated.png",
-                        "access_rules": ["keyrose"]
+                        "access_rules": ["keyrose"],
+                        "hosted_item": "queenbean"
                     },
                     {
                         "name": "Queen Bean Beanstar Complete",
-                        "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"]
+                        "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],
+                        "hosted_item": "realbeanstar"
                     },
                     {
                         "name": "Queen Bean Fake Beanstar",
@@ -1424,10 +1346,7 @@
     },
     {
         "name": "Beanbean Castle Sewers",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["keyrose"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1440,8 +1359,7 @@
                             "y": 79
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Sewers Prison Room Block 1"
                     },
@@ -1481,10 +1399,7 @@
     },
     {
         "name": "Chateau De Chucklehuck",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["keybrooch"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1497,8 +1412,7 @@
                             "y": 110
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Chateau Room 1 Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
@@ -1547,10 +1461,7 @@
     },
     {
         "name": "Chucklehuck Woods",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["keybrooch"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1563,8 +1474,7 @@
                             "y": 123
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Chucklehuck Woods Room 1 Digspot",
                         "visibility_rules": ["disable_digspots_off"],
@@ -1673,10 +1583,7 @@
     },
     {
         "name": "Deep Chucklehuck Woods",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["keybrooch"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1689,8 +1596,7 @@
                             "y": 108
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Chucklehuck Woods Room 7 Block 1",
                         "access_rules": ["hammer1"]
@@ -1816,10 +1722,7 @@
     },
     {
         "name": "Chuckolator",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$FRUITS"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1832,8 +1735,7 @@
                             "y": 96
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Chucklehuck Woods After Chuckleroot Block 1"
                     },
@@ -1858,8 +1760,7 @@
                     },
                     {
                         "name": "Chuckolator",
-                        "chest_unopened_img": "images/items/boss_chuckolator.png",
-                        "chest_opened_img": "images/items/boss_chuckolator_defeated.png"
+                        "hosted_item": "chuckolator"
                     }
                 ]
             }
@@ -1867,9 +1768,6 @@
     },
     {
         "name": "Woohoo Hooniversity",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -1882,8 +1780,7 @@
                             "y": 135
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Woohoo Hooniversity Star Room Block 1"
                     },
@@ -2031,10 +1928,7 @@
     },
     {
         "name": "Woohoo Hooniversity Back",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$CANGOBLETS"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2047,8 +1941,7 @@
                             "y": 123
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Woohoo Hooniversity Past Sun Door Block 1"
                     },
@@ -2094,7 +1987,8 @@
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"]
                     },
                     {
-                        "name": "Popple 2"
+                        "name": "Popple 2",
+                        "hosted_item": "popple2"
                     }
                 ]
             }
@@ -2102,10 +1996,7 @@
     },
     {
         "name": "Oho Oasis",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["popple2", "$SSSINK"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2118,8 +2009,7 @@
                             "y": 86
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Oho Oasis Fire Palace Block"
                     },
@@ -2142,10 +2032,7 @@
     },
     {
         "name": "Oho Seabed",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["popple2", "$SSSINK", "$OCEAN"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2158,8 +2045,7 @@
                             "y": 86
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Oho Ocean Spike Room Digspot 1",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
@@ -2251,10 +2137,7 @@
     },
     {
         "name": "Gwarhar Lagoon North",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$SSSINK", "$OCEAN"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2267,8 +2150,7 @@
                             "y": 140
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Gwarhar Lagoon Pipe Room Digspot",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
@@ -2281,11 +2163,11 @@
                     },
                     {
                         "name": "Gwarhar Lagoon Green Pearl Bean",
-                        "access_rules": ["handluigi"]
+                        "access_rules": ["handluigi, handmario"]
                     },
                     {
                         "name": "Gwarhar Lagoon Red Pearl Bean",
-                        "access_rules": ["handluigi"]
+                        "access_rules": ["handluigi, handmario"]
                     },
                     {
                         "name": "Gwarhar Lagoon First Underwater Area Room 1 Block",
@@ -2315,10 +2197,7 @@
     },
     {
         "name": "Gwarhar Lagoon South",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$CANPEARL,$SSSINK", "$CANPEARL,$OCEAN"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2331,8 +2210,7 @@
                             "y": 150
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Gwarhar Lagoon North of Spangle Room Digspot",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
@@ -2423,11 +2301,8 @@
         ]
     },
     {
-        "name": "Oho Ocean",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",        
+        "name": "Oho Ocean",        
         "access_rules": ["$OCEAN"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2440,8 +2315,7 @@
                             "y": 100
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "North Ocean Whirlpool Mole"
                     },
@@ -2455,10 +2329,7 @@
     },
     {
         "name": "Teehee Valley",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["hammer2","$CANDASH"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2471,8 +2342,7 @@
                             "y": 34
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Teehee Valley Room 1 Digspot 1",
                         "visibility_rules": ["disable_digspots_off"],
@@ -2582,9 +2452,8 @@
                     },
                     {
                         "name": "Popple 4",
-                        "chest_unopened_img": "images/items/boss_popple4.png",
-                        "chest_opened_img": "images/items/boss_popple4_defeated.png",
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"],
+                        "hosted_item": "popple4"
                     }
                 ]
             }
@@ -2592,10 +2461,7 @@
     },
     {
         "name": "S.S. Chuckola",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$SSACCESS"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2608,8 +2474,7 @@
                             "y": 51
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "S.S Chuckola Membership Card"
                     },
@@ -2633,10 +2498,7 @@
     },
     {
         "name": "Little Fungitown",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$ACCESSFUNGITOWN"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2649,8 +2511,7 @@
                             "y": 16
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Fungitown Entrance Room Block"
                     },
@@ -2698,7 +2559,8 @@
                         "name": "Fungitown Embassy Room Block"
                     },
                     {
-                        "name": "Peach Kidnapped"
+                        "name": "Entered Fungitown",
+                        "hosted_item": "kidnapped"
                     }
                 ]
             }
@@ -2706,10 +2568,7 @@
     },
     {
         "name": "Joke's End 1",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$ACCESSJOKES"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2722,8 +2581,7 @@
                             "y": 47
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Joke's End Pipe Digspot",
                         "visibility_rules": ["disable_digspots_off"],
@@ -2817,10 +2675,7 @@
     },
     {
         "name": "Joke's End 2",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$ACCESSJOKES,$CANDIG,$CANCRASH,handmario"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2833,8 +2688,7 @@
                             "y": 37
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Joke's End Second Floor East Room Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
@@ -2902,10 +2756,7 @@
     },
     {
         "name": "Joke's End 3",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "access_rules": ["$ACCESSJOKES,$CANDIG,$CANCRASH,handmario"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2918,8 +2769,7 @@
                             "y": 27
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Joke's End Before Jojora Room Block 1"
                     },
@@ -2937,9 +2787,8 @@
                     },
                     {
                         "name": "Jojora",
-                        "chest_unopened_img": "images/items/boss_jojira.png",
-                        "chest_opened_img": "images/items/boss_jojira_defeated.png",
-                        "access_rules": ["$CANDASH"]
+                        "access_rules": ["$CANDASH"],
+                        "hosted_item": "jojora"
                     }
                 ]
             }
@@ -2947,11 +2796,8 @@
     },
     {
         "name": "Bowser's Castle",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
         "visibility_rules": ["bowsers_skip_off"],
         "access_rules": ["$BOWSERACCESS"],
-        "color": "#FFFFFF",
         "children": 
             [
                 {
@@ -2964,8 +2810,7 @@
                             "y": 15
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Bowser's Castle Entrance Block 1"
                     },
@@ -3022,9 +2867,6 @@
     },
     {
         "name": "Bowser's Castle Children",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "visibility_rules": ["bowsers_skip_off"],
         "access_rules": ["$BOWSERACCESS"],
         "children": 
@@ -3039,8 +2881,7 @@
                             "y": 15
                         }
                     ],
-        "sections": 
-                [
+        "sections": [
                     {
                         "name": "Bowser's Castle Morton Room 1 Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]

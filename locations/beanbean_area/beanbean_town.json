@@ -1,13 +1,48 @@
 [
     {
         "name": "Beanbean Castle Town",
-        "chest_unopened_img": "images/items/chest_x.png",
-        "chest_opened_img": "images/items/chest_o.png",
-        "color": "#FFFFFF",
         "children": 
         [
             {
                 "name": "Pants Shop",
+                "sections": [
+                    {
+                        "name": "Post-Queen Bean",
+                        "clear_as_group": false,
+                        "access_rules": ["queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Post-Chuckolator",
+                        "clear_as_group": false,
+                        "access_rules": ["chuckolator, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Post-Mom Piranha",
+                        "clear_as_group": false,
+                        "access_rules": ["mompiranha, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Post-Peach Kidnapped",
+                        "clear_as_group": false,
+                        "access_rules": ["kidnapped, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Post-Beanstar Complete",
+                        "clear_as_group": false,
+                        "access_rules": ["realbeanstar, queenbean"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Post-Birdo",
+                        "clear_as_group": false,
+                        "access_rules": ["popple4, queenbean"],
+                        "item_count": 3
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -15,99 +50,48 @@
                         "x": 495,
                         "y": 1107
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
+                ]
+            },
+            {
+                "name": "Badge Shop",
+                "sections": [
                     {
                         "name": "Post-Queen Bean",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "queenbean"
-                        ],
-                        "item_count": 3
+                        "access_rules": ["queenbean"],
+                        "item_count": 2
                     },
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "chuckolator, queenbean"
-                        ],
+                        "access_rules": ["chuckolator, queenbean"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "mompiranha, queenbean"
-                        ],
+                        "access_rules": ["mompiranha, queenbean"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Peach Kidnapped",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "kidnapped, queenbean"
-                        ],
+                        "access_rules": ["kidnapped, queenbean"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "realbeanstar, queenbean"
-                        ],
+                        "access_rules": ["realbeanstar, queenbean"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "popple4, queenbean"
-                        ],
+                        "access_rules": ["popple4, queenbean"],
                         "item_count": 3
                     }
-                ]
-            },
-            {
-                "name": "Badge Shop",
+                ],
                 "map_locations": 
                 [
                     {
@@ -115,99 +99,45 @@
                         "x": 537,
                         "y": 1107
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
+                ]
+            },
+            {
+                "name": "Item Shop",
+                "sections": [
                     {
-                        "name": "Post-Queen Bean",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "queenbean"
-                        ],
-                        "item_count": 2
-                    },
+                        "name": "Item Shop Starting",
+                        "clear_as_group": false,,
+                        "item_count": 3
+                    }, 
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "chuckolator, queenbean"
-                        ],
-                        "item_count": 3
+                        "access_rules": ["chuckolator", "mompiranha"]
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "mompiranha, queenbean"
-                        ],
-                        "item_count": 3
+                        "access_rules": ["mompiranha"],
+                        "item_count": 4
                     },
                     {
                         "name": "Post-Peach Kidnapped",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "kidnapped, queenbean"
-                        ],
-                        "item_count": 3
+                        "access_rules": ["kidnapped"],
+                        "item_count": 2
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "realbeanstar, queenbean"
-                        ],
+                        "access_rules": ["realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "popple4, queenbean"
-                        ],
-                        "item_count": 3
+                        "access_rules": ["popple4"]
                     }
-                ]
-            },
-            {
-                "name": "Item Shop",
+                ],
                 "map_locations": 
                 [
                     {
@@ -215,99 +145,55 @@
                         "x": 1089,
                         "y": 1192
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Item Shop Starting",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 3
-                    }, 
-                    {
-                        "name": "Post-Chuckolator",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "chuckolator", "mompiranha"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Post-Mom Piranha",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "mompiranha"
-                        ],
-                        "item_count": 4
-                    },
-                    {
-                        "name": "Post-Peach Kidnapped",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "kidnapped"
-                        ],
-                        "item_count": 2
-                    },
-                    {
-                        "name": "Post-Beanstar Complete",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "realbeanstar"
-                        ],
-                        "item_count": 3
-                    },
-                    {
-                        "name": "Post-Birdo",
-                        "clear_as_group": false,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "popple4"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Coffee Shop",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Brew Reward 1"
+                    },
+                    {
+                        "name": "Brew Reward 2"
+                    },
+                    {
+                        "name": "Brew Reward 3"
+                    },
+                    {
+                        "name": "Brew Reward 4"
+                    },
+                    {
+                        "name": "Brew Reward 5"
+                    },
+                    {
+                        "name": "Brew Reward 6"
+                    },
+                    {
+                        "name": "Brew Reward 7"
+                    },
+                    {
+                        "name": "Woohoo Blend"
+                    },
+                    {
+                        "name": "Hoohoo Blend"
+                    },
+                    {
+                        "name": "Chuckle Blend"
+                    },
+                    {
+                        "name": "Teehee Blend"
+                    },
+                    {
+                        "name": "Hoolumbian"
+                    },
+                    {
+                        "name": "Chuckoccino"
+                    },
+                    {
+                        "name": "Teeheespresso"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -315,203 +201,25 @@
                         "x": 336,
                         "y": 933
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Brew Reward 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brew Reward 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brew Reward 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brew Reward 4",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brew Reward 5",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brew Reward 6",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brew Reward 7",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Woohoo Blend",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hoohoo Blend",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chuckle Blend",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Teehee Blend",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hoolumbian",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chuckoccino",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Teeheespresso",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Left Side House Blocks",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Block 1 (Hidden)"
+                    },
+                    {
+                        "name": "Block 2 (Hidden)"
+                    },
+                    {
+                        "name": "Block 3 (Hidden)"
+                    },
+                    {
+                        "name": "Block 4"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -519,73 +227,25 @@
                         "x": 576,
                         "y": 1344
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Block 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Block 3 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Block 4",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Right Side House Blocks",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Block 1"
+                    },
+                    {
+                        "name": "Block 2"
+                    },
+                    {
+                        "name": "Block 3"
+                    },
+                    {
+                        "name": "Block 4"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -594,73 +254,17 @@
                         "y": 1009
                         
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Block 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Block 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Block 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Block 4",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 1",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 1 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -668,34 +272,17 @@
                         "x": 441,
                         "y": 1069
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 1 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 2",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 2 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -703,34 +290,17 @@
                         "x": 533,
                         "y": 1166
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 2 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 3",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 3 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -738,34 +308,17 @@
                         "x": 391,
                         "y": 1145
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 3 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 4",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 4 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -773,34 +326,17 @@
                         "x": 328,
                         "y": 1388
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 4 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 5",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 5 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -808,34 +344,17 @@
                         "x": 54,
                         "y": 1388
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 5 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 6",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 6 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -843,34 +362,17 @@
                         "x": 970,
                         "y": 1037
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 6 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 7",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 7 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -878,34 +380,17 @@
                         "x": 804,
                         "y": 1029
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 7 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 8",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 8 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -913,34 +398,17 @@
                         "x": 780,
                         "y": 1421
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 8 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 9",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 9 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -948,34 +416,17 @@
                         "x": 1129,
                         "y": 1368
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 9 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone 10",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone 10 (Hidden)",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -983,34 +434,17 @@
                         "x": 1290,
                         "y": 1133
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone 10 (Hidden)",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanstone Reward",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanstone Reward",
+                        "access_rules": ["$CANDIG"]
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1018,34 +452,16 @@
                         "x": 528,
                         "y": 1396
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanstone Reward",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "$CANDIG"
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanlet 1",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanlet 1"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1053,34 +469,16 @@
                         "x": 591,
                         "y": 1264
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanlet 1",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanlet 2",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanlet 2"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1088,34 +486,16 @@
                         "x": 41,
                         "y": 975
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanlet 2",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanlet 3",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanlet 3"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1123,34 +503,16 @@
                         "x": 130,
                         "y": 1283
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanlet 3",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanlet 4",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanlet 4"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1158,34 +520,16 @@
                         "x": 1377,
                         "y": 1039
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanlet 4",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanlet 5",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanlet 5"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1193,34 +537,16 @@
                         "x": 1082,
                         "y": 911
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanlet 5",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Beanlet Reward",
+                "access_rules": ["chuckolator"],
+                "sections": [
+                    {
+                        "name": "Beanlet Reward"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
@@ -1228,64 +554,22 @@
                         "x": 1074,
                         "y": 1273
                     }
-                ],
-                "visibility_rules": 
-                [
-                    ""
-                ],
-                "access_rules": 
-                [
-                    "chuckolator"
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Beanlet Reward",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    }
                 ]
             },
             {
                 "name": "Beanbean Castle Town Passport Photo Room Coin Block",
+                "visibility_rules": ["coinblocks_on"],
+                "sections": [
+                    {
+                        "name": "Coin Block"
+                    }
+                ],
                 "map_locations": 
                 [
                     {
                         "map": "beanbean_town",
                         "x": 1027,
                         "y": 390
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "coinblocks_on"
-                ],
-                "access_rules": 
-                [
-                    ""
-                ],
-                "sections": 
-                [
-                    {
-                        "name": "Coin Block",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
                     }
                 ]
             }
