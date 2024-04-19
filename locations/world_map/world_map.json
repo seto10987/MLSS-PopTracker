@@ -653,12 +653,12 @@
                     },
                     {
                         "name": "Airport Entrance Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
                         "name": "Airport Lobby Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
@@ -683,7 +683,7 @@
                     },
                     {
                         "name": "Airport Right Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
@@ -708,7 +708,7 @@
                     },
                     {
                         "name": "Airport Middle Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
@@ -733,7 +733,7 @@
                     },
                     {
                         "name": "Airport Leftside Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
@@ -1841,7 +1841,7 @@
                     },
                     {
                         "name": "Woohoo Hooniversity Entrance to Mini Mario Room Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -1897,7 +1897,7 @@
                     },
                     {
                         "name": "Woohoo Hooniversity Barrel Puzzle Entrance Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANGOBLETS"]
                     },
                     {
@@ -2053,7 +2053,7 @@
                     },
                     {
                         "name": "Oho Ocean Spike Room Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -2088,7 +2088,7 @@
                     },
                     {
                         "name": "Ocean North Whirlpool Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$OCEAN,$CANDIG"]
                     },
                     {
@@ -2247,7 +2247,7 @@
                     },
                     {
                         "name": "Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -2271,7 +2271,7 @@
                     },
                     {
                         "name": "Gwarhar Lagoon Fire Dash Puzzle Room 1 Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -2742,7 +2742,8 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
-                        "name": "Joke's End Second Boiler Room Digspot 2"
+                        "name": "Joke's End Second Boiler Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"]
                     },
                     {
                         "name": "Joke's End North of Second Boiler Room Block 1"
@@ -2828,7 +2829,8 @@
                         "name": "Bowser's Castle Iggy & Morton Hallway Block 2"
                     },
                     {
-                        "name": "Bowser's Castle Iggy & Morton Hallway Digspot"
+                        "name": "Bowser's Castle Iggy & Morton Hallway Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
                         "name": "Bowser's Castle After Morton Block"

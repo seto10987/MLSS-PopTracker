@@ -585,7 +585,7 @@
                 "sections": [
                     {
                         "name": "Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     }
                 ],
