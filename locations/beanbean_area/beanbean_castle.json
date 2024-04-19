@@ -93,6 +93,9 @@
                 "access_rules": ["keyrose"],
                 "sections": [
                     {
+                        "name": "Beanbean Brooch"
+                    },
+                    {
                         "name": "Queen Bean",
                         "hosted_item": "queenbean"
                     }
