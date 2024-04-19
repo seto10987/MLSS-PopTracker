@@ -483,7 +483,7 @@ LOCATION_MAPPING =
     --Beanbean Castle Town Beanstone 8
     [2430915] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 8/Beanstone 8 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 8"},
     --Beanbean Castle Town Beanstone 9
-    [2431009] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 9/Beanstone 9 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 9"},
+    [2431007] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 9/Beanstone 9 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 9"},
     --Beanbean Castle Town Beanstone 10
     [2431099] = {"@Beanbean Castle Town/Beanbean Castle Town Beanstone 10/Beanstone 10 (Hidden)","@Beanbean Castle Town/Beanbean Castle Town/Beanbean Castle Town Beanstone 10"},
     --Coffee Shop Brew Reward 1
