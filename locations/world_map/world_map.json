@@ -2840,32 +2840,41 @@
                         "name": "Bowser's Castle After Morton Block"
                     },
                     {
-                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 1"
+                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 2"
+                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Roy Corridor Block 1"
+                        "name": "Bowser's Castle Roy Corridor Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Roy Corridor Block 2"
+                        "name": "Bowser's Castle Roy Corridor Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Wendy & Larry Hallway Digspot",
+                        "access_rules": ["$CANMINI"],
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
-                        "name": "Bowser's Castle Before Fawful Fight Block 1"
+                        "name": "Bowser's Castle Before Fawful Fight Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Before Fawful Fight Block 2"
+                        "name": "Bowser's Castle Before Fawful Fight Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Great Door Block 1"
+                        "name": "Bowser's Castle Great Door Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Great Door Block 2"
+                        "name": "Bowser's Castle Great Door Block 2",
+                        "access_rules": ["$CANMINI"]
                     }
                 ]
             }
@@ -2906,25 +2915,32 @@
                         "name": "Bowser's Castle Ludwig Room 1 Block"
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Maze Block 1"
+                        "name": "Bowser's Castle Mini Mario Maze Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Maze Block 2"
+                        "name": "Bowser's Castle Mini Mario Maze Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Sidescroller Block 1"
+                        "name": "Bowser's Castle Mini Mario Sidescroller Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Sidescroller Block 2"
+                        "name": "Bowser's Castle Mini Mario Sidescroller Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Before Wendy Fight Block 1"
+                        "name": "Bowser's Castle Before Wendy Fight Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Before Wendy Fight Block 2"
+                        "name": "Bowser's Castle Before Wendy Fight Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Larry Room Block",
+                        "access_rules": ["$CANMINI"],
                         "visibility_rules": ["disable_digspots_off"]
                     }
                 ]
