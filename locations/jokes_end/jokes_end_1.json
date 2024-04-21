@@ -201,7 +201,7 @@
                 ]
             },
             {
-                "name": "Jokes End Second Floor West Room Coin Block",
+                "name": "Joke's End Second Floor West Room Coin Block",
                 "visibility_rules": ["coinblocks_on"],
                 "access_rules": ["handmario"],
                 "sections": [

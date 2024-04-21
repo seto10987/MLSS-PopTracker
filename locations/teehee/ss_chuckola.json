@@ -5,7 +5,7 @@
         "children": 
         [
             {
-                "name": "S.S Chuckola Membership Card",
+                "name": "S.S. Chuckola Membership Card",
                 "sections": [
                     {
                         "name": "Membership Card"
@@ -21,7 +21,7 @@
                 ]
             },
             {
-                "name": "S.S Chuckola Storage Room Block 1",
+                "name": "S.S. Chuckola Storage Room Block 1",
                 "sections": [
                     {
                         "name": "Block 1"
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "name": "S.S Chuckola Storage Room Block 2",
+                "name": "S.S. Chuckola Storage Room Block 2",
                 "sections": [
                     {
                         "name": "Block 2"
@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "name": "S.S Chuckola Storage Room Coin Block 1",
+                "name": "S.S. Chuckola Storage Room Coin Block 1",
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
@@ -70,7 +70,7 @@
                 ]
             },
             {
-                "name": "S.S Chuckola Storage Room Coin Block 2",
+                "name": "S.S. Chuckola Storage Room Coin Block 2",
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {

@@ -2480,20 +2480,20 @@
                     ],
         "sections": [
                     {
-                        "name": "S.S Chuckola Membership Card"
+                        "name": "S.S. Chuckola Membership Card"
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Block 1"
+                        "name": "S.S. Chuckola Storage Room Block 1"
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Block 2"
+                        "name": "S.S. Chuckola Storage Room Block 2"
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Coin Block 1",
+                        "name": "S.S. Chuckola Storage Room Coin Block 1",
                         "visibility_rules": ["coinblocks_on"]
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Coin Block 2",
+                        "name": "S.S. Chuckola Storage Room Coin Block 2",
                         "visibility_rules": ["coinblocks_on"]
                     }
                 ]
@@ -2639,7 +2639,7 @@
                         "access_rules": ["handmario"]
                     },
                     {
-                        "name": "Jokes End Second Floor West Room Coin Block",
+                        "name": "Joke's End Second Floor West Room Coin Block",
                         "visibility_rules": ["coinblocks_on"],
                         "access_rules": ["handmario"]
                     },
@@ -2725,7 +2725,7 @@
                         "name": "Joke's End South of Bridge Room Block"
                     },
                     {
-                        "name": "Jokes End North of Bridge Room Coin Block",
+                        "name": "Joke's End North of Bridge Room Coin Block",
                         "visibility_rules": ["coinblocks_on"]
                     },
                     {
