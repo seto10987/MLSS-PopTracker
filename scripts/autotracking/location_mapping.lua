@@ -806,12 +806,12 @@ LOCATION_MAPPING =
     [3794400] = {"@Teehee Valley/Teehee Valley Solo Luigi Maze Room 1 Block/Block (Hidden)","@Teehee Valley/Teehee Valley/Teehee Valley Solo Luigi Maze Room 1 Block"},
     --Teehee Valley Before Trunkle Digspot
     [3794416] = {"@Teehee Valley/Teehee Valley Before Trunkle Digspot/Digspot (Hidden)","@Teehee Valley/Teehee Valley/Teehee Valley Before Trunkle Digspot"},
-    --S.S Chuckola Storage Room Block 1
-    [3794448] = {"@S.S. Chuckola/S.S Chuckola Storage Room Block 1/Block 1","@S.S. Chuckola/S.S. Chuckola/S.S Chuckola Storage Room Block 1"},
-    --S.S Chuckola Storage Room Block 2
-    [3794472] = {"@S.S. Chuckola/S.S Chuckola Storage Room Block 2/Block 2","@S.S. Chuckola/S.S. Chuckola/S.S Chuckola Storage Room Block 2"},
-    --S.S Chuckola Membership Card
-    [2491959] = {"@S.S. Chuckola/S.S Chuckola Membership Card/Membership Card","@S.S. Chuckola/S.S. Chuckola/S.S Chuckola Membership Card"},
+    --S.S. Chuckola Storage Room Block 1
+    [3794448] = {"@S.S. Chuckola/S.S. Chuckola Storage Room Block 1/Block 1","@S.S. Chuckola/S.S. Chuckola/S.S. Chuckola Storage Room Block 1"},
+    --S.S. Chuckola Storage Room Block 2
+    [3794472] = {"@S.S. Chuckola/S.S. Chuckola Storage Room Block 2/Block 2","@S.S. Chuckola/S.S. Chuckola/S.S. Chuckola Storage Room Block 2"},
+    --S.S. Chuckola Membership Card
+    [2491959] = {"@S.S. Chuckola/S.S. Chuckola Membership Card/Membership Card","@S.S. Chuckola/S.S. Chuckola/S.S. Chuckola Membership Card"},
     --Teehee Valley Trunkle Room Digspot
     [3794429] = {"@Teehee Valley/Teehee Valley Trunkle Room Digspot/Digspot (Hidden)","@Teehee Valley/Teehee Valley/Teehee Valley Trunkle Room Digspot"},
     --Fungitown Embassy Room Block
@@ -1192,14 +1192,14 @@ LOCATION_MAPPING =
     [3794005] = {"@Gwarhar Lagoon North/Gwarhar Lagoon First Underwater Area Room 2 Coin Block/Coin Block","@Gwarhar Lagoon North/Gwarhar Lagoon North/Gwarhar Lagoon First Underwater Area Room 2 Coin Block"},
     -- "Teehee Valley Past Ultra Hammer Rocks Coin Block": 3794312,
     [3794312] = {"@Teehee Valley/Teehee Valley Past Ultra Hammer Rocks Coin Block/Coin Block","@Teehee Valley/Teehee Valley/Teehee Valley Past Ultra Hammer Rocks Coin Block"},
-    -- "S.S Chuckola Storage Room Coin Block 1": 3794456,
-    [3794456] = {"@S.S. Chuckola/S.S Chuckola Storage Room Coin Block 1/Coin Block 1","@S.S. Chuckola/S.S. Chuckola/S.S Chuckola Storage Room Coin Block 1"},
-    -- "S.S Chuckola Storage Room Coin Block 2": 3794464,
-    [3794464] = {"@S.S. Chuckola/S.S Chuckola Storage Room Coin Block 2/Coin Block 2","@S.S. Chuckola/S.S. Chuckola/S.S Chuckola Storage Room Coin Block 2"},
+    -- "S.S. Chuckola Storage Room Coin Block 1": 3794456,
+    [3794456] = {"@S.S. Chuckola/S.S. Chuckola Storage Room Coin Block 1/Coin Block 1","@S.S. Chuckola/S.S. Chuckola/S.S. Chuckola Storage Room Coin Block 1"},
+    -- "S.S. Chuckola Storage Room Coin Block 2": 3794464,
+    [3794464] = {"@S.S. Chuckola/S.S. Chuckola Storage Room Coin Block 2/Coin Block 2","@S.S. Chuckola/S.S. Chuckola/S.S. Chuckola Storage Room Coin Block 2"},
     -- "Jokes End Second Floor West Room Coin Block": 3794801,
-    [3794801] = {"@Joke's End 1/Jokes End Second Floor West Room Coin Block/Coin Block","@Joke's End 1/Joke's End 1/Jokes End Second Floor West Room Coin Block"},
+    [3794801] = {"@Joke's End 1/Joke's End Second Floor West Room Coin Block/Coin Block","@Joke's End 1/Joke's End 1/Joke's End Second Floor West Room Coin Block"},
     -- "Jokes End North of Bridge Room Coin Block": 3794998,
-    [3794998] = {"@Joke's End 2/Jokes End North of Bridge Room Coin Block/Coin Block","@Joke's End 2/Joke's End 2/Jokes End North of Bridge Room Coin Block"},
+    [3794998] = {"@Joke's End 2/Joke's End North of Bridge Room Coin Block/Coin Block","@Joke's End 2/Joke's End 2/Joke's End North of Bridge Room Coin Block"},
     -- "Outside Woohoo Hooniversity Coin Block 1": 3795373,
     [3795373] = {"@Outskirts Southeast/Outside Woohoo Hooniversity Coin Block 1/Coin Block 1","@Outskirts Southeast/Outskirts Southeast/Outside Woohoo Hooniversity Coin Block 1"},
     -- "Outside Woohoo Hooniversity Coin Block 2": 3795389,
