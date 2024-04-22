@@ -653,62 +653,62 @@
                     },
                     {
                         "name": "Airport Entrance Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
                         "name": "Airport Lobby Digspot",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Rightside Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Right Digspot 1",
+                        "name": "Airport Rightside Digspot 2",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Right Digspot 2",
+                        "name": "Airport Rightside Digspot 3",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Right Digspot 3",
+                        "name": "Airport Rightside Digspot 4",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Right Digspot 4",
+                        "name": "Airport Rightside Digspot 5",
+                        "visibility_rules": ["disable_digspots_off"],
+                        "access_rules": ["handluigi,$CANDIG"]
+                    },
+                    {
+                        "name": "Airport Center Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Right Digspot 5",
+                        "name": "Airport Center Digspot 2",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Middle Digspot 1",
+                        "name": "Airport Center Digspot 3",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Middle Digspot 2",
+                        "name": "Airport Center Digspot 4",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
-                        "name": "Airport Middle Digspot 3",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["handluigi,$CANDIG"]
-                    },
-                    {
-                        "name": "Airport Middle Digspot 4",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["handluigi,$CANDIG"]
-                    },
-                    {
-                        "name": "Airport Middle Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "name": "Airport Center Digspot 5",
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
@@ -733,7 +733,7 @@
                     },
                     {
                         "name": "Airport Leftside Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["handluigi,$CANDIG"]
                     },
                     {
@@ -1323,6 +1323,10 @@
                         "access_rules": ["$CANMINI"]
                     },
                     {
+                        "name": "Beanbean Brooch",
+                        "access_rules": ["keyrose"]
+                    },
+                    {
                         "name": "Queen Bean",
                         "access_rules": ["keyrose"],
                         "hosted_item": "queenbean"
@@ -1841,7 +1845,7 @@
                     },
                     {
                         "name": "Woohoo Hooniversity Entrance to Mini Mario Room Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -1897,7 +1901,7 @@
                     },
                     {
                         "name": "Woohoo Hooniversity Barrel Puzzle Entrance Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANGOBLETS"]
                     },
                     {
@@ -2053,7 +2057,7 @@
                     },
                     {
                         "name": "Oho Ocean Spike Room Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -2088,7 +2092,7 @@
                     },
                     {
                         "name": "Ocean North Whirlpool Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$OCEAN,$CANDIG"]
                     },
                     {
@@ -2247,7 +2251,7 @@
                     },
                     {
                         "name": "Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -2271,7 +2275,7 @@
                     },
                     {
                         "name": "Gwarhar Lagoon Fire Dash Puzzle Room 1 Digspot 2",
-                        "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     },
                     {
@@ -2476,20 +2480,20 @@
                     ],
         "sections": [
                     {
-                        "name": "S.S Chuckola Membership Card"
+                        "name": "S.S. Chuckola Membership Card"
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Block 1"
+                        "name": "S.S. Chuckola Storage Room Block 1"
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Block 2"
+                        "name": "S.S. Chuckola Storage Room Block 2"
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Coin Block 1",
+                        "name": "S.S. Chuckola Storage Room Coin Block 1",
                         "visibility_rules": ["coinblocks_on"]
                     },
                     {
-                        "name": "S.S Chuckola Storage Room Coin Block 2",
+                        "name": "S.S. Chuckola Storage Room Coin Block 2",
                         "visibility_rules": ["coinblocks_on"]
                     }
                 ]
@@ -2635,7 +2639,7 @@
                         "access_rules": ["handmario"]
                     },
                     {
-                        "name": "Jokes End Second Floor West Room Coin Block",
+                        "name": "Joke's End Second Floor West Room Coin Block",
                         "visibility_rules": ["coinblocks_on"],
                         "access_rules": ["handmario"]
                     },
@@ -2721,7 +2725,7 @@
                         "name": "Joke's End South of Bridge Room Block"
                     },
                     {
-                        "name": "Jokes End North of Bridge Room Coin Block",
+                        "name": "Joke's End North of Bridge Room Coin Block",
                         "visibility_rules": ["coinblocks_on"]
                     },
                     {
@@ -2742,7 +2746,8 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
-                        "name": "Joke's End Second Boiler Room Digspot 2"
+                        "name": "Joke's End Second Boiler Room Digspot 2",
+                        "visibility_rules": ["disable_digspots_off"]
                     },
                     {
                         "name": "Joke's End North of Second Boiler Room Block 1"
@@ -2828,38 +2833,48 @@
                         "name": "Bowser's Castle Iggy & Morton Hallway Block 2"
                     },
                     {
-                        "name": "Bowser's Castle Iggy & Morton Hallway Digspot"
+                        "name": "Bowser's Castle Iggy & Morton Hallway Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
                         "name": "Bowser's Castle After Morton Block"
                     },
                     {
-                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 1"
+                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 2"
+                        "name": "Bowser's Castle Ludwig & Roy Hallway Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Roy Corridor Block 1"
+                        "name": "Bowser's Castle Roy Corridor Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Roy Corridor Block 2"
+                        "name": "Bowser's Castle Roy Corridor Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Wendy & Larry Hallway Digspot",
+                        "access_rules": ["$CANMINI"],
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
-                        "name": "Bowser's Castle Before Fawful Fight Block 1"
+                        "name": "Bowser's Castle Before Fawful Fight Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Before Fawful Fight Block 2"
+                        "name": "Bowser's Castle Before Fawful Fight Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Great Door Block 1"
+                        "name": "Bowser's Castle Great Door Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Great Door Block 2"
+                        "name": "Bowser's Castle Great Door Block 2",
+                        "access_rules": ["$CANMINI"]
                     }
                 ]
             }
@@ -2900,25 +2915,32 @@
                         "name": "Bowser's Castle Ludwig Room 1 Block"
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Maze Block 1"
+                        "name": "Bowser's Castle Mini Mario Maze Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Maze Block 2"
+                        "name": "Bowser's Castle Mini Mario Maze Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Sidescroller Block 1"
+                        "name": "Bowser's Castle Mini Mario Sidescroller Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Mini Mario Sidescroller Block 2"
+                        "name": "Bowser's Castle Mini Mario Sidescroller Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Before Wendy Fight Block 1"
+                        "name": "Bowser's Castle Before Wendy Fight Block 1",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
-                        "name": "Bowser's Castle Before Wendy Fight Block 2"
+                        "name": "Bowser's Castle Before Wendy Fight Block 2",
+                        "access_rules": ["$CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Larry Room Block",
+                        "access_rules": ["$CANMINI"],
                         "visibility_rules": ["disable_digspots_off"]
                     }
                 ]

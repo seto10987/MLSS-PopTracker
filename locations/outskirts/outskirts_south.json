@@ -314,7 +314,7 @@
                 ]
             },
             {
-                "name": "Airport Right Digspot 1",
+                "name": "Airport Rightside Digspot 1",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -333,7 +333,7 @@
                 ]
             },
             {
-                "name": "Airport Right Digspot 2",
+                "name": "Airport Rightside Digspot 2",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -352,7 +352,7 @@
                 ]
             },
             {
-                "name": "Airport Right Digspot 3",
+                "name": "Airport Rightside Digspot 3",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -371,7 +371,7 @@
                 ]
             },
             {
-                "name": "Airport Right Digspot 4",
+                "name": "Airport Rightside Digspot 4",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -390,7 +390,7 @@
                 ]
             },
             {
-                "name": "Airport Right Digspot 5",
+                "name": "Airport Rightside Digspot 5",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -409,7 +409,7 @@
                 ]
             },
             {
-                "name": "Airport Middle Digspot 1",
+                "name": "Airport Center Digspot 1",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -428,7 +428,7 @@
                 ]
             },
             {
-                "name": "Airport Middle Digspot 2",
+                "name": "Airport Center Digspot 2",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -447,7 +447,7 @@
                 ]
             },
             {
-                "name": "Airport Middle Digspot 3",
+                "name": "Airport Center Digspot 3",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -466,7 +466,7 @@
                 ]
             },
             {
-                "name": "Airport Middle Digspot 4",
+                "name": "Airport Center Digspot 4",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -485,7 +485,7 @@
                 ]
             },
             {
-                "name": "Airport Middle Digspot 5",
+                "name": "Airport Center Digspot 5",
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
@@ -585,7 +585,7 @@
                 "sections": [
                     {
                         "name": "Digspot 5",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"]
                     }
                 ],
