@@ -128,42 +128,49 @@
   {
     "name": "Bean Fruit 1",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/1fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit1"
   },
   {
     "name": "Bean Fruit 2",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/2fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit2"
   },
   {
     "name": "Bean Fruit 3",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/3fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit3"
   },
   {
     "name": "Bean Fruit 4",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/4fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit4"
   },
   {
     "name": "Bean Fruit 5",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/5fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit5"
   },
   {
     "name": "Bean Fruit 6",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/6fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit6"
   },
   {
     "name": "Bean Fruit 7",
     "type": "toggle",
+    "img_mods": "overlay|images/overlays/7fruit.png",
     "img": "images/items/key_beanfruit.png",
     "codes": "keybeanfruit7"
   },
@@ -323,11 +330,32 @@
     "img": "images/items/peach.png",
     "codes": "kidnapped"
   },
-        {
-    "name": "Beanstar Pieces",
-    "type": "consumable",
-    "img": "images/items/BeanstarPieces.png",
-    "codes": "beanstarpieces",
-    "max_quantity": 4
+  {
+    "name": "Beanstar Piece 1",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/1.png",
+    "img": "images/items/BeanstarPiece1.png",
+    "codes": "beanstarpiece1, beanstarpieces"
+  },
+  {
+    "name": "Beanstar Piece 2",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/2.png",
+    "img": "images/items/BeanstarPiece1.png",
+    "codes": "beanstarpiece2, beanstarpieces"
+  },
+  {
+    "name": "Beanstar Piece 3",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/3.png",
+    "img": "images/items/BeanstarPiece1.png",
+    "codes": "beanstarpiece3, beanstarpieces"
+  },
+  {
+    "name": "Beanstar Piece 4",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/4.png",
+    "img": "images/items/BeanstarPiece1.png",
+    "codes": "beanstarpiece4, beanstarpieces"
   }
 ]

@@ -1,16 +1,22 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+EVENT_ID = ""
+TABS_ID = ""
+
 
 function onClear(slot_data)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
-    end
+    
+    -- print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+    Archipelago:Get(data_storage_list)
+    print("data storage list", data_storage_list)
+        
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -76,12 +82,19 @@ function onClear(slot_data)
         if slot_data["Coins"] then
             Tracker:FindObjectForCode("coinblocks").CurrentStage = tonumber(slot_data["Coins"])
         end
+        if slot_data["DifficultLogic"] then
+            Tracker:FindObjectForCode("logic_level").CurrentStage = tonumber(slot_data["DifficultLogic"])
+        end
         
         if Archipelago.PlayerNumber>-1 then
-            EVENT_ID="mlss_room_"..TEAM_NUMBER.."_"..PLAYER_ID
-            print(string.format("SET NOTIFY %s",EVENT_ID))
+            updateEvents(0)
+            updateTabs(0)
+            EVENT_ID = "mlss_flag".."_"..TEAM_NUMBER.."_".. PLAYER_ID
+            TAB_ID = "mlss_room_"..TEAM_NUMBER.."_"..PLAYER_ID
             Archipelago:SetNotify({EVENT_ID})
             Archipelago:Get({EVENT_ID})
+            Archipelago:SetNotify({TAB_ID})
+            Archipelago:Get({TAB_ID})
         end
     
         Tracker:FindObjectForCode("tab_switch").Active = 1
@@ -194,19 +207,32 @@ function onBounce(json)
 end
 
 -- auto-map tab
+
 function onNotify(key, value, old_value)
-	updateEvents(value)
+	if value ~= old_value then
+		if key == TAB_ID then
+		  updateTabs(value)
+        end
+        if key == EVENT_ID then
+            updateEvents(value)
+		end
+	end
 end
 
 function onNotifyLaunch(key, value)
-	updateEvents(value)
-end
+    if key == TAB_ID then
+        updateTabs(value)
+      end
+      if key == EVENT_ID then
+          updateEvents(value)
+      end
+    end
 
 local lastRoomID = nil
 
-function updateEvents(value)
+function updateTabs(value)
     if value ~= nil then
-        print(string.format("updateEvents %x", value))
+        print(string.format("updateTabs %x", value))
         local tabswitch = Tracker:FindObjectForCode("tab_switch")
         Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
         if tabswitch.Active then
@@ -226,15 +252,29 @@ function updateEvents(value)
                         print(string.format("Failed to find tabs for ID %x", value))
                     end
                 else
-                    print(string.format("Failed to find ID %x", value))
+                    print(string.format("Failed to find Tab ID %x", value))
                 end
             else
-                print("Already in this room")
             end
         end
     end
 end
 
+function updateEvents(value)
+    if value ~= nil then
+      for _, event in pairs(EVENT_FLAG_MAPPING) do
+        for _, code in pairs(event.codes) do
+          if code.setting == nil or has(code.setting) then
+            if code.code == "harbor_mail" then
+              Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & event.bitmask ~= 0
+            else
+              Tracker:FindObjectForCode(code.code).Active = value & event.bitmask ~= 0
+            end
+          end
+        end
+      end
+    end
+  end
 
 -- add AP callbacks
 -- un-/comment as needed

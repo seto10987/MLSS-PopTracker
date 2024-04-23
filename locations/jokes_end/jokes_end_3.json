@@ -1,6 +1,6 @@
 [
     {
-        "name": "Joke's End 3",
+        "name": "Joke's End 3&#8203",
         "access_rules": ["$ACCESSJOKES, $CANDIG, $CANCRASH, handmario"],
         "children": 
         [

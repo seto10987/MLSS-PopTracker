@@ -1,6 +1,6 @@
 [
     {
-        "name": "Oho Oasis",
+        "name": "Oho Oasis&#8203",
         "access_rules": ["popple2", "$SSSINK"],
         "children": 
         [

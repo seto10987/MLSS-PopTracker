@@ -1,6 +1,6 @@
 [
     {
-        "name": "Joke's End 1",
+        "name": "Joke's End 1&#8203",
         "access_rules": ["$ACCESSJOKES"],
         "children": 
         [

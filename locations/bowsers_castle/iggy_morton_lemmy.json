@@ -1,6 +1,6 @@
 [
     {
-        "name": "Iggy-Morton-Lemmy",
+        "name": "Iggy-Morton-Lemmy&#8203",
         "visibility_rules": ["bowsers_skip_off"],
         "access_rules": ["$BOWSERACCESS"],
         "children": 

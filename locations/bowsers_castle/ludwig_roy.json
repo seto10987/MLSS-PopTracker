@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ludwig-Roy",
+        "name": "Ludwig-Roy&#8203",
         "visibility_rules": ["bowsers_skip_off"],
         "access_rules": ["$BOWSERACCESS"],
         "children": 

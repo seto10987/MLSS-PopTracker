@@ -1,45 +1,45 @@
 [
     {
-        "name": "Beanbean Castle Town",
+        "name": "Beanbean Castle Town&#8203",
         "children": 
         [
             {
                 "name": "Pants Shop",
+                "access_rules": ["keyrose","keybrooch"],
                 "sections": [
                     {
                         "name": "Post-Queen Bean",
                         "clear_as_group": false,
-                        "access_rules": ["queenbean"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "access_rules": ["chuckolator, queenbean"],
+                        "access_rules": ["chuckolator"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "access_rules": ["mompiranha, queenbean"],
+                        "access_rules": ["mompiranha"],
                         "item_count": 3
                     },
                     {
-                        "name": "Post-Peach Kidnapped",
+                        "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
-                        "access_rules": ["kidnapped, queenbean"],
+                        "access_rules": ["kidnapped"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
-                        "access_rules": ["realbeanstar, queenbean"],
+                        "access_rules": ["realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
-                        "access_rules": ["popple4, queenbean"],
+                        "access_rules": ["popple4"],
                         "item_count": 3
                     }
                 ],
@@ -54,41 +54,41 @@
             },
             {
                 "name": "Badge Shop",
+                "access_rules": ["keyrose","keybrooch"],
                 "sections": [
                     {
                         "name": "Post-Queen Bean",
                         "clear_as_group": false,
-                        "access_rules": ["queenbean"],
                         "item_count": 2
                     },
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "access_rules": ["chuckolator, queenbean"],
+                        "access_rules": ["chuckolator"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "access_rules": ["mompiranha, queenbean"],
+                        "access_rules": ["mompiranha"],
                         "item_count": 3
                     },
                     {
-                        "name": "Post-Peach Kidnapped",
+                        "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
-                        "access_rules": ["kidnapped, queenbean"],
+                        "access_rules": ["kidnapped"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
-                        "access_rules": ["realbeanstar, queenbean"],
+                        "access_rules": ["realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
-                        "access_rules": ["popple4, queenbean"],
+                        "access_rules": ["popple4"],
                         "item_count": 3
                     }
                 ],
@@ -103,10 +103,11 @@
             },
             {
                 "name": "Item Shop",
+                "access_rules": ["keyrose","keybrooch"],
                 "sections": [
                     {
                         "name": "Item Shop Starting",
-                        "clear_as_group": false,,
+                        "clear_as_group": false,
                         "item_count": 3
                     }, 
                     {
@@ -121,7 +122,7 @@
                         "item_count": 4
                     },
                     {
-                        "name": "Post-Peach Kidnapped",
+                        "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
                         "access_rules": ["kidnapped"],
                         "item_count": 2

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Oho Seabed",
+        "name": "Oho Seabed&#8203",
         "access_rules": ["popple2", "$SSSINK", "$OCEAN"],
         "children": 
         [

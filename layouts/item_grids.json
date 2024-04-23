@@ -5,16 +5,17 @@
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
+                "h_alignment": "center",
+                "item_size": "33",
                 "item_margin": "1,2",
                 "rows": [
-                    [ "hammer1", "keyfakestar", "keydress", "beanstarpieces", "keybeanfruit1", "keyblueegg"],
-                    [ "hammerbrosm", "handmario", "handbrosm", "whitefruit", "keybeanfruit2", "keyredegg" ],
-                    [ "hammerbrosl", "handluigi", "handbrosl", "redfruit", "keybeanfruit3", "keygreenegg"],
-                    [ "keyrose", "keybrooch", "keymember",	"purplefruit", "keybeanfruit4", "keyyellowegg"	 ],
-                    [ "keywinkle", "miscspangle", "miscgbsp", "miscwallet", "keybeanfruit5", "keypurpleegg" ],
-                    [ "miscnecktie", "miscgrip", "miscring", "miscspring", "keybeanfruit6", "keyorangeegg"],
-                    [ "miscforce",	 "scroll1", "scroll2", 	"miscmushbadge", "keybeanfruit7", "keyazureegg"	 ]
+                    [ "hammer1", "keyfakestar", "keydress", "beanstarpiece1", "keybeanfruit1", "keyblueegg"],
+                    [ "hammerbrosm", "handmario", "handbrosm", "beanstarpiece2", "keybeanfruit2", "keyredegg" ],
+                    [ "hammerbrosl", "handluigi", "handbrosl", "beanstarpiece3", "keybeanfruit3", "keygreenegg"],
+                    [ "keyrose", "keybrooch", "keymember", "beanstarpiece4", "keybeanfruit4", "keyyellowegg"],
+                    [ "keywinkle", "miscspangle", "miscmushbadge", "whitefruit", "keybeanfruit5", "keypurpleegg" ],
+                    [ "scroll1", "scroll2", "miscgbsp", "redfruit", "keybeanfruit6", "keyorangeegg"],
+                    [ "miscforce", "miscwallet", "miscring", "purplefruit", "keybeanfruit7", "keyazureegg"]
                 ]
             }
         ]
@@ -25,13 +26,13 @@
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
+                "h_alignment": "center",
                 "item_size": "39",
-                "item_margin": "1,2",
+                "item_margin": "1,10",
                 "rows": [
-                    [ "dragohoho", "", "queenbean", "", "chuckolator"],
-                    [ "popple2", "", "mompiranha", "", "kidnapped" ],
-                    [ "realbeanstar", "", "jojora", "", "popple4" ]
+                    [ "dragohoho", "", "chuckolator", "", "popple2"],
+                    [ "mompiranha", "", "kidnapped", "", "realbeanstar" ],
+                    [ "jojora", "", "popple4" ]
                 ]
             }
         ]
@@ -42,8 +43,8 @@
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
-                "item_size": "70",
+                "h_alignment": "center",
+                "item_size": "65",
                 "item_margin": "1,2",
                 "rows": [
                     ["", "tab_switch", ""]
@@ -57,12 +58,13 @@
         "content": [
             {
                 "type": "itemgrid",
-                "h_alignment": "left",
+                "h_alignment": "center",
                 "item_size": "39",
                 "item_margin": "1,2",
                 "rows": [
                     ["castle_skip", "coinblocks", "beanspots"],
-                    ["skip_minecart", "disable_surf", "harhall"]
+                    ["skip_minecart", "disable_surf", "harhall"],
+                    ["logic_level"]
                 ]
             }
         ]

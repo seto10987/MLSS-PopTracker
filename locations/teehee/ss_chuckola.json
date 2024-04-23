@@ -1,6 +1,6 @@
 [
     {
-        "name": "S.S. Chuckola",
+        "name": "S.S. Chuckola&#8203",
         "access_rules": ["$SSACCESS"],
         "children": 
         [

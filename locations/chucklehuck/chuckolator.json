@@ -1,6 +1,6 @@
 [
     {
-        "name": "Chuckolator Area",
+        "name": "Chuckolator Area&#8203",
         "access_rules": ["$FRUITS"],
 
         "children": 

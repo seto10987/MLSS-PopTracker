@@ -126,6 +126,26 @@
 		]
 	},
 	{
+		"name": "Logic Level",
+    	"codes": "logic_level",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/items/logic_normal.png",
+				"codes": "logic_normal",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/logic_hard.png",
+				"codes": "logic_hard",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
         "name": "Current Level",
         "type": "progressive",
         "img": "",

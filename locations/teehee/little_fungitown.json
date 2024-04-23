@@ -1,6 +1,6 @@
 [
     {
-        "name": "Little Fungitown",
+        "name": "Little Fungitown&#8203",
         "access_rules": ["$ACCESSFUNGITOWN"],
         "children": 
         [
