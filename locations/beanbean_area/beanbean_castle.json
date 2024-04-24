@@ -88,27 +88,27 @@
                     }
                 ]
             },
-            {
-                "name": "Queen Bean",
-                "access_rules": ["keyrose"],
-                "sections": [
-                    {
-                        "name": "Beanbean Brooch"
-                    },
-                    {
-                        "name": "Queen Bean",
-                        "hosted_item": "queenbean"
-                    }
-                ],
-                "map_locations": 
-                [
-                    {
-                        "map": "beanbean_castle",
-                        "x": 119,
-                        "y": 319
-                    }
-                ]
-            },
+            // {
+            //     "name": "Queen Bean",
+            //     "access_rules": ["keyrose"],
+            //     "sections": [
+            //         {
+            //             "name": "Beanbean Brooch"
+            //         },
+            //         {
+            //             "name": "Queen Bean",
+            //             "hosted_item": "queenbean"
+            //         }
+            //     ],
+            //     "map_locations": 
+            //     [
+            //         {
+            //             "map": "beanbean_castle",
+            //             "x": 119,
+            //             "y": 319
+            //         }
+            //     ]
+            // },
             {
                 "name": "Queen Bean Beanstar Complete",
                 "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],

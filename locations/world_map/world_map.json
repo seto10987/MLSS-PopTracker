@@ -1103,26 +1103,26 @@
                     },
                     {
                         "name": "Item Shop Post-Chuckolator",
-                        "access_rules": ["keyose, chuckolator","keybrooch, chuckolator"]
+                        "access_rules": ["chuckolator"]
                     },
                     {
                         "name": "Item Shop Post-Mom Piranha",
-                        "access_rules": ["keyrose, mompiranha","keybrooch, mompiranha"],
+                        "access_rules": ["mompiranha"],
                         "item_count": 4
                     },
                     {
                         "name": "Item Shop Post-Entered Fungitown",
-                        "access_rules": ["keyrose, kidnapped","keybrooch, kidnapped"],
+                        "access_rules": ["kidnapped"],
                         "item_count": 2
                     },
                     {
                         "name": "Item Shop Post-Beanstar Complete",
-                        "access_rules": ["keyrose, realbeanstar","keybrooch, realbeanstar"],
+                        "access_rules": ["realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Item Shop Post-Birdo",
-                        "access_rules": ["keyrose, popple4","keybrooch, popple4"]
+                        "access_rules": ["popple4"]
                     },
                     {
                         "name": "Coffee Shop Brew Reward 1",
@@ -1327,11 +1327,11 @@
                         "name": "Beanbean Brooch",
                         "access_rules": ["keyrose"]
                     },
-                    {
-                        "name": "Queen Bean",
-                        "access_rules": ["keyrose"],
-                        "hosted_item": "queenbean"
-                    },
+                    // {
+                    //     "name": "Queen Bean",
+                    //     "access_rules": ["keyrose"],
+                    //     "hosted_item": "queenbean"
+                    // },
                     {
                         "name": "Queen Bean Beanstar Complete",
                         "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],

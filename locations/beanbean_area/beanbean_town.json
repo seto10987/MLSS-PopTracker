@@ -103,7 +103,6 @@
             },
             {
                 "name": "Item Shop",
-                "access_rules": ["keyrose","keybrooch"],
                 "sections": [
                     {
                         "name": "Item Shop Starting",
