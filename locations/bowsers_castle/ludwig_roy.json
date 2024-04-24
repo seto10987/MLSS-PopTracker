@@ -2,7 +2,8 @@
     {
         "name": "Ludwig-Roy&#8203",
         "visibility_rules": ["bowsers_skip_off"],
-        "access_rules": ["$BOWSERACCESS"],
+        "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH",
+        "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard"],
         "children": 
         [
             {
@@ -23,6 +24,7 @@
             },
             {
                 "name": "Bowser's Castle Mini Mario Maze Block 1",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 1"
@@ -39,6 +41,7 @@
             },
             {
                 "name": "Bowser's Castle Mini Mario Maze Block 2",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 2"
@@ -55,6 +58,7 @@
             },
             {
                 "name": "Bowser's Castle Mini Mario Sidescroller Block 1",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 1"
@@ -71,6 +75,7 @@
             },
             {
                 "name": "Bowser's Castle Mini Mario Sidescroller Block 2",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 2"

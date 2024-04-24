@@ -2,7 +2,8 @@
     {
         "name": "Wendy-Larry&#8203",
         "visibility_rules": ["bowsers_skip_off"],
-        "access_rules": ["$BOWSERACCESS"],
+        "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH, handluigi, $CANMINI",
+        "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard, handluigi, $CANMINI"],
         "children": 
         [
             {

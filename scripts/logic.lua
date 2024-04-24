@@ -75,7 +75,8 @@ function ACCESSJOKES()
     return
     has ("$OCEAN") and has ("hammer3")
 end
+
 function BOWSERACCESS()
     return
-    has ("chuckolator") and has ("popple4") and has ("keyrose")
+    ACCESSJOKES() and CANDASH() and CANDIG() and has("realbeanstar") and has ("handmario") and has ("keydress") and has ("keyfakestar")
 end

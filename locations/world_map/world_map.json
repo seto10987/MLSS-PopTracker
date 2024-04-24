@@ -2202,7 +2202,8 @@
     },
     {
         "name": "Gwarhar Lagoon South",
-        "access_rules": ["$CANPEARL,$SSSINK", "$CANPEARL,$OCEAN"],
+        "access_rules": ["$CANPEARL, $SSSINK", "$CANPEARL, $OCEAN",
+        "$CANDASH, $CANCRASH, $SSSINK, logic_hard", "$CANDASH, $CANCRASH, $OCEANACCESS1, logic_hard"],
         "children": 
             [
                 {
@@ -2295,11 +2296,12 @@
                         "access_rules": ["$CANDIG"]
                     },
                     {
-                        "name": "Beanstar Piece Hermie"
+                        "name": "Beanstar Piece Hermie",
+                        "access_rules": ["$CANPEARL"]
                     },
                     {
                         "name": "Spangle Reward",
-                        "access_rules": ["miscspangle"]
+                        "access_rules": ["$CANPEARL, miscspangle"]
                     }
                 ]
             }
@@ -2394,7 +2396,8 @@
                     {
                         "name": "Teehee Valley Past Ultra Hammers Digspot 2",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                        "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                        "$BOWSERACCESS, logic_hard"]
                     },
                     {
                         "name": "Teehee Valley Past Ultra Hammers Digspot 3",
@@ -2438,26 +2441,31 @@
                     {
                         "name": "Teehee Valley Before Popple Digspot 1",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                        "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                        "$BOWSERACCESS, logic_hard"]
                     },
                     {
                         "name": "Teehee Valley Before Popple Digspot 2",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                        "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                        "$BOWSERACCESS, logic_hard"]
                     },
                     {
                         "name": "Teehee Valley Before Popple Digspot 3",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                        "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                        "$BOWSERACCESS, logic_hard"]
                     },
                     {
                         "name": "Teehee Valley Before Popple Digspot 4",
                         "visibility_rules": ["disable_digspots_off","disable_digspots_visible"],
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"]
+                        "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                        "$BOWSERACCESS, logic_hard"]
                     },
                     {
                         "name": "Popple 4",
-                        "access_rules": ["jojora,keyfakestar,keydress,realbeanstar"],
+                        "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                        "$BOWSERACCESS, logic_hard"],
                         "hosted_item": "popple4"
                     }
                 ]
@@ -2646,33 +2654,33 @@
                     },
                     {
                         "name": "Joke's End Northeast of Boiler Room 1 Block",
-                        "access_rules": ["$CANCRASH, handmario"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     },
                     {
                         "name": "Joke's End Northeast of Boiler Room 2 Block",
-                        "access_rules": ["$CANCRASH,handmario"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     },
                     {
                         "name": "Joke's End Northeast of Boiler Room 2 Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible" ],
-                        "access_rules": ["$CANCRASH,handmario,$CANDIG"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     },
                     {
                         "name": "Joke's End Northeast of Boiler Room 3 Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible" ],
-                        "access_rules": ["$CANCRASH,handmario,$CANDIG"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     },
                     {
                         "name": "Joke's End Furnace Room 1 Block 1",
-                        "access_rules": ["$CANCRASH, handmario"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     },
                     {
                         "name": "Joke's End Furnace Room 1 Block 2",
-                        "access_rules": ["$CANCRASH, handmario"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     },
                     {
                         "name": "Joke's End Furnace Room 1 Block 3",
-                        "access_rules": ["$CANCRASH, handmario"]
+                        "access_rules": ["$CANCRASH, handmario", "logic_hard, handmario"]
                     }
                 ]
             }
@@ -2680,7 +2688,8 @@
     },
     {
         "name": "Joke's End 2",
-        "access_rules": ["$ACCESSJOKES,$CANDIG,$CANCRASH,handmario"],
+        "access_rules": ["$ACCESSJOKES, $CANDIG, $CANCRASH, handmario",
+        "$ACCESSJOKES, $CANDIG, handmario, logic_hard"],
         "children": 
             [
                 {
@@ -2762,7 +2771,8 @@
     },
     {
         "name": "Joke's End 3",
-        "access_rules": ["$ACCESSJOKES,$CANDIG,$CANCRASH,handmario"],
+        "access_rules": ["$ACCESSJOKES, $CANDIG, $CANCRASH, handmario",
+        "$ACCESSJOKES, $CANDIG, handmario, logic_hard"],
         "children": 
             [
                 {
@@ -2803,7 +2813,8 @@
     {
         "name": "Bowser's Castle",
         "visibility_rules": ["bowsers_skip_off"],
-        "access_rules": ["$BOWSERACCESS"],
+        "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH",
+        "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard"],
         "children": 
             [
                 {
@@ -2842,40 +2853,40 @@
                     },
                     {
                         "name": "Bowser's Castle Ludwig & Roy Hallway Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Ludwig & Roy Hallway Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Roy Corridor Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Roy Corridor Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Wendy & Larry Hallway Digspot",
-                        "access_rules": ["$CANMINI"],
+                        "access_rules": ["handluigi, $CANMINI"],
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
                     },
                     {
                         "name": "Bowser's Castle Before Fawful Fight Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Before Fawful Fight Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Great Door Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Great Door Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     }
                 ]
             }
@@ -2884,7 +2895,8 @@
     {
         "name": "Bowser's Castle Children",
         "visibility_rules": ["bowsers_skip_off"],
-        "access_rules": ["$BOWSERACCESS"],
+        "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH",
+        "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard"],
         "children": 
             [
                 {
@@ -2917,31 +2929,31 @@
                     },
                     {
                         "name": "Bowser's Castle Mini Mario Maze Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Mini Mario Maze Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Mini Mario Sidescroller Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Mini Mario Sidescroller Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Before Wendy Fight Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Before Wendy Fight Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["handluigi, $CANMINI"]
                     },
                     {
                         "name": "Bowser's Castle Larry Room Block",
-                        "access_rules": ["$CANMINI"],
+                        "access_rules": ["handluigi, $CANMINI"],
                         "visibility_rules": ["disable_digspots_off"]
                     }
                 ]

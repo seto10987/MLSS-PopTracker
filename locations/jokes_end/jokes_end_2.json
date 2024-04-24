@@ -1,7 +1,8 @@
 [
     {
         "name": "Joke's End 2&#8203",
-        "access_rules": ["$ACCESSJOKES, $CANDIG, $CANCRASH, handmario"],
+        "access_rules": ["$ACCESSJOKES, $CANDIG, $CANCRASH, handmario",
+        "$ACCESSJOKES, $CANDIG, handmario, logic_hard"],
         "children": 
         [
             {

@@ -1,8 +1,8 @@
 [
     {
         "name": "Bowser's Castle&#8203",
-        "visibility_rules": ["bowsers_skip_off"],
-        "access_rules": ["$BOWSERACCESS"],
+        "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH",
+        "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard"],
         "children": 
         [
             {
@@ -121,6 +121,7 @@
             },
             {
                 "name": "Bowser's Castle Ludwig & Roy Hallway Block 1",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 1"
@@ -137,6 +138,7 @@
             },
             {
                 "name": "Bowser's Castle Ludwig & Roy Hallway Block 2",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 2"
@@ -153,6 +155,7 @@
             },
             {
                 "name": "Bowser's Castle Roy Corridor Block 1",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 1"
@@ -169,6 +172,7 @@
             },
             {
                 "name": "Bowser's Castle Roy Corridor Block 2",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 2"
@@ -185,6 +189,7 @@
             },
             {
                 "name": "Bowser's Castle Wendy & Larry Hallway Digspot",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Digspot",
@@ -202,6 +207,7 @@
             },
             {
                 "name": "Bowser's Castle Before Fawful Fight Block 1",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 1"
@@ -218,6 +224,7 @@
             },
             {
                 "name": "Bowser's Castle Before Fawful Fight Block 2",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 2"
@@ -234,6 +241,7 @@
             },
             {
                 "name": "Bowser's Castle Great Door Block 1",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 1"
@@ -250,6 +258,7 @@
             },
             {
                 "name": "Bowser's Castle Great Door Block 2",
+                "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
                         "name": "Block 2"

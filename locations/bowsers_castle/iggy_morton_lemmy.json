@@ -2,7 +2,8 @@
     {
         "name": "Iggy-Morton-Lemmy&#8203",
         "visibility_rules": ["bowsers_skip_off"],
-        "access_rules": ["$BOWSERACCESS"],
+        "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH",
+        "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard"],
         "children": 
         [
             {

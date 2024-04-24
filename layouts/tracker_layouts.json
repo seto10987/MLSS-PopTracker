@@ -347,21 +347,21 @@
 												}
 								  			},
 										{
-								  			"title": "Iggy/Morton/Lemmy",
+								  			"title": "Iggy-Morton-Lemmy",
 								  			"content": {
 								  			"type":"map",
 											"maps": ["iggy_morton_lemmy"]
 												}
 											},
 										{
-								  			"title": "Ludwig/Roy",
+								  			"title": "Ludwig-Roy",
 								  			"content": {
 								  			"type":"map",
 											"maps": ["ludwig_roy"]
 												}
 								  			},
 									{
-								  			"title": "Wendy/Larry",
+								  			"title": "Wendy-Larry",
 								  			"content": {
 								  			"type":"map",
 											"maps": ["wendy_larry"]

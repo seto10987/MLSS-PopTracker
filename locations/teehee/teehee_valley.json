@@ -167,7 +167,8 @@
             },
             {
                 "name": "Teehee Valley Past Ultra Hammers Digspot 2",
-                "access_rules": ["hammer3, jojora, keyfakestar, keydress, realbeanstar"],
+                "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                "$BOWSERACCESS, logic_hard"],
                 "sections": [
                     {
                         "name": "Digspot 2",
@@ -334,7 +335,8 @@
             },
             {
                 "name": "Teehee Valley Before Popple Digspot 1",
-                "access_rules": ["hammer3, jojora, keyfakestar, keydress, realbeanstar"],
+                "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                "$BOWSERACCESS, logic_hard"],
                 "sections": [
                     {
                         "name": "Digspot 1",
@@ -353,7 +355,8 @@
             },
             {
                 "name": "Teehee Valley Before Popple Digspot 2",
-                "access_rules": ["hammer3, jojora, keyfakestar, keydress, realbeanstar"],
+                "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                "$BOWSERACCESS, logic_hard"],
                 "sections": [
                     {
                         "name": "Digspot 2",
@@ -372,7 +375,8 @@
             },
             {
                 "name": "Teehee Valley Before Popple Digspot 3",
-                "access_rules": ["hammer3, jojora, keyfakestar, keydress, realbeanstar"],
+                "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                "$BOWSERACCESS, logic_hard"],
                 "sections": [
                     {
                         "name": "Digspot 3",
@@ -391,7 +395,8 @@
             },
             {
                 "name": "Teehee Valley Before Popple Digspot 4",
-                "access_rules": ["hammer3, jojora, keyfakestar, keydress, realbeanstar"],
+                "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                "$BOWSERACCESS, logic_hard"],
                 "sections": [
                     {
                         "name": "Digspot 4",
@@ -410,7 +415,8 @@
             },
             {
                 "name": "Popple 4",
-                "access_rules": ["hammer3, jojora, keyfakestar, keydress, realbeanstar"],
+                "access_rules": ["$BOWSERACCESS, $CANCRASH",
+                "$BOWSERACCESS, logic_hard"],
                 "sections": [
                     {
                         "name": "Popple 4",

@@ -91,6 +91,7 @@ function onClear(slot_data)
             updateTabs(0)
             EVENT_ID = "mlss_flag".."_"..TEAM_NUMBER.."_".. PLAYER_ID
             TAB_ID = "mlss_room_"..TEAM_NUMBER.."_"..PLAYER_ID
+            -- print(string.format("SET NOTIFY %s",TAB_ID))
             Archipelago:SetNotify({EVENT_ID})
             Archipelago:Get({EVENT_ID})
             Archipelago:SetNotify({TAB_ID})
