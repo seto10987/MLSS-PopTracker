@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.4.0",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.1.4.0.zip",
+			"sha256": "1d57943729d712756329f2e2ec8e82bb9ea261e4e30105455886348c8a7d7525",
+			"changelog": ["Event Tracking Update"]
+		},
+		{
 			"package_version": "1.2.1",
 			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.1.2.1.zip",
 			"sha256": "439ef11a6998dc53fc858c5e39c10762b009013b1f057268ca31934df7e9778d",
