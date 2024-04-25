@@ -15,19 +15,19 @@
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "access_rules": ["chuckolator"],
+                        "access_rules": ["chuckolator", "mompiranha"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "access_rules": ["mompiranha"],
+                        "access_rules": ["mompiranha", "realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
-                        "access_rules": ["kidnapped"],
+                        "access_rules": ["kidnapped", "realbeanstar"],
                         "item_count": 3
                     },
                     {
@@ -64,19 +64,19 @@
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "access_rules": ["chuckolator"],
+                        "access_rules": ["chuckolator", "mompiranha"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "access_rules": ["mompiranha"],
+                        "access_rules": ["mompiranha", "realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
-                        "access_rules": ["kidnapped"],
+                        "access_rules": ["kidnapped", "realbeanstar"],
                         "item_count": 3
                     },
                     {
@@ -117,13 +117,13 @@
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
-                        "access_rules": ["mompiranha"],
+                        "access_rules": ["mompiranha", "realbeanstar"],
                         "item_count": 4
                     },
                     {
                         "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
-                        "access_rules": ["kidnapped"],
+                        "access_rules": ["kidnapped", "realbeanstar"],
                         "item_count": 2
                     },
                     {
