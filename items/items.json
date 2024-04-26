@@ -1,6 +1,6 @@
 ﻿[
   {
-    "name": "Hammer",
+    "name": "Hammers",
     "type": "progressive",
     "stages": [
       {
@@ -271,7 +271,7 @@
     "codes": "miscnecktie"
   },
   {
-    "name": "GB Horror SP",
+    "name": "Game Boy Horror SP",
     "type": "toggle",
     "img": "images/items/misc_gbsp.png",
     "codes": "miscgbsp"
@@ -341,21 +341,21 @@
     "name": "Beanstar Piece 2",
     "type": "toggle",
     "img_mods": "overlay|images/overlays/2.png",
-    "img": "images/items/BeanstarPiece1.png",
+    "img": "images/items/BeanstarPiece2.png",
     "codes": "beanstarpiece2, beanstarpieces"
   },
   {
     "name": "Beanstar Piece 3",
     "type": "toggle",
     "img_mods": "overlay|images/overlays/3.png",
-    "img": "images/items/BeanstarPiece1.png",
+    "img": "images/items/BeanstarPiece3.png",
     "codes": "beanstarpiece3, beanstarpieces"
   },
   {
     "name": "Beanstar Piece 4",
     "type": "toggle",
     "img_mods": "overlay|images/overlays/4.png",
-    "img": "images/items/BeanstarPiece1.png",
+    "img": "images/items/BeanstarPiece4.png",
     "codes": "beanstarpiece4, beanstarpieces"
   }
 ]
