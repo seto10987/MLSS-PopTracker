@@ -1,6 +1,7 @@
 [
     {
         "name": "Bowser's Castle&#8203",
+        "visibility_rules": ["bowsers_skip_off"],
         "access_rules": ["$BOWSERACCESS, $has|beanstarpieces|4, $CANCRASH",
         "$BOWSERACCESS, $has|beanstarpieces|4, logic_hard"],
         "children": 

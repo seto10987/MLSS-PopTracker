@@ -1044,17 +1044,17 @@
                     },
                     {
                         "name": "Pants Shop Post-Chuckolator",
-                        "access_rules": ["keyrose, chuckolator","keybrooch, chuckolator"],
+                        "access_rules": ["keyrose, chuckolator","keybrooch, chuckolator", "keyrose, mompiranha","keybrooch, mompiranha"],
                         "item_count": 3
                     },
                     {
                         "name": "Pants Shop Post-Mom Piranha",
-                        "access_rules": ["keyrose, mompiranha","keybrooch, mompiranha"],
+                        "access_rules": ["keyrose, mompiranha","keybrooch, mompiranha", "keyrose, realbeanstar","keybrooch, realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Pants Shop Post-Entered Fungitown",
-                        "access_rules": ["keyrose, kidnapped","keybrooch, kidnapped"],
+                        "access_rules": ["keyrose, kidnapped","keybrooch, kidnapped", "keyrose, realbeanstar","keybrooch, realbeanstar"],
                         "item_count": 3
                     },
                     {
@@ -1074,17 +1074,17 @@
                     },
                     {
                         "name": "Badge Shop Post-Chuckolator",
-                        "access_rules": ["keyose, chuckolator","keybrooch, chuckolator"],
+                        "access_rules": ["keyose, chuckolator","keybrooch, chuckolator", "keyrose, mompiranha","keybrooch, mompiranha"],
                         "item_count": 3
                     },
                     {
                         "name": "Badge Shop Post-Mom Piranha",
-                        "access_rules": ["keyrose, mompiranha","keybrooch, mompiranha"],
+                        "access_rules": ["keyrose, mompiranha","keybrooch, mompiranha", "keyrose, realbeanstar","keybrooch, realbeanstar"],
                         "item_count": 3
                     },
                     {
                         "name": "Badge Shop Post-Entered Fungitown",
-                        "access_rules": ["keyrose, kidnapped","keybrooch, kidnapped"],
+                        "access_rules": ["keyrose, kidnapped","keybrooch, kidnapped", "keyrose, realbeanstar","keybrooch, realbeanstar"],
                         "item_count": 3
                     },
                     {
@@ -1103,16 +1103,16 @@
                     },
                     {
                         "name": "Item Shop Post-Chuckolator",
-                        "access_rules": ["chuckolator"]
+                        "access_rules": ["chuckolator", "mompiranha"]
                     },
                     {
                         "name": "Item Shop Post-Mom Piranha",
-                        "access_rules": ["mompiranha"],
+                        "access_rules": ["mompiranha", "realbeanstar"],
                         "item_count": 4
                     },
                     {
                         "name": "Item Shop Post-Entered Fungitown",
-                        "access_rules": ["kidnapped"],
+                        "access_rules": ["kidnapped", "realbeanstar"],
                         "item_count": 2
                     },
                     {
