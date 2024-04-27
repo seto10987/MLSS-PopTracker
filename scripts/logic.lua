@@ -69,7 +69,7 @@ function OCEAN()
 end
 function ACCESSFUNGITOWN()
     return
-    has ("keyrose") and has ("chuckolator") and has ("mompiranha")
+    (has("hammer2") or CANDASH()) and has("keyrose") and has("chuckolator") and has("mompiranha")
 end
 function ACCESSJOKES()
     return
