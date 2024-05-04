@@ -11,7 +11,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -28,7 +30,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -45,7 +49,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Spangle"
+                        "name": "Spangle",
+                        "chest_unopened_img": "images/chests/misc_spangle_false.png",
+                        "chest_opened_img": "images/chests/misc_spangle_true.png"
                     }
                 ],
                 "map_locations": 
@@ -63,7 +69,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -79,7 +87,9 @@
                 "name": "Gwarhar Lagoon East of Stone Bridge Block",
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -97,7 +107,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -113,7 +125,9 @@
                 "name": "Gwarhar Lagoon Second Underwater Area Room 1 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -131,7 +145,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -144,12 +160,14 @@
                 ]
             },
             {
-                "name": "Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2",
+                "name": "Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2 (Hidden)",
                 "sections": [
                     {
-                        "name": "Digspot 2",
+                        "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -165,7 +183,9 @@
                 "name": "Gwarhar Lagoon Second Underwater Area Room 3 Block 1",
                 "sections": [
                     {
-                        "name": "Block 1 (Hidden)"
+                        "name": "Block 1 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -181,7 +201,9 @@
                 "name": "Gwarhar Lagoon Second Underwater Area Room 3 Block 2",
                 "sections": [
                     {
-                        "name": "Block 2 (Hidden)"
+                        "name": "Block 2 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -197,7 +219,9 @@
                 "name": "Gwarhar Lagoon Second Underwater Area Room 3 Block 3",
                 "sections": [
                     {
-                        "name": "Block 3 (Hidden)"
+                        "name": "Block 3 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -215,7 +239,9 @@
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -233,7 +259,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -251,7 +279,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -269,7 +299,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -287,7 +319,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -305,7 +339,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -322,11 +358,15 @@
                 "access_rules": ["$CANPEARL"],
                 "sections": [
                     {
-                        "name": "Beanstar Piece"
+                        "name": "Beanstar Piece",
+                        "chest_unopened_img": "images/chests/BeanstarPieceHermie_false.png",
+                        "chest_opened_img": "images/chests/BeanstarPieceHermie_true.png"
                     },
                     {
                         "name": "Spangle Reward",
-                        "access_rules": ["miscspangle"]
+                        "access_rules": ["miscspangle"],
+                        "chest_unopened_img": "images/chests/misc_spangle_false.png",
+                        "chest_opened_img": "images/chests/misc_spangle_true.png"
                     }
                 ],
                 "map_locations": 

@@ -8,7 +8,9 @@
                 "name": "Oho Oasis Fire Palace Block",
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -25,7 +27,9 @@
                 "sections": [
                     {
                         "name": "Firebrand",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["$CANMINI"],
+                        "chest_unopened_img": "images/chests/firegod_false.png",
+                        "chest_opened_img": "images/chests/firegod_true.png"
                     }
                 ],
                 "map_locations": 
@@ -42,7 +46,9 @@
                 "sections": [
                     {
                         "name": "Thunderhand",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/thundergod_false.png",
+                        "chest_opened_img": "images/chests/thundergod_true.png"
                     }
                 ],
                 "map_locations": 
@@ -60,7 +66,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 

@@ -8,7 +8,9 @@
                 "name": "Fungitown Entrance Room Block",
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -25,17 +27,23 @@
                 "sections": [
                     {
                         "name": "Badge Shop Starting",
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Badge Shop Post-Beanstar Complete",
                         "access_rules": ["realbeanstar"],
-                        "item_count": 2
+                        "item_count": 2,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Badge Shop Post-Birdo",
                         "access_rules": ["popple4"],
-                        "item_count": 2
+                        "item_count": 2,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     }
                 ],
                 "map_locations": 
@@ -52,17 +60,23 @@
                 "sections": [
                     {
                         "name": "Pants Shop Starting",
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Pants Shop Post-Beanstar Complete",
                         "access_rules": ["realbeanstar"],
-                        "item_count": 2
+                        "item_count": 2,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Pants Shop Post-Birdo",
                         "access_rules": ["popple4"],
-                        "item_count": 2
+                        "item_count": 2,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     }
                 ],
                 "map_locations": 
@@ -79,15 +93,21 @@
                 "sections": [
                     {
                         "name": "Item Shop Starting",
-                        "item_count": 8
+                        "item_count": 8,
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     },
                     {
                         "name": "Item Shop Post-Beanstar Complete",
-                        "access_rules": ["realbeanstar"]
+                        "access_rules": ["realbeanstar"],
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     },
                     {
                         "name": "Item Shop Post-Birdo",
-                        "access_rules": ["popple4"]
+                        "access_rules": ["popple4"],
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     }
                 ],
                 "map_locations": 
@@ -103,7 +123,9 @@
                 "name": "Fungitown Embassy Room Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

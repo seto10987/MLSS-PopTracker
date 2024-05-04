@@ -9,7 +9,9 @@
                 "name": "Chucklehuck Woods After Chuckleroot Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -25,7 +27,9 @@
                 "name": "Chucklehuck Woods After Chuckleroot Block 2",
                 "sections": [
                     {
-                        "name": "Block 2 (Hidden)"
+                        "name": "Block 2 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -41,7 +45,9 @@
                 "name": "Chucklehuck Woods After Chuckleroot Block 3",
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -57,7 +63,9 @@
                 "name": "Chucklehuck Woods After Chuckleroot Block 4",
                 "sections": [
                     {
-                        "name": "Block 4 (Hidden)"
+                        "name": "Block 4 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -73,7 +81,9 @@
                 "name": "Chucklehuck Woods After Chuckleroot Block 5",
                 "sections": [
                     {
-                        "name": "Block 5 (Hidden)"
+                        "name": "Block 5 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -89,7 +99,9 @@
                 "name": "Chucklehuck Woods After Chuckleroot Block 6",
                 "sections": [
                     {
-                        "name": "Block 6"
+                        "name": "Block 6",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -106,7 +118,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

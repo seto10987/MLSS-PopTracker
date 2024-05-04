@@ -8,7 +8,9 @@
                 "name": "S.S. Chuckola Membership Card",
                 "sections": [
                     {
-                        "name": "Membership Card"
+                        "name": "Membership Card",
+                        "chest_unopened_img": "images/chests/barrel_minigame_false.png",
+                        "chest_opened_img": "images/chests/barrel_minigame_true.png"
                     }
                 ],
                 "map_locations": 
@@ -24,7 +26,9 @@
                 "name": "S.S. Chuckola Storage Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -40,7 +44,9 @@
                 "name": "S.S. Chuckola Storage Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -57,7 +63,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -74,7 +82,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

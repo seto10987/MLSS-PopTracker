@@ -10,7 +10,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -27,7 +29,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -43,7 +47,9 @@
                 "name": "Joke's End Solo Mario Room 2 Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -59,7 +65,9 @@
                 "name": "Joke's End Solo Mario Room 2 Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -75,7 +83,9 @@
                 "name": "Joke's End Solo Mario Room 2 Block 3",
                 "sections": [
                     {
-                        "name": "Block 3 (Hidden)"
+                        "name": "Block 3 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -91,7 +101,9 @@
                 "name": "Joke's End Solo Luigi Room 1 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -108,7 +120,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -125,7 +139,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -141,7 +157,9 @@
                 "name": "Joke's End South of Bridge Room Block",
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -158,7 +176,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -175,7 +195,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -191,7 +213,9 @@
                 "name": "Joke's End Solo Mario Final Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -207,7 +231,9 @@
                 "name": "Joke's End Solo Mario Final Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -223,7 +249,9 @@
                 "name": "Joke's End Solo Mario Final Room Block 3",
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -240,7 +268,9 @@
                 "sections": [
                     {
                         "name": "Digspot 1",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -257,7 +287,9 @@
                 "sections": [
                     {
                         "name": "Digspot 2 (Hidden)",
-                        "visibility_rules": ["disable_digspots_off"]
+                        "visibility_rules": ["disable_digspots_off"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -273,7 +305,9 @@
                 "name": "Joke's End North of Second Boiler Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -289,7 +323,9 @@
                 "name": "Joke's End North of Second Boiler Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

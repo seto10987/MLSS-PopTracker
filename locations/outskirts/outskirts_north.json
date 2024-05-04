@@ -9,7 +9,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -27,7 +29,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -44,7 +48,9 @@
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
-                        "name": "Mole"
+                        "name": "Mole",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 
@@ -61,7 +67,9 @@
                 "access_rules": ["$CANCRASH, $CANDIG, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Mole"
+                        "name": "Mole",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 
@@ -78,10 +86,14 @@
                 "access_rules": ["$CANMINI"],
                 "sections": [
                     {
-                        "name": "Mole 1"
+                        "name": "Mole 1",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     },
                     {
-                        "name": "Mole 2"
+                        "name": "Mole 2",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 
@@ -98,7 +110,9 @@
                 "access_rules": ["$CANDASH, $EGGS"],
                 "sections": [
                     {
-                        "name": "Beanstar Piece"
+                        "name": "Beanstar Piece",
+                        "chest_unopened_img": "images/chests/BeanstarPieceTheater_false.png",
+                        "chest_opened_img": "images/chests/BeanstarPieceTheater_true.png"
                     }
                 ],
                 "map_locations": 
@@ -115,7 +129,9 @@
                 "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Blue Yoshi"
+                        "name": "Blue Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -132,7 +148,9 @@
                 "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Red Yoshi"
+                        "name": "Red Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -149,7 +167,9 @@
                 "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Green Yoshi"
+                        "name": "Green Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -166,7 +186,9 @@
                 "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Yellow Yoshi"
+                        "name": "Yellow Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -184,7 +206,9 @@
                 "$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Purple Yoshi"
+                        "name": "Purple Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -201,7 +225,9 @@
                 "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Orange Yoshi"
+                        "name": "Orange Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -218,7 +244,9 @@
                 "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                 "sections": [
                     {
-                        "name": "Azure Yoshi"
+                        "name": "Azure Yoshi",
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 

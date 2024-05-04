@@ -16,8 +16,8 @@ LOCATION_MAPPING =
     [3790522] = {"@Stardust Fields&#8203/Stardust Fields 4 Block 3/Block 3","@Stardust Fields/Stardust Fields/Stardust Fields 4 Block 3"},
     --Stardust Fields 5 Block
     [3790611] = {"@Stardust Fields&#8203/Stardust Fields 5 Block/Block","@Stardust Fields/Stardust Fields/Stardust Fields 5 Block"},
-    --Hoohoo Village Hammer House Block
-    [3790641] = {"@Hoohoo Village&#8203/Hoohoo Village Hammer House/Block","@Hoohoo Village/Hoohoo Village/Hoohoo Village Hammer House Block"},
+    --Hoohoo Village Hammerhead House Block
+    [3790641] = {"@Hoohoo Village&#8203/Hoohoo Village Hammerhead House/Block","@Hoohoo Village/Hoohoo Village/Hoohoo Village Hammerhead House Block"},
     --Hoohoo Mountain Below Summit Block 1
     [3790963] = {"@Hoohoo Mountain&#8203/Hoohoo Mountain Below Summit Block 1/Block 1","@Hoohoo Mountain/Hoohoo Mountain/Hoohoo Mountain Below Summit Block 1"},
     --Hoohoo Mountain Below Summit Block 2
@@ -277,7 +277,7 @@ LOCATION_MAPPING =
     --Beanbean Outskirts NE Solo Mario Mole 2
     [2004022] = {"@Outskirts North&#8203/Beanbean Outskirts NE Solo Mario Mole/Mole 2","@Outskirts North/Outskirts North/Beanbean Outskirts NE Solo Mario Mole 2"},
     --Hoohoo Village Hammers
-    [2003971] = {"@Hoohoo Village&#8203/Hoohoo Village Hammer House/Hammers","@Hoohoo Village/Hoohoo Village/Hoohoo Village Hammer House Hammers"},
+    [2003971] = {"@Hoohoo Village&#8203/Hoohoo Village Hammerhead House/Hammers","@Hoohoo Village/Hoohoo Village/Hoohoo Village Hammerhead House Hammers"},
     --Beanbean Outskirts Solo Luigi Cave Mole
     [2369672] = {"@Outskirts Northwest&#8203/Beanbean Outskirts Solo Luigi Cave Mole/Mole","@Outskirts Northwest/Outskirts Northwest/Beanbean Outskirts Solo Luigi Cave Mole"},
     --Beanbean Outskirts Farm Room Mole Reward 1
@@ -618,10 +618,10 @@ LOCATION_MAPPING =
     [3792673] = {"@Chucklehuck Woods&#8203/Winkle Area Beanstar Room Block/Block","@Chucklehuck Woods/Chucklehuck Woods/Winkle Area Beanstar Room Block"},
     --Winkle Area Digspot
     [3792686] = {"@Chucklehuck Woods&#8203/Winkle Area Digspot/Digspot","@Chucklehuck Woods/Chucklehuck Woods/Winkle Area Digspot"},
-    --Winkle Area Outside Colloseum Block
-    [3792699] = {"@Chucklehuck Woods&#8203/Winkle Area Outside Colloseum Block/Block (Hidden)","@Chucklehuck Woods/Chucklehuck Woods/Winkle Area Outside Colloseum Block"},
-    --Winkle Area Colloseum Digspot
-    [3795107] = {"@Chucklehuck Woods&#8203/Winkle Area Colloseum Digspot/Digspot (Hidden)","@Chucklehuck Woods/Chucklehuck Woods/Winkle Area Colloseum Digspot"},
+    --Winkle Area Outside Colosseum Block
+    [3792699] = {"@Chucklehuck Woods&#8203/Winkle Area Outside Colosseum Block/Block (Hidden)","@Chucklehuck Woods/Chucklehuck Woods/Winkle Area Outside Colosseum Block"},
+    --Winkle Area Colosseum Digspot
+    [3795107] = {"@Chucklehuck Woods&#8203/Winkle Area Colosseum Digspot/Digspot (Hidden)","@Chucklehuck Woods/Chucklehuck Woods/Winkle Area Colosseum Digspot"},
     --Beanstar Piece Winkle Area
     [2004032] = {"@Chucklehuck Woods&#8203/Beanstar Piece Winkle Area/Beanstar Piece","@Chucklehuck Woods/Chucklehuck Woods/Beanstar Piece Winkle Area"},
     --Winkle Area Winkle Card
@@ -703,7 +703,7 @@ LOCATION_MAPPING =
     --Ocean North Whirlpool Digspot 1
     [3793093] = {"@Oho Seabed&#8203/Ocean North Whirlpool Digspot 1/Digspot 1","@Oho Seabed/Oho Seabed/Ocean North Whirlpool Digspot 1"},
     --Ocean North Whirlpool Digspot 2
-    [3793101] = {"@Oho Seabed&#8203/Ocean North Whirlpool Digspot 2/Digspot 2","@Oho Seabed/Oho Seabed/Ocean North Whirlpool Digspot 2"},
+    [3793101] = {"@Oho Seabed&#8203/Ocean North Whirlpool Digspot 2/Digspot 2 (Hidden)","@Oho Seabed/Oho Seabed/Ocean North Whirlpool Digspot 2"},
     --Oho Ocean Fire Puzzle Room Digspot
     [3792983] = {"@Oho Seabed&#8203/Oho Ocean Fire Puzzle Room Digspot/Digspot","@Oho Seabed/Oho Seabed/Oho Ocean Fire Puzzle Room Digspot"},
     --Ocean South Whirlpool Digspot 1
@@ -747,7 +747,7 @@ LOCATION_MAPPING =
     --Airport Leftside Digspot 4
     [3793678] = {"@Outskirts South&#8203/Airport Leftside Digspot 4/Digspot 4","@Outskirts South/Outskirts South/Airport Leftside Digspot 4"},
     --Airport Leftside Digspot 5
-    [3793686] = {"@Outskirts South&#8203/Airport Leftside Digspot 5/Digspot 5","@Outskirts South/Outskirts South/Airport Leftside Digspot 5"},
+    [3793686] = {"@Outskirts South&#8203/Airport Leftside Digspot 5/Digspot 5 (Hidden)","@Outskirts South/Outskirts South/Airport Leftside Digspot 5"},
     --Airport Center Digspot 1
     [3793699] = {"@Outskirts South&#8203/Airport Center Digspot 1/Digspot 1","@Outskirts South/Outskirts South/Airport Center Digspot 1"},
     --Airport Center Digspot 2
@@ -1000,10 +1000,10 @@ LOCATION_MAPPING =
     [3793002] = {"@Oho Seabed&#8203/Oho Ocean South Room 1 Block/Block","@Oho Seabed/Oho Seabed/Oho Ocean South Room 1 Block"},
     --Oho Ocean South Room 2 Digspot
     [3793015] = {"@Oho Seabed&#8203/Oho Ocean South Room 2 Digspot/Digspot (Hidden)","@Oho Seabed/Oho Seabed/Oho Ocean South Room 2 Digspot"},
-    --Oho Ocean Spike Room Digspot 1
+    --Oho Ocean Spike Room Digspot 1 (Hidden)
     [3793034] = {"@Oho Seabed&#8203/Oho Ocean Spike Room Digspot 1/Digspot 1","@Oho Seabed/Oho Seabed/Oho Ocean Spike Room Digspot 1"},
     --Oho Ocean Spike Room Digspot 2
-    [3793042] = {"@Oho Seabed&#8203/Oho Ocean Spike Room Digspot 2/Digspot 2","@Oho Seabed/Oho Seabed/Oho Ocean Spike Room Digspot 2"},
+    [3793042] = {"@Oho Seabed&#8203/Oho Ocean Spike Room Digspot 2/Digspot 2 (Hidden)","@Oho Seabed/Oho Seabed/Oho Ocean Spike Room Digspot 2"},
     --Oho Oasis Firebrand
     [2003976] = {"@Oho Oasis&#8203/Oho Oasis Firebrand/Firebrand","@Oho Oasis/Oho Oasis/Oho Oasis Firebrand"},
     --Oho Oasis Thunderhand
@@ -1020,8 +1020,8 @@ LOCATION_MAPPING =
     [3794018] = {"@Gwarhar Lagoon South&#8203/Gwarhar Lagoon Second Underwater Area Room 4 Digspot/Digspot (Hidden)","@Gwarhar Lagoon South/Gwarhar Lagoon South/Gwarhar Lagoon Second Underwater Area Room 4 Digspot"},
     --Gwarhar Lagoon Second Underwater Area Room 2 Digspot 1
     [3794031] = {"@Gwarhar Lagoon South&#8203/Gwarhar Lagoon Second Underwater Area Room 2 Digspot 1/Digspot 1","@Gwarhar Lagoon South/Gwarhar Lagoon South/Gwarhar Lagoon Second Underwater Area Room 2 Digspot 1"},
-    --Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2
-    [3794039] = {"@Gwarhar Lagoon South&#8203/Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2/Digspot 2","@Gwarhar Lagoon South/Gwarhar Lagoon South/Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2"},
+    --Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2 (Hidden)
+    [3794039] = {"@Gwarhar Lagoon South&#8203/Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2/Digspot 2 (Hidden)","@Gwarhar Lagoon South/Gwarhar Lagoon South/Gwarhar Lagoon Second Underwater Area Room 2 Digspot 2"},
     --Gwarhar Lagoon Second Underwater Area Room 3 Block 1
     [3794052] = {"@Gwarhar Lagoon South&#8203/Gwarhar Lagoon Second Underwater Area Room 3 Block 1/Block 1 (Hidden)","@Gwarhar Lagoon South/Gwarhar Lagoon South/Gwarhar Lagoon Second Underwater Area Room 3 Block 1"},
     --Gwarhar Lagoon Second Underwater Area Room 3 Block 2/0

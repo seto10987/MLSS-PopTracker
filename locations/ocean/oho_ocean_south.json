@@ -9,7 +9,9 @@
                 "access_rules": ["$OCEAN"],
                 "sections": [
                     {
-                        "name": "Under 39"
+                        "name": "Under 39",
+                        "chest_unopened_img": "images/items/surfing_on.png",
+                        "chest_opened_img": "images/items/surfing_skipped.png"
                     }
                 ],
                 "map_locations": 

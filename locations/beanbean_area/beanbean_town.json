@@ -10,37 +10,49 @@
                     {
                         "name": "Post-Queen Bean",
                         "clear_as_group": false,
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
                         "access_rules": ["chuckolator", "mompiranha"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
                         "access_rules": ["mompiranha", "realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
                         "access_rules": ["kidnapped", "realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
                         "access_rules": ["realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
                         "access_rules": ["popple4"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_pants_false.png",
+                        "chest_opened_img": "images/chests/shop_pants_true.png"
                     }
                 ],
                 "map_locations": 
@@ -59,37 +71,49 @@
                     {
                         "name": "Post-Queen Bean",
                         "clear_as_group": false,
-                        "item_count": 2
+                        "item_count": 2,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
                         "access_rules": ["chuckolator", "mompiranha"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
                         "access_rules": ["mompiranha", "realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
                         "access_rules": ["kidnapped", "realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
                         "access_rules": ["realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
                         "access_rules": ["popple4"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_badge_false.png",
+                        "chest_opened_img": "images/chests/shop_badge_true.png"
                     }
                 ],
                 "map_locations": 
@@ -107,35 +131,47 @@
                     {
                         "name": "Item Shop Starting",
                         "clear_as_group": false,
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     }, 
                     {
                         "name": "Post-Chuckolator",
                         "clear_as_group": false,
-                        "access_rules": ["chuckolator", "mompiranha"]
+                        "access_rules": ["chuckolator", "mompiranha"],
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     },
                     {
                         "name": "Post-Mom Piranha",
                         "clear_as_group": false,
                         "access_rules": ["mompiranha", "realbeanstar"],
-                        "item_count": 4
+                        "item_count": 4,
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     },
                     {
                         "name": "Post-Entered Fungitown",
                         "clear_as_group": false,
                         "access_rules": ["kidnapped", "realbeanstar"],
-                        "item_count": 2
+                        "item_count": 2,
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     },
                     {
                         "name": "Post-Beanstar Complete",
                         "clear_as_group": false,
                         "access_rules": ["realbeanstar"],
-                        "item_count": 3
+                        "item_count": 3,
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     },
                     {
                         "name": "Post-Birdo",
                         "clear_as_group": false,
-                        "access_rules": ["popple4"]
+                        "access_rules": ["popple4"],
+                        "chest_unopened_img": "images/chests/shop_item_false.png",
+                        "chest_opened_img": "images/chests/shop_item_true.png"
                     }
                 ],
                 "map_locations": 
@@ -152,46 +188,74 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Brew Reward 1"
+                        "name": "Brew Reward 1",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Brew Reward 2"
+                        "name": "Brew Reward 2",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Brew Reward 3"
+                        "name": "Brew Reward 3",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Brew Reward 4"
+                        "name": "Brew Reward 4",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Brew Reward 5"
+                        "name": "Brew Reward 5",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Brew Reward 6"
+                        "name": "Brew Reward 6",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Brew Reward 7"
+                        "name": "Brew Reward 7",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Woohoo Blend"
+                        "name": "Woohoo Blend",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Hoohoo Blend"
+                        "name": "Hoohoo Blend",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Chuckle Blend"
+                        "name": "Chuckle Blend",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Teehee Blend"
+                        "name": "Teehee Blend",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Hoolumbian"
+                        "name": "Hoolumbian",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Chuckoccino"
+                        "name": "Chuckoccino",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     },
                     {
-                        "name": "Teeheespresso"
+                        "name": "Teeheespresso",
+                        "chest_unopened_img": "images/chests/coffee_false.png",
+                        "chest_opened_img": "images/chests/coffee_true.png"
                     }
                 ],
                 "map_locations": 
@@ -208,16 +272,24 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Block 1 (Hidden)"
+                        "name": "Block 1 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Block 2 (Hidden)"
+                        "name": "Block 2 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Block 3 (Hidden)"
+                        "name": "Block 3 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Block 4"
+                        "name": "Block 4",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -234,16 +306,24 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Block 4"
+                        "name": "Block 4",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -262,7 +342,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 1 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -280,7 +362,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 2 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -288,7 +372,7 @@
                     {
                         "map": "beanbean_town",
                         "x": 54,
-                        "y": 1388
+                        "y": 1380
                     }
                 ]
             },
@@ -298,7 +382,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 3 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -316,7 +402,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 4 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -334,7 +422,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 5 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -352,15 +442,17 @@
                 "sections": [
                     {
                         "name": "Beanstone 6 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "beanbean_town",
-                        "x": 804,
-                        "y": 1029
+                        "x": 812,
+                        "y": 1012
                     }
                 ]
             },
@@ -370,7 +462,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 7 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -388,7 +482,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 8 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -406,7 +502,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 9 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -424,7 +522,9 @@
                 "sections": [
                     {
                         "name": "Beanstone 10 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -442,7 +542,9 @@
                 "sections": [
                     {
                         "name": "Beanstone Reward",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/misc_beanstone_false.png",
+                        "chest_opened_img": "images/chests/misc_beanstone_true.png"
                     }
                 ],
                 "map_locations": 
@@ -459,7 +561,9 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Beanlet 1"
+                        "name": "Beanlet 1",
+                        "chest_unopened_img": "images/chests/misc_beanlet_false.png",
+                        "chest_opened_img": "images/chests/misc_beanlet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -476,7 +580,9 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Beanlet 2"
+                        "name": "Beanlet 2",
+                        "chest_unopened_img": "images/chests/misc_beanlet_false.png",
+                        "chest_opened_img": "images/chests/misc_beanlet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -493,7 +599,9 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Beanlet 3"
+                        "name": "Beanlet 3",
+                        "chest_unopened_img": "images/chests/misc_beanlet_false.png",
+                        "chest_opened_img": "images/chests/misc_beanlet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -510,7 +618,9 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Beanlet 4"
+                        "name": "Beanlet 4",
+                        "chest_unopened_img": "images/chests/misc_beanlet_false.png",
+                        "chest_opened_img": "images/chests/misc_beanlet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -527,7 +637,9 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Beanlet 5"
+                        "name": "Beanlet 5",
+                        "chest_unopened_img": "images/chests/misc_beanlet_false.png",
+                        "chest_opened_img": "images/chests/misc_beanlet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -544,7 +656,9 @@
                 "access_rules": ["chuckolator"],
                 "sections": [
                     {
-                        "name": "Beanlet Reward"
+                        "name": "Beanlet Reward",
+                        "chest_unopened_img": "images/chests/misc_beanlet_false.png",
+                        "chest_opened_img": "images/chests/misc_beanlet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -561,7 +675,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

@@ -7,7 +7,9 @@
                 "name":  "Hoohoo Mountain Base Room 1 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -25,7 +27,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -44,7 +48,9 @@
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations":
@@ -60,7 +66,9 @@
                 "name": "Hoohoo Mountain Base After Minecart Minigame Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -76,7 +84,9 @@
                 "name": "Hoohoo Mountain Base After Minecart Minigame Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -92,7 +102,9 @@
                 "name": "Hoohoo Mountain Base Bridge Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -108,7 +120,9 @@
                 "name": "Hoohoo Mountain Base Bridge Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -124,7 +138,9 @@
                 "name": "Hoohoo Mountain Base Bridge Room Block 3",
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -140,7 +156,9 @@
                 "name": "Hoohoo Mountain Base Bridge Room Block 4",
                 "sections": [
                     {
-                        "name": "Block 4"
+                        "name": "Block 4",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -158,7 +176,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -174,7 +194,9 @@
                 "name": "Hoohoo Mountain Base Grassy Area Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -190,7 +212,9 @@
                 "name": "Hoohoo Mountain Base Grassy Area Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -206,7 +230,9 @@
                 "name": "Hoohoo Mountain Base Boostatue Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -223,7 +249,9 @@
                 "access_rules": ["hammer2", "$CANCRASH"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -241,7 +269,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations": 
@@ -261,7 +291,9 @@
                     {
                         "name": "Digspot 2",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations": 
@@ -280,7 +312,9 @@
                     {
                         "name": "Digspot 3 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
                     }
                 ],
                 "map_locations": 
@@ -297,7 +331,9 @@
                 "access_rules": ["hammer2", "$CANCRASH"],
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -316,7 +352,9 @@
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
                     }
                 ],
                 "map_locations": 
@@ -334,7 +372,9 @@
                 "access_rules": ["hammer2", "$CANCRASH"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -352,7 +392,9 @@
                 "access_rules": ["hammer2", "$CANCRASH"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -370,7 +412,9 @@
                 "access_rules": ["hammer2", "$CANCRASH"],
                 "sections": [
                     {
-                        "name": "Coin Block 3"
+                        "name": "Coin Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -386,7 +430,9 @@
                 "name":  "Hoohoo Village South Cave Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -403,7 +449,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -420,7 +468,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -439,7 +489,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -456,7 +508,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -473,7 +527,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -490,7 +546,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -507,7 +565,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -524,7 +584,9 @@
                 "access_rules": ["hammer3"],
                 "sections": [
                     {
-                        "name": "Mole"
+                        "name": "Mole",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 
@@ -543,7 +605,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations": 

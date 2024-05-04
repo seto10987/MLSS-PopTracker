@@ -8,7 +8,9 @@
                 "access_rules": ["$OCEAN"],
                 "sections": [
                     {
-                        "name": "Mole"
+                        "name": "Mole",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 
