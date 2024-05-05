@@ -78,5 +78,5 @@ end
 
 function BOWSERACCESS()
     return
-    ACCESSJOKES() and CANDASH() and CANDIG() and has("realbeanstar") and has ("handmario") and has ("keydress") and has ("keyfakestar")
+    ACCESSJOKES() and CANDASH() and CANDIG() and has("realbeanstar") and has ("handmario") and has ("keydress") and has ("keyfakestar") and has ("jojora")
 end

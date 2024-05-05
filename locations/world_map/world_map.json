@@ -1970,13 +1970,6 @@
                         "chest_opened_img": "images/chests/block_true.png"
                     },
                     {
-                        "name": "Chateau Popple Fight Room Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"],
-                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
-                    },
-                    {
                         "name": "Chateau Popple Room Coin Block 1",
                         "visibility_rules": ["coinblocks_on"],
                         "chest_unopened_img": "images/chests/block_false.png",
@@ -1987,6 +1980,13 @@
                         "visibility_rules": ["coinblocks_on"],
                         "chest_unopened_img": "images/chests/block_false.png",
                         "chest_opened_img": "images/chests/block_true.png"
+                    },
+                    {
+                        "name": "Chateau Popple Fight Room Digspot",
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     },
                     {
                         "name": "Chateau Barrel Room Digspot",
