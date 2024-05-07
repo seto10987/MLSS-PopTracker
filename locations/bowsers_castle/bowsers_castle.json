@@ -10,7 +10,9 @@
                 "name": "Bowser's Castle Entrance Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -26,7 +28,9 @@
                 "name": "Bowser's Castle Entrance Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -43,7 +47,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -59,7 +65,9 @@
                 "name": "Bowser's Castle Iggy & Morton Hallway Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -75,7 +83,9 @@
                 "name": "Bowser's Castle Iggy & Morton Hallway Block 2",
                 "sections": [
                     {
-                        "name": "Block 2 (Hidden)"
+                        "name": "Block 2 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -92,7 +102,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -108,7 +120,9 @@
                 "name": "Bowser's Castle After Morton Block",
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -125,7 +139,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -142,7 +158,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -159,7 +177,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -176,7 +196,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -194,7 +216,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -211,7 +235,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -228,7 +254,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -245,7 +273,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -262,7 +292,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

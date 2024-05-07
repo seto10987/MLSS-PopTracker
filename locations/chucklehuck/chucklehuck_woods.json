@@ -10,7 +10,9 @@
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -26,7 +28,9 @@
                 "name": "Chucklehuck Woods Room 2 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -44,7 +48,9 @@
                     {
                         "name": "Digspot (Under Rock)",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -61,7 +67,9 @@
                 "access_rules": ["hammer1"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -78,7 +86,9 @@
                 "sections": [
                     {
                         "name": "Block 2",
-                        "access_rules": ["hammer1"]
+                        "access_rules": ["hammer1"],
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -96,7 +106,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -114,7 +126,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -132,7 +146,9 @@
                 "access_rules": ["hammer1"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -149,7 +165,9 @@
                 "sections": [
                     {
                         "name": "Block 1",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["$CANMINI"],
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -166,7 +184,9 @@
                 "sections": [
                     {
                         "name": "Block 2",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["$CANMINI"],
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -183,7 +203,9 @@
                 "sections": [
                     {
                         "name": "Block 3",
-                        "access_rules": ["$CANMINI"]
+                        "access_rules": ["$CANMINI"],
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -199,7 +221,9 @@
                 "name": "Chucklehuck Woods Koopa Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -215,7 +239,9 @@
                 "name": "Chucklehuck Woods Koopa Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -233,7 +259,9 @@
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -250,7 +278,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -267,7 +297,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Block 1 (Hidden)"
+                        "name": "Block 1 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -284,7 +316,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -302,7 +336,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -321,7 +357,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -338,7 +376,9 @@
                 "access_rules": ["$CANDASH, keywinkle"],
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -355,7 +395,9 @@
                 "access_rules": ["$CANDASH, keywinkle"],
                 "sections": [
                     {
-                        "name": "Beanstar Piece"
+                        "name": "Beanstar Piece",
+                        "chest_unopened_img": "images/chests/BeanstarPiecePopple_false.png",
+                        "chest_opened_img": "images/chests/BeanstarPiecePopple_true.png"
                     }
                 ],
                 "map_locations": 
@@ -368,11 +410,13 @@
                 ]
             },
             {
-                "name": "Winkle Area Outside Colloseum Block",
+                "name": "Winkle Area Outside Colosseum Block",
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -385,13 +429,15 @@
                 ]
             },
             {
-                "name": "Winkle Area Colloseum Digspot",
+                "name": "Winkle Area Colosseum Digspot",
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -408,7 +454,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Winkle Card"
+                        "name": "Winkle Card",
+                        "chest_unopened_img": "images/chests/key_winkle_false.png",
+                        "chest_opened_img": "images/items/key_winkle.png"
                     }
                 ],
                 "map_locations": 

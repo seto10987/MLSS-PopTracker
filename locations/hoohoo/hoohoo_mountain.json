@@ -7,7 +7,9 @@
                 "name": "Hoohoo Mountain Room 1 Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -23,7 +25,9 @@
                 "name": "Hoohoo Mountain Room 1 Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -39,7 +43,9 @@
                 "name": "Hoohoo Mountain Room 1 Block 3",
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -57,7 +63,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -75,7 +83,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
                     }
                 ],
                 "map_locations":
@@ -91,7 +101,9 @@
                 "name": "Hoohoo Mountain Before Hoohooros Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -109,7 +121,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -126,7 +140,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations": 
@@ -142,7 +158,9 @@
                 "name": "Hoohoo Mountain Fountain Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -158,7 +176,9 @@
                 "name": "Hoohoo Mountain Fountain Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -176,7 +196,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -192,7 +214,9 @@
                 "name": "Hoohoo Mountain Fountain Room 2 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -208,7 +232,9 @@
                 "name": "Hoohoo Mountain Hoohooros Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -224,7 +250,9 @@
                 "name": "Hoohoo Mountain Hoohooros Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -242,7 +270,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -260,7 +290,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
                     }
                 ],
                 "map_locations":
@@ -276,7 +308,9 @@
                 "name": "Hoohoo Mountain After Hoohooros Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -292,7 +326,9 @@
                 "name": "Hoohoo Mountain After Hoohooros Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -310,7 +346,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -318,7 +356,7 @@
                     {
                         "map": "hoohoo_mountain",
                         "x": 1728,
-                        "y": 1525
+                        "y": 1575
                     }
                 ]
             },
@@ -326,7 +364,9 @@
                 "name": "Hoohoo Mountain Past Hoohooros Connector Room Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -344,7 +384,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -362,7 +404,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations":
@@ -378,7 +422,9 @@
                 "name": "Hoohoo Mountain Below Summit Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -394,7 +440,9 @@
                 "name": "Hoohoo Mountain Below Summit Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -410,7 +458,9 @@
                 "name":  "Hoohoo Mountain Below Summit Block 3",
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png",
                     }
                 ],
                 "map_locations":
@@ -428,7 +478,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":
@@ -446,7 +498,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
                     }
                 ],
                 "map_locations":

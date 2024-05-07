@@ -17,7 +17,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ]
             },
@@ -36,7 +38,9 @@
                     {
                         "name": "Digspot 2",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ]
             },
@@ -46,7 +50,9 @@
                     {
                         "name": "Digspot 3",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -63,19 +69,27 @@
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
-                        "name": "Super Hammer Upgrade"
+                        "name": "Super Hammer Upgrade",
+                        "chest_unopened_img": "images/chests/hammer_super_false.png",
+                        "chest_opened_img": "images/chests/hammer_super_true.png"
                     },
                     {
                         "name": "Ultra Hammer Upgrade",
-                        "access_rules": ["realbeanstar"]
+                        "access_rules": ["realbeanstar"],
+                        "chest_unopened_img": "images/chests/hammer_ultra_false.png",
+                        "chest_opened_img": "images/chests/hammer_ultra_true.png"
                     },
                     {
                         "name": "Secret Scroll 1",
-                        "access_rules": ["hammer2"]
+                        "access_rules": ["hammer2"],
+                        "chest_unopened_img": "images/chests/misc_scroll1_false.png",
+                        "chest_opened_img": "images/items/misc_scroll1.png"
                     },
                     {
                         "name": "Secret Scroll 2",
-                        "access_rules": ["hammer3"]
+                        "access_rules": ["hammer3"],
+                        "chest_unopened_img": "images/chests/misc_scroll2_false.png",
+                        "chest_opened_img": "images/items/misc_scroll2.png"
                     }
                 ],
                 "map_locations": 
@@ -94,7 +108,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -112,7 +128,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -129,7 +147,9 @@
                 "sections": [
                     {
                         "name": "Bean Fruit 1 (Hidden)",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -148,7 +168,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -167,7 +189,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -186,7 +210,9 @@
                     {
                         "name": "Digspot 3 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -203,10 +229,14 @@
                 "access_rules": ["handluigi"],
                 "sections": [
                     {
-                        "name": "Mole 1"
+                        "name": "Mole 1",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     },
                     {
-                        "name": "Mole 2"
+                        "name": "Mole 2",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 
@@ -224,7 +254,9 @@
                     {
                         "name": "Digspot 1",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -242,7 +274,9 @@
                     {
                         "name": "Digspot 2 (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -261,7 +295,9 @@
                     {
                         "name": "Digspot 3",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -279,7 +315,9 @@
                 "sections": [
                     {
                         "name": "Bean Fruit 7",
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
+                        "chest_opened_img": "images/items/key_beanfruit.png"
                     }
                 ],
                 "map_locations": 
@@ -297,7 +335,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 

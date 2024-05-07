@@ -11,7 +11,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -27,7 +29,9 @@
                 "name": "Bowser's Castle Lemmy Room 1 Block",
                 "sections": [
                     {
-                        "name": "Block (Hidden)"
+                        "name": "Block (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -44,7 +48,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -60,7 +66,9 @@
                 "name": "Bowser's Castle Lemmy Room Mole",
                 "sections": [
                     {
-                        "name": "Mole"
+                        "name": "Mole",
+                        "chest_unopened_img": "images/chests/mole_false.png",
+                        "chest_opened_img": "images/chests/mole_true.png"
                     }
                 ],
                 "map_locations": 

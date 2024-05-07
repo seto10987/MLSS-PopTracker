@@ -9,7 +9,9 @@
                 "name": "Joke's End Before Jojora Room Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -25,7 +27,9 @@
                 "name": "Joke's End Before Jojora Room Block 2",
                 "sections": [
                     {
-                        "name": "Block 2 (Hidden)"
+                        "name": "Block 2 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -42,7 +46,9 @@
                 "sections": [
                     {
                         "name": "Digspot",
-                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"]
+                        "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -60,7 +66,9 @@
                 "sections": [
                     {
                         "name": "Digspot (Hidden)",
-                        "visibility_rules": ["disable_digspots_off"]
+                        "visibility_rules": ["disable_digspots_off"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 

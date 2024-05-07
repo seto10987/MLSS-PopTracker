@@ -7,7 +7,9 @@
                 "name": "Stardust Fields 1 Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -23,7 +25,9 @@
                 "name": "Stardust Fields 1 Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -39,7 +43,9 @@
                 "name": "Stardust Fields 2 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -56,7 +62,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -73,7 +81,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -90,7 +100,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 3"
+                        "name": "Coin Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -106,7 +118,9 @@
                 "name": "Stardust Fields 3 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -123,7 +137,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -140,7 +156,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -156,7 +174,9 @@
                 "name": "Stardust Fields 4 Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -172,7 +192,9 @@
                 "name": "Stardust Fields 4 Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -188,7 +210,9 @@
                 "name": "Stardust Fields 4 Block 3",
                 "sections": [
                     {
-                        "name": "Block 3"
+                        "name": "Block 3",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -204,7 +228,9 @@
                 "name": "Stardust Fields 5 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -221,7 +247,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -238,7 +266,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -255,7 +285,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 1"
+                        "name": "Coin Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -272,7 +304,9 @@
                 "visibility_rules": ["coinblocks_on"],
                 "sections": [
                     {
-                        "name": "Coin Block 2"
+                        "name": "Coin Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -288,7 +322,9 @@
                 "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 1",
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -304,7 +340,9 @@
                 "name": "Cave Connecting Stardust Fields and Hoohoo Village Block 2",
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

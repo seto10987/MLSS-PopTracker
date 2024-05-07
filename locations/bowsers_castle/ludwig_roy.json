@@ -10,7 +10,9 @@
                 "name": "Bowser's Castle Ludwig Room 1 Block",
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -27,7 +29,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -44,7 +48,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -61,7 +67,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -78,7 +86,9 @@
                 "access_rules": ["handluigi, $CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 

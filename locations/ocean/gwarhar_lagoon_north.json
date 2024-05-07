@@ -10,7 +10,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -28,7 +30,9 @@
                     {
                         "name": "Digspot (Hidden)",
                         "visibility_rules": ["disable_digspots_off"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -45,7 +49,9 @@
                 "access_rules": ["handluigi, handmario"],
                 "sections": [
                     {
-                        "name": "Green Pearl Bean"
+                        "name": "Green Pearl Bean",
+                        "chest_unopened_img": "images/chests/greenpearlbean_false.png",
+                        "chest_opened_img": "images/items/greenpearlbean.png"
                     }
                 ],
                 "map_locations": 
@@ -62,7 +68,9 @@
                 "access_rules": ["handluigi, handmario"],
                 "sections": [
                     {
-                        "name": "Red Pearl Bean"
+                        "name": "Red Pearl Bean",
+                        "chest_unopened_img": "images/chests/redpearlbean_false.png",
+                        "chest_opened_img": "images/items/redpearlbean.png"
                     }
                 ],
                 "map_locations": 
@@ -79,7 +87,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Block"
+                        "name": "Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -96,7 +106,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Block 1"
+                        "name": "Block 1",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -113,7 +125,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Block 2"
+                        "name": "Block 2",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -131,7 +145,9 @@
                 "access_rules": ["$CANDASH"],
                 "sections": [
                     {
-                        "name": "Coin Block"
+                        "name": "Coin Block",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -150,7 +166,9 @@
                     {
                         "name": "Digspot",
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
-                        "access_rules": ["$CANDIG"]
+                        "access_rules": ["$CANDIG"],
+                        "chest_unopened_img": "images/chests/chuckle_visible_false.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 

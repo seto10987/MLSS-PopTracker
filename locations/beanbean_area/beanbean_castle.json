@@ -8,7 +8,9 @@
                 "access_rules": ["$CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 1 (Hidden)"
+                        "name": "Block 1 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -25,7 +27,9 @@
                 "access_rules": ["$CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 2 (Hidden)"
+                        "name": "Block 2 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -42,7 +46,9 @@
                 "access_rules": ["$CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 3 (Hidden)"
+                        "name": "Block 3 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -59,7 +65,9 @@
                 "access_rules": ["$CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 4 (Hidden)"
+                        "name": "Block 4 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -76,7 +84,9 @@
                 "access_rules": ["$CANMINI"],
                 "sections": [
                     {
-                        "name": "Block 5 (Hidden)"
+                        "name": "Block 5 (Hidden)",
+                        "chest_unopened_img": "images/chests/block_false.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -88,27 +98,25 @@
                     }
                 ]
             },
-            // {
-            //     "name": "Queen Bean",
-            //     "access_rules": ["keyrose"],
-            //     "sections": [
-            //         {
-            //             "name": "Beanbean Brooch"
-            //         },
-            //         {
-            //             "name": "Queen Bean",
-            //             "hosted_item": "queenbean"
-            //         }
-            //     ],
-            //     "map_locations": 
-            //     [
-            //         {
-            //             "map": "beanbean_castle",
-            //             "x": 119,
-            //             "y": 319
-            //         }
-            //     ]
-            // },
+            {
+                "name": "Queen Bean",
+                "access_rules": ["keyrose"],
+                "sections": [
+                    {
+                        "name": "Beanbean Brooch",
+                        "chest_unopened_img": "images/chests/key_brooch_false.png",
+                        "chest_opened_img": "images/items/key_brooch.png"
+                    }
+                ],
+                "map_locations": 
+                [
+                    {
+                        "map": "beanbean_castle",
+                        "x": 119,
+                        "y": 319
+                    }
+                ]
+            },
             {
                 "name": "Queen Bean Beanstar Complete",
                 "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],
@@ -119,10 +127,14 @@
                         "hosted_item": "realbeanstar"
                     },
                     {
-                        "name": "Fake Beanstar"
+                        "name": "Fake Beanstar",
+                        "chest_unopened_img": "images/chests/key_fakestar_false.png",
+                        "chest_opened_img": "images/items/key_fakestar.png"
                     },
                     {
-                        "name": "Peach's Extra Dress"
+                        "name": "Peach's Extra Dress",
+                        "chest_unopened_img": "images/chests/key_dress_false.png",
+                        "chest_opened_img": "images/items/key_dress.png"
                     }
                 ],
                 "map_locations": 
