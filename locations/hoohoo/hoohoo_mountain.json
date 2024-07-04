@@ -9,7 +9,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -27,7 +27,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -45,7 +45,7 @@
                     {
                         "name": "Block 3",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -65,7 +65,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -85,7 +85,7 @@
                         "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
-                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations":
@@ -103,7 +103,7 @@
                     {
                         "name": "Block",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -123,7 +123,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -142,7 +142,7 @@
                     {
                         "name": "Coin Block",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -160,7 +160,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -178,7 +178,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -198,7 +198,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -216,7 +216,7 @@
                     {
                         "name": "Block",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -234,7 +234,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -252,7 +252,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -272,7 +272,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -292,7 +292,7 @@
                         "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
-                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations":
@@ -310,7 +310,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -328,7 +328,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -348,7 +348,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -386,7 +386,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -424,7 +424,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -442,7 +442,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -460,7 +460,7 @@
                     {
                         "name": "Block 3",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -480,7 +480,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -500,7 +500,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -517,7 +517,12 @@
                 "sections": [
                     {
                         "name": "Dragohoho",
-                        "hosted_item": "dragohoho"
+                        "hosted_item": "dragohoho_hosted"
+                    },
+                    {
+                        "name": "Peasley's Rose",
+                        "chest_unopened_img": "images/chests/key_rose_false.png",
+                        "chest_opened_img": "images/chests/key_rose_true.png"
                     }
                 ],
                 "map_locations":

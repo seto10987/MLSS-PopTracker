@@ -142,7 +142,7 @@
                 "sections": [
                     {
                         "name": "Entered Fungitown",
-                        "hosted_item": "kidnapped"
+                        "hosted_item": "kidnapped_hosted"
                     }
                 ],
                 "map_locations": 

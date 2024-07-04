@@ -10,8 +10,8 @@
                 "sections": [
                     {
                         "name": "Under 39",
-                        "chest_unopened_img": "images/items/surfing_on.png",
-                        "chest_opened_img": "images/items/surfing_skipped.png"
+                        "chest_unopened_img": "images/chests/surfing_false.png",
+                        "chest_opened_img": "images/chests/surfing_true.png"
                     }
                 ],
                 "map_locations": 

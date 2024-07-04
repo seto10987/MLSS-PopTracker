@@ -105,7 +105,7 @@
                     {
                         "name": "Beanbean Brooch",
                         "chest_unopened_img": "images/chests/key_brooch_false.png",
-                        "chest_opened_img": "images/items/key_brooch.png"
+                        "chest_opened_img": "images/chests/key_brooch_true.png"
                     }
                 ],
                 "map_locations": 
@@ -124,17 +124,17 @@
                     
                     {
                         "name": "Beanstar Complete",
-                        "hosted_item": "realbeanstar"
+                        "hosted_item": "realbeanstar_hosted"
                     },
                     {
                         "name": "Fake Beanstar",
                         "chest_unopened_img": "images/chests/key_fakestar_false.png",
-                        "chest_opened_img": "images/items/key_fakestar.png"
+                        "chest_opened_img": "images/chests/key_fakestar_true.png"
                     },
                     {
                         "name": "Peach's Extra Dress",
                         "chest_unopened_img": "images/chests/key_dress_false.png",
-                        "chest_opened_img": "images/items/key_dress.png"
+                        "chest_opened_img": "images/chests/key_dress_true.png"
                     }
                 ],
                 "map_locations": 

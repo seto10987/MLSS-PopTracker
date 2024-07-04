@@ -126,6 +126,34 @@
     "codes": "keyfakestar"
   },
   {
+    "name": "Beanstar Piece 1",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/1.png",
+    "img": "images/items/BeanstarPiece1.png",
+    "codes": "beanstarpiece1, beanstarpieces"
+  },
+  {
+    "name": "Beanstar Piece 2",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/2.png",
+    "img": "images/items/BeanstarPiece2.png",
+    "codes": "beanstarpiece2, beanstarpieces"
+  },
+  {
+    "name": "Beanstar Piece 3",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/3.png",
+    "img": "images/items/BeanstarPiece3.png",
+    "codes": "beanstarpiece3, beanstarpieces"
+  },
+  {
+    "name": "Beanstar Piece 4",
+    "type": "toggle",
+    "img_mods": "overlay|images/overlays/4.png",
+    "img": "images/items/BeanstarPiece4.png",
+    "codes": "beanstarpiece4, beanstarpieces"
+  },
+  {
     "name": "Bean Fruit 1",
     "type": "toggle",
     "img_mods": "overlay|images/overlays/1fruit.png",
@@ -275,87 +303,5 @@
     "type": "toggle",
     "img": "images/items/misc_gbsp.png",
     "codes": "miscgbsp"
-  },
-  {
-    "name": "Dragohoho",
-    "type": "toggle",
-    "img": "images/items/boss_dragohoho.png",
-    "codes": "dragohoho"
-  },
-  {
-    "name": "Queen Bean",
-    "type": "toggle",
-    "img": "images/items/boss_queenbean.png",
-    "codes": "queenbean"
-  },
-  {
-    "name": "Chuckolator",
-    "type": "toggle",
-    "img": "images/items/boss_chuckolator.png",
-    "codes": "chuckolator"
-  },
-  {
-    "name": "Oasis",
-    "type": "toggle",
-    "img": "images/items/boss_popple2.png",
-    "codes": "popple2"
-  },
-  {
-    "name": "Mom Piranha",
-    "type": "toggle",
-    "img": "images/items/boss_mompiranha.png",
-    "codes": "mompiranha"
-  },
-  {
-    "name": "Jojora",
-    "type": "toggle",
-    "img": "images/items/boss_jojora.png",
-    "codes": "jojora"
-  },
-  {
-    "name": "Birdo",
-    "type": "toggle",
-    "img": "images/items/boss_popple4.png",
-    "codes": "popple4"
-  },
-        {
-    "name": "Beanstar",
-    "type": "toggle",
-    "img": "images/items/RealBeanstar.png",
-    "codes": "realbeanstar"
-  },
-  {
-    "name": "Fungitown",
-    "type": "toggle",
-    "img": "images/items/peach.png",
-    "codes": "kidnapped"
-  },
-  {
-    "name": "Beanstar Piece 1",
-    "type": "toggle",
-    "img_mods": "overlay|images/overlays/1.png",
-    "img": "images/items/BeanstarPiece1.png",
-    "codes": "beanstarpiece1, beanstarpieces"
-  },
-  {
-    "name": "Beanstar Piece 2",
-    "type": "toggle",
-    "img_mods": "overlay|images/overlays/2.png",
-    "img": "images/items/BeanstarPiece2.png",
-    "codes": "beanstarpiece2, beanstarpieces"
-  },
-  {
-    "name": "Beanstar Piece 3",
-    "type": "toggle",
-    "img_mods": "overlay|images/overlays/3.png",
-    "img": "images/items/BeanstarPiece3.png",
-    "codes": "beanstarpiece3, beanstarpieces"
-  },
-  {
-    "name": "Beanstar Piece 4",
-    "type": "toggle",
-    "img_mods": "overlay|images/overlays/4.png",
-    "img": "images/items/BeanstarPiece4.png",
-    "codes": "beanstarpiece4, beanstarpieces"
   }
 ]

@@ -456,7 +456,7 @@
                     {
                         "name": "Winkle Card",
                         "chest_unopened_img": "images/chests/key_winkle_false.png",
-                        "chest_opened_img": "images/items/key_winkle.png"
+                        "chest_opened_img": "images/chests/key_winkle_true.png"
                     }
                 ],
                 "map_locations": 

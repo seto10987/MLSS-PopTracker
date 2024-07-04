@@ -465,7 +465,7 @@
                     {
                         "name": "Popple 4",
                         "access_rules": ["$CANDIG"],
-                        "hosted_item": "popple4"
+                        "hosted_item": "popple4_hosted"
                     }
                 ],
                 "map_locations": 

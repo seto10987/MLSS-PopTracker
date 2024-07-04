@@ -1,0 +1,75 @@
+﻿[
+  {
+    "name": "dragohoho",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/dragohoho.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "dragohoho_hosted"
+  },
+  {
+    "name": "chuckolator",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/chuckolator.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "chuckolator_hosted"
+  },
+  {
+    "name": "popple2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple2.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "popple2_hosted"
+  },
+  {
+    "name": "mompiranha",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/mom_piranha.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "mompiranha_hosted"
+  },
+  {
+    "name": "kidnapped",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/peach.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "kidnapped_hosted"
+  },
+  {
+    "name": "realbeanstar",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/RealBeanstar.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "realbeanstar_hosted"
+  },
+  {
+    "name": "jojora",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/jojora.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "jojora_hosted"
+  },
+  {
+    "name": "popple4",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple4.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "popple4_hosted"
+  }
+ ] 
+  

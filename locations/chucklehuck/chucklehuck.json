@@ -145,7 +145,7 @@
                     {
                         "name": "Red Goblet",
                         "chest_unopened_img": "images/chests/redgoblet_false.png",
-                        "chest_opened_img": "images/items/redgoblet.png"
+                        "chest_opened_img": "images/chests/redgoblet_true.png"
                     }
                 ],
                 "map_locations": 
@@ -164,7 +164,7 @@
                     {
                         "name": "Green Goblet",
                         "chest_unopened_img": "images/chests/greengoblet_false.png",
-                        "chest_opened_img": "images/items/greengoblet.png"
+                        "chest_opened_img": "images/chests/greengoblet_true.png"
                     }
                 ],
                 "map_locations": 

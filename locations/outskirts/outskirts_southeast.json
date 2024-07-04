@@ -10,7 +10,7 @@
                         "name": "Bean Fruit 2 (Hidden)",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     }
                 ],
                 "map_locations": 

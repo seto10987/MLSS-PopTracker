@@ -130,8 +130,8 @@
                 "sections": [
                     {
                         "name": "Blue Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/blue_yoshi_false.png",
+                        "chest_opened_img": "images/chests/blue_yoshi_true.png"
                     }
                 ],
                 "map_locations": 
@@ -149,8 +149,8 @@
                 "sections": [
                     {
                         "name": "Red Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/red_yoshi_false.png",
+                        "chest_opened_img": "images/chests/red_yoshi_true.png"
                     }
                 ],
                 "map_locations": 
@@ -168,8 +168,8 @@
                 "sections": [
                     {
                         "name": "Green Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/green_yoshi_false.png",
+                        "chest_opened_img": "images/chests/green_yoshi_true.png"
                     }
                 ],
                 "map_locations": 
@@ -187,8 +187,8 @@
                 "sections": [
                     {
                         "name": "Yellow Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/yellow_yoshi_false.png",
+                        "chest_opened_img": "images/chests/yellow_yoshi_true.png"
                     }
                 ],
                 "map_locations": 
@@ -207,8 +207,8 @@
                 "sections": [
                     {
                         "name": "Purple Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/purple_yoshi_false.png",
+                        "chest_opened_img": "images/chests/purple_yoshi_true.png"
                     }
                 ],
                 "map_locations": 
@@ -226,8 +226,8 @@
                 "sections": [
                     {
                         "name": "Orange Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/orange_yoshi_false.png",
+                        "chest_opened_img": "images/chests/orange_yoshi_true.png"
                     }
                 ],
                 "map_locations": 
@@ -245,8 +245,8 @@
                 "sections": [
                     {
                         "name": "Azure Yoshi",
-                        "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_unopened_img": "images/chests/azure_yoshi_false.png",
+                        "chest_opened_img": "images/chests/azure_yoshi_true.png"
                     }
                 ],
                 "map_locations": 

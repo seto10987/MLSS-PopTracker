@@ -83,13 +83,13 @@
                         "name": "Secret Scroll 1",
                         "access_rules": ["hammer2"],
                         "chest_unopened_img": "images/chests/misc_scroll1_false.png",
-                        "chest_opened_img": "images/items/misc_scroll1.png"
+                        "chest_opened_img": "images/chests/misc_scroll1_true.png"
                     },
                     {
                         "name": "Secret Scroll 2",
                         "access_rules": ["hammer3"],
                         "chest_unopened_img": "images/chests/misc_scroll2_false.png",
-                        "chest_opened_img": "images/items/misc_scroll2.png"
+                        "chest_opened_img": "images/chests/misc_scroll2_true.png"
                     }
                 ],
                 "map_locations": 
@@ -149,7 +149,7 @@
                         "name": "Bean Fruit 1 (Hidden)",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     }
                 ],
                 "map_locations": 
@@ -317,7 +317,7 @@
                         "name": "Bean Fruit 7",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     }
                 ],
                 "map_locations": 

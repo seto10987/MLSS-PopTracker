@@ -59,35 +59,45 @@
 					{
 						"type": "array",
 						"v_alignment": "stretch",
+						"h_alignment": "stretch",
+						"orientation": "horizontal",
 						"margin": "0, 0",
 						"content": [
-						  {
-							"type": "tabbed",
-							"dock": "top",
-							"content": [     
-								{
-									"type": "array",
-									"v_alignment": "stretch",
-									"h_alignment": "stretch",
-									"orientation": "vertical",
-									"margin": "0, 0",
-										"content": [
-											{
-			
-											"title": "World Map",
-											"type": "array",
-											"v_alignment": "stretch",
-											"h_alignment": "stretch",
-											"dock": "bottom",
-											"content": {
-												"type": "layout",
-												"key": "map_tabs"
+							{
+								"type": "tabbed",
+								"dock": "left",
+								"tabs": [
+									{
+										"type": "group",
+										"content": {
+											"header": "World Map",
+											"type":"map",
+											"maps": ["world_map"]
 												}
-											}
-										]
 									}
 								]
-						  	}
+							},
+							{
+								"type": "array",
+								"v_alignment": "stretch",
+								"h_alignment": "stretch",
+								"orientation": "vertical",
+								"margin": "0, 0",
+									"content": [
+										{
+		
+										"title": "World Map",
+										"type": "array",
+										"v_alignment": "stretch",
+										"h_alignment": "stretch",
+										"dock": "bottom",
+										"content": {
+											"type": "layout",
+											"key": "map_tabs"
+										}
+									}
+								]
+							}
 						]
 					}
 				]

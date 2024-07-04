@@ -9,17 +9,17 @@
 				"content": [
 					{
 						"type": "dock",
-						"dock": "left",
+						"dock": "bottom",
 						"content": [
 							{
 								"type": "dock",
-								"dock": "top",
+								"dock": "bottom",
 								"v_alignment": "stretch",
 								"content": [
 									{
 										"type": "group",
 										"header": "Key Items",
-										"dock": "top",
+										"dock": "left",
 										"content": {
 											"type": "layout",
 											"key": "item_grid"
@@ -28,7 +28,7 @@
 									{
 										"type": "group",
 										"header": "Events",
-										"dock": "top",
+										"dock": "left",
 										"content": {
 											"type": "layout",
 											"key": "event_grid"
@@ -37,7 +37,7 @@
 									{
 										"type": "group",
 										"header": "Bosses",
-										"dock": "top",
+										"dock": "left",
 										"content": {
 											"type": "layout",
 											"key": "boss_grid"
@@ -46,7 +46,7 @@
 									{
 										"type": "group",
 										"header": "Auto-Tab",
-										"dock": "top",
+										"dock": "left",
 										"content": {
 											"type": "layout",
 											"key": "auto_tab"
@@ -59,11 +59,12 @@
 					{
 						"type": "array",
 						"v_alignment": "stretch",
+						"h_alignment": "left",
 						"margin": "0, 0",
 						"content": [
 						  {
 							"type": "tabbed",
-							"dock": "top",
+							"dock": "left",
 							"content": [     
 								{
 									"type": "array",

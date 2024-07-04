@@ -267,7 +267,7 @@ LOCATION_MAPPING =
     --Beanbean Outskirts Thunder Hand Mole
     [2587080] = {"@Outskirts North&#8203/Beanbean Outskirts Thunder Hand Mole/Mole","@Outskirts North/Outskirts North/Beanbean Outskirts Thunder Hand Mole"},
     --Hoohoo Mountain Peasley's Rose
-    [2004016] = {"@Hoohoo Mountain&#8203/Dragohoho/Dragohoho","@Hoohoo Mountain/Hoohoo Mountain/Dragohoho"},
+    [2004016] = {"@Hoohoo Mountain&#8203/Dragohoho/Peasley's Rose","@Hoohoo Mountain/Hoohoo Mountain/Peasley's Rose"},
     --Beanbean Outskirts Super Hammer Upgrade
     [2003972] = {"@Outskirts East-Northeast&#8203/Beanbean Outskirts Super Hammer Cave/Super Hammer Upgrade","@Outskirts Northeast/Outskirts Northeast/Beanbean Outskirts Super Hammer Upgrade"},
     --Beanbean Outskirts Ultra Hammer Upgrade

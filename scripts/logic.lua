@@ -53,19 +53,11 @@ function SSACCESS()
 end
 function SSSINK()
     return
-    has ("$SSACCESS") and has ("handmario") and has ("keymember")
-end
-function OCEANACCESS1()
-    return
-    has ("popple2") and has ("hammer3")
-end
-function OCEANACCESS2()
-    return
-    has ("$SSSINK") and has ("hammer3")
+    SSACCESS() and has ("handmario") and has ("keymember")
 end
 function OCEAN()
     return
-    has ("$OCEANACCESS1") or has ("$OCEANACCESS2")
+    has("popple2") and has ("hammer3")
 end
 function ACCESSFUNGITOWN()
     return
@@ -73,9 +65,8 @@ function ACCESSFUNGITOWN()
 end
 function ACCESSJOKES()
     return
-    has ("$OCEAN") and has ("hammer3")
+    has("popple2") and has ("hammer3")
 end
-
 function BOWSERACCESS()
     return
     ACCESSJOKES() and CANDASH() and CANDIG() and has("realbeanstar") and has ("handmario") and has ("keydress") and has ("keyfakestar") and has ("jojora")

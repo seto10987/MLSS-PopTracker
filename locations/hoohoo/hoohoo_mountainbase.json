@@ -68,7 +68,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -86,7 +86,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -104,7 +104,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -122,7 +122,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -140,7 +140,7 @@
                     {
                         "name": "Block 3",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -158,7 +158,7 @@
                     {
                         "name": "Block 4",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -178,7 +178,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations":
@@ -196,7 +196,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -214,7 +214,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations":
@@ -232,7 +232,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -251,7 +251,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -271,7 +271,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -293,7 +293,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 
@@ -314,7 +314,7 @@
                         "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
-                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -333,7 +333,7 @@
                     {
                         "name": "Block",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -342,6 +342,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1344,
                         "y": 515
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 265,
+                        "y": 1500
                     }
                 ]
             },
@@ -354,7 +359,7 @@
                         "visibility_rules": ["disable_digspots_off"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_hidden_false.png",
-                        "chest_opened_img": "images/chests/chuckle_hidden_true.png",
+                        "chest_opened_img": "images/chests/chuckle_hidden_true.png"
                     }
                 ],
                 "map_locations": 
@@ -363,6 +368,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1758,
                         "y": 425
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 679,
+                        "y": 1409
                     }
                 ]
             },
@@ -374,7 +384,7 @@
                     {
                         "name": "Coin Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -383,6 +393,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1509,
                         "y": 378
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 432,
+                        "y": 1362
                     }
                 ]
             },
@@ -394,7 +409,7 @@
                     {
                         "name": "Coin Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -403,6 +418,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1375,
                         "y": 515
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 298,
+                        "y": 1500
                     }
                 ]
             },
@@ -414,7 +434,7 @@
                     {
                         "name": "Coin Block 3",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -423,6 +443,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1701,
                         "y": 451
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 624,
+                        "y": 1435
                     }
                 ]
             },
@@ -432,7 +457,7 @@
                     {
                         "name": "Block",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -441,6 +466,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1937,
                         "y": 180
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 858,
+                        "y": 1212
                     }
                 ]
             },
@@ -451,7 +481,7 @@
                     {
                         "name": "Coin Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -460,6 +490,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1904,
                         "y": 180
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 826,
+                        "y": 1212
                     }
                 ]
             },
@@ -470,7 +505,7 @@
                     {
                         "name": "Coin Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -479,6 +514,11 @@
                         "map": "hoohoo_mountainbase",
                         "x": 1968,
                         "y": 180
+                    },
+                    {
+                        "map": "hoohoo_village",
+                        "x": 890,
+                        "y": 1212
                     }
                 ]
             },
@@ -510,7 +550,7 @@
                     {
                         "name": "Block 1",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -529,7 +569,7 @@
                     {
                         "name": "Block 2",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -548,7 +588,7 @@
                     {
                         "name": "Block 3",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -567,7 +607,7 @@
                     {
                         "name": "Block",
                         "chest_unopened_img": "images/chests/block_false.png",
-                        "chest_opened_img": "images/chests/block_true.png",
+                        "chest_opened_img": "images/chests/block_true.png"
                     }
                 ],
                 "map_locations": 
@@ -607,7 +647,7 @@
                         "visibility_rules": ["disable_digspots_off", "disable_digspots_visible"],
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/chuckle_visible_false.png",
-                        "chest_opened_img": "images/chests/chuckle_visible_true.png",
+                        "chest_opened_img": "images/chests/chuckle_visible_true.png"
                     }
                 ],
                 "map_locations": 

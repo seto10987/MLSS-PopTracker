@@ -51,7 +51,7 @@
                     {
                         "name": "Green Pearl Bean",
                         "chest_unopened_img": "images/chests/greenpearlbean_false.png",
-                        "chest_opened_img": "images/items/greenpearlbean.png"
+                        "chest_opened_img": "images/chests/greenpearlbean_true.png"
                     }
                 ],
                 "map_locations": 
@@ -70,7 +70,7 @@
                     {
                         "name": "Red Pearl Bean",
                         "chest_unopened_img": "images/chests/redpearlbean_false.png",
-                        "chest_opened_img": "images/items/redpearlbean.png"
+                        "chest_opened_img": "images/chests/redpearlbean_true.png"
                     }
                 ],
                 "map_locations": 

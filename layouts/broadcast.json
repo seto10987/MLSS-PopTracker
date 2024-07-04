@@ -1,24 +1,56 @@
 ﻿{
     "tracker_broadcast": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "layout",
-                        "key": "item_grid"
-                    },
-                    {
-                        "type": "layout",
-                        "key": "events"
-                    }
-                ]
-            }
-        ]
+        "type": "container",
+        "background": "#212121",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "content": [
+                            {
+                            "type": "dock",
+                            "dock": "top",
+                            "v_alignment": "stretch",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Items",
+                                    "dock": "top",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "broadcast_item_grid"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "content": [
+                        {
+                            "type": "dock",
+                            "dock": "top",
+                            "v_alignment": "stretch",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Events/Bosses",
+                                    "dock": "top",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "event_boss_grid"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

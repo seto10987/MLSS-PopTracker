@@ -1,0 +1,75 @@
+{
+	"layouts": {
+		"tracker_default": {
+			"type": "container",
+			"background": "#000000",
+			"content": {
+				"type": "dock",
+				"dropshadow": true,
+				"content": [
+					{
+						"type": "dock",
+						"dock": "left",
+						"content": [
+								{
+								"type": "dock",
+								"dock": "top",
+								"v_alignment": "stretch",
+								"content": [
+									{
+										"type": "group",
+										"header": "Items",
+										"dock": "top",
+										"content": {
+											"type": "layout",
+											"key": "broadcast_item_grid"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "dock",
+						"dock": "left",
+						"content": [
+							{
+								"type": "dock",
+								"dock": "top",
+								"v_alignment": "stretch",
+								"content": [
+									{
+										"type": "group",
+										"header": "Events/Bosses",
+										"dock": "top",
+										"content": {
+											"type": "layout",
+											"key": "event_boss_grid"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+	    "settings_popup":
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "left",
+			"content": [
+				{
+				"type": "group",
+				"header": "Settings",
+				"dock": "bottom",
+				"content": {
+				"type": "layout",
+				"key": "setting_grid"
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,57 @@
+﻿[
+  {
+    "name": "Dragohoho",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/dragohoho.png",
+    "codes": "dragohoho"
+  },
+  {
+    "name": "Chuckolator",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/chuckolator.png",
+    "codes": "chuckolator"
+  },
+  {
+    "name": "Oasis",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/oasis.png",
+    "codes": "popple2"
+  },
+  {
+    "name": "Mom Piranha",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/mom_piranha.png",
+    "codes": "mompiranha"
+  },
+  {
+  "name": "Beanstar",
+  "type": "toggle",
+  "img": "images/items/RealBeanstar.png",
+  "codes": "realbeanstar"
+  },
+  {
+  "name": "Fungitown",
+  "type": "toggle",
+  "img": "images/items/peach.png",
+  "codes": "kidnapped"
+  },
+  {
+    "name": "Jojora",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/jojora.png",
+    "codes": "jojora"
+  },
+  {
+    "name": "Popple and Birdo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple4.png",
+    "codes": "popple4"
+  }
+ ] 
+  

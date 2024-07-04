@@ -1,0 +1,338 @@
+﻿{
+	"map_tabs": 
+	{
+		"type": "array",
+		"content": [
+			{
+				"type": "tabbed",
+				"dock": "top",
+				"tabs": [     
+					{
+						"title": "World Map",
+						"content": {
+						"type":"map",
+						"maps": ["world_map"]
+						}
+					},
+					{
+						"title": "Outskirts",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Outskirts Northwest",
+									"content": {
+									"type":"map",
+									"maps": ["outskirts_northwest"]
+									}
+								},
+								{
+									"title": "Outskirts North",
+									"content": {
+									"type":"map",
+									"maps": ["outskirts_north"]
+									}
+								},
+								{
+									"title": "Outskirts Northeast",
+									"content": {
+									"type":"map",
+									"maps": ["outskirts_northeast"]
+									}
+								},
+								{
+									"title": "Outskirts Southwest",
+									"content": {
+									"type":"map",
+									"maps": ["outskirts_southwest"]
+									}
+								},
+								{                      
+									"title": "Outskirts South",
+									"content": {
+									"type":"map",
+									"maps": ["outskirts_south"]
+									}
+								},
+								{                      
+									"title": "Outskirts Southeast",
+									"content": {
+									"type":"map",
+									"maps": ["outskirts_southeast"]
+									}
+								}
+							]
+						}
+					},               
+					{
+						"title": "Beanbean Castle Area",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Beanbean Town",
+									"content": {
+									"type":"map",
+									"maps": ["beanbean_town"]
+									}
+								},                     
+								{
+									"title": "Beanbean Castle",
+									"content": {
+									"type":"map",
+									"maps": ["beanbean_castle"]
+									}
+								},                        
+								{
+										"title": "Castle Sewers",
+										"content": {
+										"type":"map",
+										"maps": ["castle_sewers"]
+									}
+								}
+							]
+						}                
+					},
+					{                    
+						"title": "Hoohoo Mountain",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+										"title": "Stardust Fields",
+										"content": {
+										"type":"map",
+										"maps": ["stardust_fields"]
+									}
+								},
+								{
+										"title": "Hoohoo Village",
+										"content": {
+										"type":"map",
+										"maps": ["hoohoo_village"]
+									}
+								},
+								{
+										"title": "Hoohoo Mountain",
+										"content": {
+										"type":"map",
+										"maps": ["hoohoo_mountain"]
+									}
+								},
+								{
+										"title": "Hoohoo Mountainbase",
+										"content": {
+										"type":"map",
+										"maps": ["hoohoo_mountainbase"]
+									}
+								}
+							]
+						}
+					},
+					{                    
+						"title": "Chucklehuck",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+										"title": "Chateau De Chucklehuck",
+										"content": {
+										"type":"map",
+										"maps": ["chateau_chucklehuck"]
+									}
+								},
+								{
+										"title": "Chucklehuck Woods",
+										"content": {
+										"type":"map",
+										"maps": ["chucklehuck_woods"]
+									}
+								},
+								{
+										"title": "Deep Chucklehuck Woods",
+										"content": {
+										"type":"map",
+										"maps": ["deep_chucklehuck_woods"]
+									}
+								},
+								{
+										"title": "Chuckolator",
+										"content": {
+										"type":"map",
+										"maps": ["chuckolator"]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Woohoo Hooniversity",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+										"title": "Woohoo Hooniversity Front",
+										"content": {
+										"type":"map",
+										"maps": ["woohoo_hooniversity"]
+									}
+								},
+								{
+										"title": "Woohoo Hooniversity Back",
+										"content": {
+										"type":"map",
+										"maps": ["woohoo_hooniversity_back"]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Ocean Areas",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+										"title": "Oho Oasis",
+										"content": {
+										"type":"map",
+										"maps": ["oho_oasis"]
+									}
+								},
+								{
+										"title": "Oho Seabed",
+										"content": {
+										"type":"map",
+										"maps": ["oho_seabed"]
+									}
+								},
+								{
+										"title": "Gwarhar Lagoon North",
+										"content": {
+										"type":"map",
+										"maps": ["gwarhar_lagoon_north"]
+									}
+								},
+								{
+										"title": "Gwarhar Lagoon South",
+										"content": {
+										"type":"map",
+										"maps": ["gwarhar_lagoon_south"]
+									}
+								},
+								{
+										"title": "Oho Ocean North",
+										"content": {
+										"type":"map",
+										"maps": ["oho_ocean_north"]
+									}
+								},
+								{
+										"title": "Oho Ocean South",
+										"content": {
+										"type":"map",
+										"maps": ["oho_ocean_south"]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Teehee Valley",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+										"title": "Teehee Valley",
+										"content": {
+										"type":"map",
+										"maps": ["teehee_valley"]
+									}
+								},
+								{
+										"title": "Little Fungitown",
+										"content": {
+										"type":"map",
+										"maps": ["little_fungitown"]
+									}
+								},
+								{
+										"title": "S.S. Chuckola",
+										"content": {
+										"type":"map",
+										"maps": ["ss_chuckola"]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Joke's End",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Joke's End 1",
+									"content": {
+									"type":"map",
+									"maps": ["jokes_end_1"]
+									}
+								},
+								{
+									"title": "Joke's End 2",
+									"content": {
+									"type":"map",
+									"maps": ["jokes_end_2"]
+									}
+								},
+								{
+									"title": "Joke's End 3",
+									"content": {
+									"type":"map",
+									"maps": ["jokes_end_3"]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Bowser's Castle",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Bowser's Castle",
+									"content": {
+									"type":"map",
+									"maps": ["bowsers_castle"]
+									}
+								},
+								{
+									"title": "Iggy-Morton-Lemmy",
+									"content": {
+									"type":"map",
+									"maps": ["iggy_morton_lemmy"]
+									}
+								},
+								{
+									"title": "Ludwig-Roy",
+									"content": {
+									"type":"map",
+									"maps": ["ludwig_roy"]
+									}
+								},
+								{
+									"title": "Wendy-Larry",
+									"content": {
+									"type":"map",
+									"maps": ["wendy_larry"]
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

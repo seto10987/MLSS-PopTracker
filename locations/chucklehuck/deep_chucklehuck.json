@@ -292,7 +292,7 @@
                     {
                         "name": "White Chuckola Fruit",
                         "chest_unopened_img": "images/chests/white_fruit_false.png",
-                        "chest_opened_img": "images/items/white_fruit.png"
+                        "chest_opened_img": "images/chests/white_fruit_true.png"
                     }
                 ],
                 "map_locations": 
@@ -329,7 +329,7 @@
                     {
                         "name": "Red Chuckola Fruit",
                         "chest_unopened_img": "images/chests/red_fruit_false.png",
-                        "chest_opened_img": "images/items/red_fruit.png"
+                        "chest_opened_img": "images/chests/red_fruit_true.png"
                     }
                 ],
                 "map_locations": 
@@ -534,7 +534,7 @@
                     {
                         "name": "Purple Chuckola Fruit",
                         "chest_unopened_img": "images/chests/purple_fruit_false.png",
-                        "chest_opened_img": "images/items/purple_fruit.png"
+                        "chest_opened_img": "images/chests/purple_fruit_true.png"
                     }
                 ],
                 "map_locations": 

@@ -1,7 +1,7 @@
 [
     {
         "name": "Oho Oasis&#8203",
-        "access_rules": ["popple2", "$SSSINK"],
+        "access_rules": ["popple2"],
         "children": 
         [
             {

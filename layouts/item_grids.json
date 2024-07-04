@@ -6,33 +6,93 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "33",
+                "item_size": "30",
                 "item_margin": "1,2",
                 "rows": [
-                    [ "hammer1", "keyfakestar", "keydress", "beanstarpiece1", "keybeanfruit1", "keyblueegg"],
-                    [ "hammerbrosm", "handmario", "handbrosm", "beanstarpiece2", "keybeanfruit2", "keyredegg" ],
-                    [ "hammerbrosl", "handluigi", "handbrosl", "beanstarpiece3", "keybeanfruit3", "keygreenegg"],
-                    [ "keyrose", "keybrooch", "keymember", "beanstarpiece4", "keybeanfruit4", "keyyellowegg"],
-                    [ "keywinkle", "miscspangle", "miscmushbadge", "whitefruit", "keybeanfruit5", "keypurpleegg" ],
-                    [ "scroll1", "scroll2", "miscgbsp", "redfruit", "keybeanfruit6", "keyorangeegg"],
-                    [ "miscforce", "miscwallet", "miscring", "purplefruit", "keybeanfruit7", "keyazureegg"]
+                    [ "hammer1","keyfakestar","keydress","beanstarpiece1","keybeanfruit1","keyblueegg"],
+                    [ "hammerbrosm","handmario","handbrosm","beanstarpiece2","keybeanfruit2","keyredegg" ],
+                    [ "hammerbrosl","handluigi","handbrosl","beanstarpiece3","keybeanfruit3","keygreenegg"],
+                    [ "keyrose","keybrooch","keymember","beanstarpiece4","keybeanfruit4","keyyellowegg"],
+                    [ "keywinkle","miscspangle","miscmushbadge","whitefruit","keybeanfruit5","keypurpleegg" ],
+                    [ "scroll1","scroll2","miscgbsp","redfruit","keybeanfruit6","keyorangeegg"],
+                    [ "miscforce","miscwallet","miscring","purplefruit","keybeanfruit7","keyazureegg"]
                 ]
             }
         ]
     },
-    "events": {
+    "event_grid": {
         "type": "array",
         "orientation": "vertical",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "39",
-                "item_margin": "1,10",
+                "item_size": "30",
+                "item_margin": "3,5",
                 "rows": [
-                    [ "dragohoho", "", "chuckolator", "", "popple2"],
-                    [ "mompiranha", "", "kidnapped", "", "realbeanstar" ],
-                    [ "jojora", "", "popple4" ]
+                    ["dragohoho","","chuckolator","","popple2"],
+                    ["mompiranha","","kidnapped","","realbeanstar"],
+                    ["jojora","","popple4"]
+                ]
+            }
+        ]
+    },
+    "boss_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "30",
+                "item_margin": "1,5",
+                "rows": [
+                    ["boss_hoohoorosx","boss_dragohohox","boss_queen_beanx","boss_popple1x","boss_wigglerx","boss_chuckolatorx"],
+                    ["boss_cacklettax","boss_popple2x","boss_mompiranhax","boss_trunklex","boss_hermiex","boss_popple3x" ],
+                    ["boss_jojorax","boss_popple4x","boss_iggyx","boss_mortonx","boss_lemmyx","boss_ludwigx"],
+                    ["boss_royx","boss_wendyx","boss_larryx","boss_fawfulx","boss_bowlettax","boss_cacklettasoulx"]
+                ]
+            }
+        ]
+    },
+    "broadcast_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "30",
+                "item_margin": "1,5",
+                "rows": [
+                    [ "hammer1","keyfakestar","keydress","beanstarpiece1","keybeanfruit1","keyblueegg"],
+                    [ "hammerbrosm","handmario","handbrosm","beanstarpiece2","keybeanfruit2","keyredegg" ],
+                    [ "hammerbrosl","handluigi","handbrosl","beanstarpiece3","keybeanfruit3","keygreenegg"],
+                    [ "keyrose","keybrooch","keymember","beanstarpiece4","keybeanfruit4","keyyellowegg"],
+                    [ "keywinkle","miscspangle","miscmushbadge","whitefruit","keybeanfruit5","keypurpleegg" ],
+                    [ "scroll1","scroll2","miscgbsp","redfruit","keybeanfruit6","keyorangeegg"],
+                    [ "miscforce","miscwallet","miscring","purplefruit","keybeanfruit7","keyazureegg"]
+                ]
+            }
+        ]
+    },
+    "event_boss_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "30",
+                "item_margin": "1,5",
+                "rows": [
+                    ["dragohoho","","chuckolator","","popple2"],
+                    ["mompiranha","","kidnapped","","realbeanstar"],
+                    ["jojora","","popple4"],
+                    ["boss_hoohoorosx","boss_dragohohox","boss_queen_beanx","boss_popple1x","boss_wigglerx","boss_chuckolatorx"],
+                    ["boss_cacklettax","boss_popple2x","boss_mompiranhax","boss_trunklex","boss_hermiex","boss_popple3x" ],
+                    ["boss_jojorax","boss_popple4x","boss_iggyx","boss_mortonx","boss_lemmyx","boss_ludwigx"],
+                    ["boss_royx","boss_wendyx","boss_larryx","boss_fawfulx","boss_bowlettax","boss_cacklettasoulx"]
                 ]
             }
         ]
@@ -44,10 +104,10 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": "65",
-                "item_margin": "1,2",
+                "item_size": "40",
+                "item_margin": "1,10",
                 "rows": [
-                    ["", "tab_switch", ""]
+                    ["tab_switch"]
                 ]
             }
         ]
@@ -62,8 +122,8 @@
                 "item_size": "39",
                 "item_margin": "1,2",
                 "rows": [
-                    ["castle_skip", "coinblocks", "beanspots"],
-                    ["skip_minecart", "disable_surf", "harhall"],
+                    ["castle_skip","coinblocks","beanspots"],
+                    ["skip_minecart","disable_surf","harhall"],
                     ["logic_level"]
                 ]
             }

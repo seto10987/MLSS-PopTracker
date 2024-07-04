@@ -134,10 +134,11 @@
             },
             {
                 "name": "Chuckolator",
+                "access_rules": ["hammer1","handbrosm","handbrosl"],
                 "sections": [
                     {
                         "name": "Chuckolator",
-                        "hosted_item": "chuckolator"
+                        "hosted_item": "chuckolator_hosted"
                     }
                 ],
                 "map_locations": 

@@ -395,7 +395,12 @@
                     },
                     {
                         "name": "Dragohoho",
-                        "hosted_item": "dragohoho"
+                        "hosted_item": "dragohoho_hosted"
+                    },
+                    {
+                        "name": "Peasley's Rose",
+                        "chest_unopened_img": "images/chests/key_rose_false.png",
+                        "chest_opened_img": "images/chests/key_rose_true.png"
                     }
                 ]
             }
@@ -665,13 +670,13 @@
                         "name": "Beanbean Outskirts Bean Fruit 6",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Beanbean Outskirts Bean Fruit 5",
                         "access_rules": ["hammer2,$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Beanbean Outskirts W Digspot 1",
@@ -751,7 +756,7 @@
                         "name": "Beanbean Outskirts Bean Fruit 3",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Beanbean Outskirts Pipe 4 Room Digspot",
@@ -831,7 +836,7 @@
                         "name": "Beanbean Outskirts Bean Fruit 4",
                         "access_rules": ["hammer2,$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Beanbean Outskirts S Room 1 Coin Block",
@@ -1029,7 +1034,7 @@
                     {
                         "name": "Mom Piranha",
                         "access_rules": ["handluigi"],
-                        "hosted_item": "mompiranha"
+                        "hosted_item": "mompiranha_hosted"
                     }  
                 ]
             }
@@ -1054,7 +1059,7 @@
                         "name": "Beanbean Outskirts Bean Fruit 2",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Beanbean Outskirts SE Digspot 1",
@@ -1203,13 +1208,13 @@
                         "name":   "Beanbean Outskirts Secret Scroll 1",
                         "access_rules": ["handluigi,hammer2"],
                         "chest_unopened_img": "images/chests/misc_scroll1_false.png",
-                        "chest_opened_img": "images/items/misc_scroll1.png"
+                        "chest_opened_img": "images/chests/misc_scroll1_true.png"
                     },
                     {
                         "name":   "Beanbean Outskirts Secret Scroll 2",
                         "access_rules": ["handluigi,hammer3"],
                         "chest_unopened_img": "images/chests/misc_scroll2_false.png",
-                        "chest_opened_img": "images/items/misc_scroll2.png"
+                        "chest_opened_img": "images/chests/misc_scroll2_true.png"
                     },
                     {
                         "name":   "Beanbean Outskirts NE Digspot 1",
@@ -1229,7 +1234,7 @@
                         "name":   "Beanbean Outskirts Bean Fruit 1",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name":   "Beanbean Outskirts Farm Room Digspot 1",
@@ -1289,7 +1294,7 @@
                         "name":   "Beanbean Outskirts Bean Fruit 7",
                         "access_rules": ["$CANDASH,$CANDIG","hammer2,$CANDIG"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name":   "Beanbean Outskirts South Beach Digspot",
@@ -1365,43 +1370,43 @@
                         "name": "Yoshi Theater Blue Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Yoshi Theater Red Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Yoshi Theater Green Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Yoshi Theater Yellow Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Yoshi Theater Purple Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Yoshi Theater Orange Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     },
                     {
                         "name": "Yoshi Theater Azure Yoshi",
                         "access_rules": ["$CANDASH, $BEANFRUITS, [$ALLBEANFRUITS]"],
                         "chest_unopened_img": "images/chests/key_beanfruit_false.png",
-                        "chest_opened_img": "images/items/key_beanfruit.png"
+                        "chest_opened_img": "images/chests/key_beanfruit_true.png"
                     }
                 ]
             }
@@ -1409,8 +1414,6 @@
     },
     {
                 "name": "Beanbean Castle Town",
-                "chest_unopened_img": "images/items/chest_x.png",
-                "chest_opened_img": "images/items/chest_o.png",
                 "children": 
                     [
                         {
@@ -1840,24 +1843,24 @@
                         "name": "Beanbean Brooch",
                         "access_rules": ["keyrose"],
                         "chest_unopened_img": "images/chests/key_brooch_false.png",
-                        "chest_opened_img": "images/items/key_brooch.png"
+                        "chest_opened_img": "images/chests/key_brooch_true.png"
                     },
                     {
                         "name": "Queen Bean Beanstar Complete",
                         "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],
-                        "hosted_item": "realbeanstar"
+                        "hosted_item": "realbeanstar_hosted"
                     },
                     {
                         "name": "Queen Bean Fake Beanstar",
                         "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],
                         "chest_unopened_img": "images/chests/key_fakestar_false.png",
-                        "chest_opened_img": "images/items/key_fakestar.png"
+                        "chest_opened_img": "images/chests/key_fakestar_true.png"
                     },
                     {
                         "name": "Queen Bean Peach's Extra Dress",
                         "access_rules": ["keyrose, chuckolator, $has|beanstarpieces|4"],
                         "chest_unopened_img": "images/chests/key_dress_false.png",
-                        "chest_opened_img": "images/items/key_dress.png"
+                        "chest_opened_img": "images/chests/key_dress_true.png"
                     }
                 ]
             }
@@ -1999,13 +2002,13 @@
                         "name": "Chateau Red Goblet",
                         "access_rules": ["$CANMINI"],
                         "chest_unopened_img": "images/chests/redgoblet_false.png",
-                        "chest_opened_img": "images/items/redgoblet.png"
+                        "chest_opened_img": "images/chests/redgoblet_true.png"
                     },
                     {
                         "name": "Chateau Green Goblet",
                         "access_rules": ["$CANDIG"],
                         "chest_unopened_img": "images/chests/greengoblet_false.png",
-                        "chest_opened_img": "images/items/greengoblet.png"
+                        "chest_opened_img": "images/chests/greengoblet_true.png"
                     },
                     {
                         "name": "Chateau Goblet Room Digspot",
@@ -2170,7 +2173,7 @@
                         "name": "Winkle Area Winkle Card",
                         "access_rules": ["$CANDASH"],
                         "chest_unopened_img": "images/chests/key_winkle_false.png",
-                        "chest_opened_img": "images/items/key_winkle.png"
+                        "chest_opened_img": "images/chests/key_winkle_true.png"
                     },
                     {
                         "name": "Winkle Area Beanstar Room Block",
@@ -2304,7 +2307,7 @@
                         "name": "Chucklehuck Woods White Chuckola Fruit",
                         "access_rules": ["$CANMINI, $CANDIG"],
                         "chest_unopened_img": "images/chests/white_fruit_false.png",
-                        "chest_opened_img": "images/items/white_fruit.png"
+                        "chest_opened_img": "images/chests/white_fruit_true.png"
                     },
                     {
                         "name": "Chucklehuck Woods West of Chuckleroot Block",
@@ -2315,7 +2318,7 @@
                         "name": "Chucklehuck Woods Red Chuckola Fruit",
                         "access_rules": ["$CANMINI"],
                         "chest_unopened_img": "images/chests/red_fruit_false.png",
-                        "chest_opened_img": "images/items/red_fruit.png"
+                        "chest_opened_img": "images/chests/red_fruit_true.png"
                     },
                     {
                         "name": "Chucklehuck Woods Wiggler room Digspot 1",
@@ -2377,7 +2380,7 @@
                     {
                         "name": "Chucklehuck Woods Purple Chuckola Fruit",
                         "chest_unopened_img": "images/chests/purple_fruit_false.png",
-                        "chest_opened_img": "images/items/purple_fruit.png"
+                        "chest_opened_img": "images/chests/purple_fruit_true.png"
                     }
                 ]
             }
@@ -2437,7 +2440,8 @@
                     },
                     {
                         "name": "Chuckolator",
-                        "hosted_item": "chuckolator"
+                        "access_rules": ["hammer1","handbrosm","handbrosl"],
+                        "hosted_item": "chuckolator_hosted"
                     }
                 ]
             }
@@ -2759,7 +2763,7 @@
                     },
                     {
                         "name": "Popple 2",
-                        "hosted_item": "popple2"
+                        "hosted_item": "popple2_hosted"
                     }
                 ]
             }
@@ -2767,7 +2771,7 @@
     },
     {
         "name": "Oho Oasis",
-        "access_rules": ["popple2", "$SSSINK"],
+        "access_rules": ["popple2"],
         "children": 
             [
                 {
@@ -2811,7 +2815,7 @@
     },
     {
         "name": "Oho Seabed",
-        "access_rules": ["popple2", "$SSSINK", "$OCEAN"],
+        "access_rules": ["popple2", "$OCEAN"],
         "children": 
             [
                 {
@@ -2984,13 +2988,13 @@
                         "name": "Gwarhar Lagoon Red Pearl Bean",
                         "access_rules": ["handluigi, handmario"],
                         "chest_unopened_img": "images/chests/redpearlbean_false.png",
-                        "chest_opened_img": "images/items/redpearlbean.png"
+                        "chest_opened_img": "images/chests/redpearlbean_true.png"
                     },
                     {
                         "name": "Gwarhar Lagoon Green Pearl Bean",
                         "access_rules": ["handluigi, handmario"],
                         "chest_unopened_img": "images/chests/greenpearlbean_false.png",
-                        "chest_opened_img": "images/items/greenpearlbean.png"
+                        "chest_opened_img": "images/chests/greenpearlbean_true.png"
                     },
                     {
                         "name": "Gwarhar Lagoon First Underwater Area Room 1 Block",
@@ -3199,8 +3203,8 @@
                     {
                         "name": "Surf Minigame",
                         "visibility_rules": ["disable_surf_off"],
-                        "chest_unopened_img": "images/items/surfing_on.png",
-                        "chest_opened_img": "images/items/surfing_skipped.png"
+                        "chest_unopened_img": "images/chests/surfing_false.png",
+                        "chest_opened_img": "images/chests/surfing_true.png"
                     }
                 ]
             }
@@ -3382,7 +3386,7 @@
                         "name": "Popple 4",
                         "access_rules": ["$BOWSERACCESS, $CANCRASH",
                         "$BOWSERACCESS, logic_hard"],
-                        "hosted_item": "popple4"
+                        "hosted_item": "popple4_hosted"
                     }
                 ]
             }
@@ -3521,7 +3525,7 @@
                     },
                     {
                         "name": "Entered Fungitown",
-                        "hosted_item": "kidnapped"
+                        "hosted_item": "kidnapped_hosted"
                     }
                 ]
             }
@@ -3836,7 +3840,7 @@
                     {
                         "name": "Jojora",
                         "access_rules": ["$CANDASH"],
-                        "hosted_item": "jojora"
+                        "hosted_item": "jojora_hosted"
                     }
                 ]
             }

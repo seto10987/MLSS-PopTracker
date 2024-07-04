@@ -1,0 +1,339 @@
+﻿[
+  {
+    "name": "Hoohooros",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/hoohooros.png",
+    "codes": "boss_hoohooros"
+  },
+  {
+    "name": "Hoohooros x",
+    "type": "toggle_badged",
+    "base_item": "boss_hoohooros",
+    "img": "images/bosses/check.png",
+    "codes": "boss_hoohoorosx"
+  },
+  {
+    "name": "Dragohoho",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/dragohoho.png",
+    "codes": "boss_dragohoho"
+  },
+  {
+    "name": "Dragohoho x",
+    "type": "toggle_badged",
+    "base_item": "boss_dragohoho",
+    "img": "images/bosses/check.png",
+    "codes": "boss_dragohohox"
+  },
+  {
+    "name": "Queen Bean",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/queen_bean.png",
+    "codes": "boss_queen_bean"
+  },
+  {
+    "name": "Queen Bean x",
+    "type": "toggle_badged",
+    "base_item": "boss_queen_bean",
+    "img": "images/bosses/check.png",
+    "codes": "boss_queen_beanx"
+  },
+  {
+    "name": "Popple and Rookie",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple1.png",
+    "codes": "boss_popple1"
+  },
+  {
+    "name": "Popple and Rookie x",
+    "type": "toggle_badged",
+    "base_item": "boss_popple1",
+    "img": "images/bosses/check.png",
+    "codes": "boss_popple1x"
+  },
+  {
+    "name": "Wiggler",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/wiggler.png",
+    "codes": "boss_wiggler"
+  },
+  {
+    "name": "Wiggler x",
+    "type": "toggle_badged",
+    "base_item": "boss_wiggler",
+    "img": "images/bosses/check.png",
+    "codes": "boss_wigglerx"
+  },
+  {
+    "name": "Chuckolator",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/chuckolator.png",
+    "codes": "boss_chuckolator"
+  },
+  {
+    "name": "Chuckolator x",
+    "type": "toggle_badged",
+    "base_item": "boss_chuckolator",
+    "img": "images/bosses/check.png",
+    "codes": "boss_chuckolatorx"
+  },
+  {
+    "name": "Cackletta",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/cackletta.png",
+    "codes": "boss_cackletta"
+  },
+  {
+    "name": "Cackletta x",
+    "type": "toggle_badged",
+    "base_item": "boss_cackletta",
+    "img": "images/bosses/check.png",
+    "codes": "boss_cacklettax"
+  },
+  {
+    "name": "Popple and Rookie 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple2.png",
+    "codes": "boss_popple2"
+  },
+  {
+    "name": "Popple and Rookie 2 x",
+    "type": "toggle_badged",
+    "base_item": "boss_popple2",
+    "img": "images/bosses/check.png",
+    "codes": "boss_popple2x"
+  },
+  {
+    "name": "Mom Piranha",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/mom_piranha.png",
+    "codes": "boss_mompiranha"
+  },
+  {
+    "name": "Mom Piranha x",
+    "type": "toggle_badged",
+    "base_item": "boss_mompiranha",
+    "img": "images/bosses/check.png",
+    "codes": "boss_mompiranhax"
+  },
+  {
+    "name": "Trunkle",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/trunkle.png",
+    "codes": "boss_trunkle"
+  },
+  {
+    "name": "Trunkle x",
+    "type": "toggle_badged",
+    "base_item": "boss_trunkle",
+    "img": "images/bosses/check.png",
+    "codes": "boss_trunklex"
+  },
+  {
+    "name": "Hermie",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/hermie.png",
+    "codes": "boss_hermie"
+  },
+  {
+    "name": "Hermie x",
+    "type": "toggle_badged",
+    "base_item": "boss_hermie",
+    "img": "images/bosses/check.png",
+    "codes": "boss_hermiex"
+  },
+  {
+    "name": "Popple 3",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple3.png",
+    "codes": "boss_popple3"
+  },
+  {
+    "name": "Popple 3 x",
+    "type": "toggle_badged",
+    "base_item": "boss_popple3",
+    "img": "images/bosses/check.png",
+    "codes": "boss_popple3x"
+  },
+  {
+    "name": "Jojora",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/jojora.png",
+    "codes": "boss_jojora"
+  },
+  {
+    "name": "Jojora x",
+    "type": "toggle_badged",
+    "base_item": "boss_jojora",
+    "img": "images/bosses/check.png",
+    "codes": "boss_jojorax"
+  },
+  {
+    "name": "Popple and Birdo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/popple4.png",
+    "codes": "boss_popple4"
+  },
+  {
+    "name": "Popple and Birdo",
+    "type": "toggle_badged",
+    "base_item": "boss_popple4",
+    "img": "images/bosses/check.png",
+    "codes": "boss_popple4x"
+  },
+  {
+    "name": "Iggy Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/iggy.png",
+    "codes": "boss_iggy"
+  },
+  {
+    "name": "Iggy Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_iggy",
+    "img": "images/bosses/check.png",
+    "codes": "boss_iggyx"
+  },
+  {
+    "name": "Morton Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/morton.png",
+    "codes": "boss_morton"
+  },
+  {
+    "name": "Morton Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_morton",
+    "img": "images/bosses/check.png",
+    "codes": "boss_mortonx"
+  },
+  {
+    "name": "Lemmy Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/lemmy.png",
+    "codes": "boss_lemmy"
+  },
+  {
+    "name": "Lemmy Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_lemmy",
+    "img": "images/bosses/check.png",
+    "codes": "boss_lemmyx"
+  },
+  {
+    "name": "Ludwig Von Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/ludwig.png",
+    "codes": "boss_ludwig"
+  },
+  {
+    "name": "Ludwig Von Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_ludwig",
+    "img": "images/bosses/check.png",
+    "codes": "boss_ludwigx"
+  },
+  {
+    "name": "Roy Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/roy.png",
+    "codes": "boss_roy"
+  },
+  {
+    "name": "Roy Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_roy",
+    "img": "images/bosses/check.png",
+    "codes": "boss_royx"
+  },
+  {
+    "name": "Wendy Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/wendy.png",
+    "codes": "boss_wendy"
+  },
+  {
+    "name": "Wendy Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_wendy",
+    "img": "images/bosses/check.png",
+    "codes": "boss_wendyx"
+  },
+  {
+    "name": "Larry Koopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/larry.png",
+    "codes": "boss_larry"
+  },
+  {
+    "name": "Larry Koopa x",
+    "type": "toggle_badged",
+    "base_item": "boss_larry",
+    "img": "images/bosses/check.png",
+    "codes": "boss_larryx"
+  },
+  {
+    "name": "Fawful",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/fawful.png",
+    "codes": "boss_fawful"
+  },
+  {
+    "name": "Fawful x",
+    "type": "toggle_badged",
+    "base_item": "boss_fawful",
+    "img": "images/bosses/check.png",
+    "codes": "boss_fawfulx"
+  },
+  {
+    "name": "Bowletta",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/bowletta.png",
+    "codes": "boss_bowletta"
+  },
+  {
+    "name": "Bowlettaa x",
+    "type": "toggle_badged",
+    "base_item": "boss_bowletta",
+    "img": "images/bosses/check.png",
+    "codes": "boss_bowlettax"
+  },
+  {
+    "name": "Cackletta's Soul",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/cacklettasoul.png",
+    "codes": "boss_cacklettasoul"
+  },
+  {
+    "name": "Cackletta's Soul x",
+    "type": "toggle_badged",
+    "base_item": "boss_cacklettasoul",
+    "img": "images/bosses/check.png",
+    "codes": "boss_cacklettasoulx"
+  }
+ ] 
+  
