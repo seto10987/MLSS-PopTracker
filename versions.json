@@ -1,5 +1,12 @@
+
 {
 	"versions": [
+		{
+			"package_version": "2.0.1",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.1.zip",
+			"sha256": "afa5711009858dbe828dab4053ad7394a9d819525b15da21ff57a3e98591116d",
+			"changelog": ["Moved Hoohoo Hammer square, updated Gwarhar Logic to use Oasis Event instead of normal reqs"]
+		},
 		{
 			"package_version": "2.0.0",
 			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.0.zip",
