@@ -1,7 +1,7 @@
 [
     {
         "name": "Gwarhar Lagoon North&#8203",
-        "access_rules": ["$SSSINK", "$OCEAN"],
+        "access_rules": ["popple2"],
         "children": 
         [
             {
