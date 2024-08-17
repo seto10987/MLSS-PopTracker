@@ -2,6 +2,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.2",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.2.zip",
+			"sha256": "41aa8a19df0175492afda8ccadc72134c5640a445da0116d94536f7c342a7cd8",
+			"changelog": ["Stupid Gwarhar stuffs"]
+		},
+		{
 			"package_version": "2.0.1",
 			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.1.zip",
 			"sha256": "afa5711009858dbe828dab4053ad7394a9d819525b15da21ff57a3e98591116d",
