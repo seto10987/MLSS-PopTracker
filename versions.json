@@ -1,0 +1,59 @@
+
+{
+	"versions": [
+		{
+			"package_version": "2.0.3",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.3.zip",
+			"sha256": "ab4c52c713f01c1683d8145c4ff0c95faff5cd9b081330a13f04446dddc4f684",
+			"changelog": ["Stupid Gwarhar stuffs"]
+		},
+		{
+			"package_version": "2.0.2",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.2.zip",
+			"sha256": "41aa8a19df0175492afda8ccadc72134c5640a445da0116d94536f7c342a7cd8",
+			"changelog": ["Stupid Gwarhar stuffs"]
+		},
+		{
+			"package_version": "2.0.1",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.1.zip",
+			"sha256": "afa5711009858dbe828dab4053ad7394a9d819525b15da21ff57a3e98591116d",
+			"changelog": ["Moved Hoohoo Hammer square, updated Gwarhar Logic to use Oasis Event instead of normal reqs"]
+		},
+		{
+			"package_version": "2.0.0",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.2.0.0.zip",
+			"sha256": "a4e0ea36b9d8b0a356f8e5a57bc0f4161c0008e91d6fb2e39ab9584009a04c6c",
+			"changelog": ["Official Support Release"]
+		},
+		{
+			"package_version": "1.4.0",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.1.4.0.zip",
+			"sha256": "1d57943729d712756329f2e2ec8e82bb9ea261e4e30105455886348c8a7d7525",
+			"changelog": ["Event Tracking Update"]
+		},
+		{
+			"package_version": "1.2.1",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.1.2.1.zip",
+			"sha256": "439ef11a6998dc53fc858c5e39c10762b009013b1f057268ca31934df7e9778d",
+			"changelog": ["Overworld Map added. A couple of Room IDs were updated"]
+		},
+		{
+			"package_version": "1.2.0",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v.1.2.0.zip",
+			"sha256": "98e18fed86c1c483f882b51f1c40ab689829c5bb9b88330300a27c50791f2acc",
+			"changelog": ["Overworld Map added. A couple of Room IDs were updated"]
+		},
+		{
+			"package_version": "1.0.0",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v1.0.0.zip",
+			"sha256": "53ffecd309f5a26846f0794ce8e66a27e17618cc599611a45faf9f6ac39968e1",
+			"changelog": ["A lot"]
+		},
+		{
+			"package_version": "0.3.2",
+			"download_url": "https://github.com/seto10987/MLSS-PopTracker/archive/refs/tags/v0.3.2.zip",
+			"sha256": "7e3c051826d511cbc2c4f98d291b4817a88f8cd23d0e3b99de659e9c19e01481",
+			"changelog": ["Various Logic fixes"]
+		}
+	]
+}
