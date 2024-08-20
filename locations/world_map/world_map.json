@@ -2956,7 +2956,7 @@
     },
     {
         "name": "Gwarhar Lagoon North",
-        "access_rules": ["popple2"],
+        "access_rules": ["popple2,$SSSINK"],
         "children": 
             [
                 {
@@ -3034,8 +3034,8 @@
     },
     {
         "name": "Gwarhar Lagoon South",
-        "access_rules": ["$CANPEARL,popple2",
-        "$CANDASH,popple2,logic_hard"],
+        "access_rules": ["$CANPEARL,popple2,$SSSINK",
+        "$CANDASH,popple2,logic_hard,$SSSINK"],
         "children": 
             [
                 {
